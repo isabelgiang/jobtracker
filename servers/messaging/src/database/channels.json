@@ -1,0 +1,12 @@
+{
+    "description": "Welcome to the general channel!",
+    "private": false,
+    "name": "general",
+    "creator": {
+        "id": "0",
+        "email": "admin@awesome-ness.me"
+    },
+    "members": [],
+    "createdAt": "1970-01-01T00:00:00.000Z",
+    "editedAt": "1970-01-01T00:00:00.000Z"
+}
