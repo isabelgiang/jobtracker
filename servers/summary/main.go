@@ -1,7 +1,7 @@
 package main
 
 import (
-	"assignments-wills0ng/servers/summary/handlers"
+	"JobTracker/servers/summary/handlers"
 	"log"
 	"net/http"
 )
