@@ -1,0 +1,7 @@
+.DS_Store
+.vscode
+.idea
+*.pem
+node_modules
+npm-debug.log
+tags
