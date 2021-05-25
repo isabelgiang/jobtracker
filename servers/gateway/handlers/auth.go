@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"assignments-wills0ng/servers/gateway/models/users"
-	"assignments-wills0ng/servers/gateway/sessions"
+	"JobTracker/servers/gateway/models/users"
+	"JobTracker/servers/gateway/sessions"
 )
 
 //TODO: define HTTP handler functions as described in the

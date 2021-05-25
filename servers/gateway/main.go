@@ -14,9 +14,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"assignments-wills0ng/servers/gateway/handlers"
-	"assignments-wills0ng/servers/gateway/models/users"
-	"assignments-wills0ng/servers/gateway/sessions"
+	"JobTracker/servers/gateway/handlers"
+	"JobTracker/servers/gateway/models/users"
+	"JobTracker/servers/gateway/sessions"
 
 	"github.com/go-redis/redis/v8"
 )

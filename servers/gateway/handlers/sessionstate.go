@@ -1,7 +1,7 @@
 package handlers
 
 import (
-	"assignments-wills0ng/servers/gateway/models/users"
+	"JobTracker/servers/gateway/models/users"
 	"time"
 )
 

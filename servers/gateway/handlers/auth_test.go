@@ -1,8 +1,8 @@
 package handlers
 
 import (
-	"assignments-wills0ng/servers/gateway/models/users"
-	"assignments-wills0ng/servers/gateway/sessions"
+	"JobTracker/servers/gateway/models/users"
+	"JobTracker/servers/gateway/sessions"
 	"bytes"
 	"fmt"
 	"io"
