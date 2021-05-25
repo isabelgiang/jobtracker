@@ -1,0 +1,9851 @@
+[
+  {
+    "date": "9/22/2020 15:00",
+    "trailName": "Fremont Bridge",
+    "bike": 252,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/22/2020 16:00",
+    "trailName": "Fremont Bridge",
+    "bike": 330,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/22/2020 17:00",
+    "trailName": "Fremont Bridge",
+    "bike": 454,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/22/2020 18:00",
+    "trailName": "Fremont Bridge",
+    "bike": 376,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/22/2020 19:00",
+    "trailName": "Fremont Bridge",
+    "bike": 150,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/22/2020 20:00",
+    "trailName": "Fremont Bridge",
+    "bike": 80,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/22/2020 21:00",
+    "trailName": "Fremont Bridge",
+    "bike": 48,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/22/2020 22:00",
+    "trailName": "Fremont Bridge",
+    "bike": 16,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/22/2020 23:00",
+    "trailName": "Fremont Bridge",
+    "bike": 22,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/23/2020 0:00",
+    "trailName": "Fremont Bridge",
+    "bike": 5,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/23/2020 1:00",
+    "trailName": "Fremont Bridge",
+    "bike": 2,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/23/2020 2:00",
+    "trailName": "Fremont Bridge",
+    "bike": 2,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/23/2020 3:00",
+    "trailName": "Fremont Bridge",
+    "bike": 2,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/23/2020 4:00",
+    "trailName": "Fremont Bridge",
+    "bike": 6,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/23/2020 5:00",
+    "trailName": "Fremont Bridge",
+    "bike": 17,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/23/2020 6:00",
+    "trailName": "Fremont Bridge",
+    "bike": 46,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/23/2020 7:00",
+    "trailName": "Fremont Bridge",
+    "bike": 91,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/23/2020 8:00",
+    "trailName": "Fremont Bridge",
+    "bike": 118,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/23/2020 9:00",
+    "trailName": "Fremont Bridge",
+    "bike": 53,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/23/2020 10:00",
+    "trailName": "Fremont Bridge",
+    "bike": 37,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/23/2020 11:00",
+    "trailName": "Fremont Bridge",
+    "bike": 33,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/23/2020 12:00",
+    "trailName": "Fremont Bridge",
+    "bike": 17,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/23/2020 13:00",
+    "trailName": "Fremont Bridge",
+    "bike": 30,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/23/2020 14:00",
+    "trailName": "Fremont Bridge",
+    "bike": 40,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/23/2020 15:00",
+    "trailName": "Fremont Bridge",
+    "bike": 74,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/23/2020 16:00",
+    "trailName": "Fremont Bridge",
+    "bike": 68,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/23/2020 17:00",
+    "trailName": "Fremont Bridge",
+    "bike": 89,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/23/2020 18:00",
+    "trailName": "Fremont Bridge",
+    "bike": 58,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/23/2020 19:00",
+    "trailName": "Fremont Bridge",
+    "bike": 39,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/23/2020 20:00",
+    "trailName": "Fremont Bridge",
+    "bike": 20,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/23/2020 21:00",
+    "trailName": "Fremont Bridge",
+    "bike": 19,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/23/2020 22:00",
+    "trailName": "Fremont Bridge",
+    "bike": 12,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/23/2020 23:00",
+    "trailName": "Fremont Bridge",
+    "bike": 6,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/24/2020 0:00",
+    "trailName": "Fremont Bridge",
+    "bike": 9,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/24/2020 1:00",
+    "trailName": "Fremont Bridge",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/24/2020 2:00",
+    "trailName": "Fremont Bridge",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/24/2020 3:00",
+    "trailName": "Fremont Bridge",
+    "bike": 1,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/24/2020 4:00",
+    "trailName": "Fremont Bridge",
+    "bike": 2,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/24/2020 5:00",
+    "trailName": "Fremont Bridge",
+    "bike": 15,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/24/2020 6:00",
+    "trailName": "Fremont Bridge",
+    "bike": 38,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/24/2020 7:00",
+    "trailName": "Fremont Bridge",
+    "bike": 76,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/24/2020 8:00",
+    "trailName": "Fremont Bridge",
+    "bike": 100,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/24/2020 9:00",
+    "trailName": "Fremont Bridge",
+    "bike": 51,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/24/2020 10:00",
+    "trailName": "Fremont Bridge",
+    "bike": 24,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/24/2020 11:00",
+    "trailName": "Fremont Bridge",
+    "bike": 23,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/24/2020 12:00",
+    "trailName": "Fremont Bridge",
+    "bike": 28,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/24/2020 13:00",
+    "trailName": "Fremont Bridge",
+    "bike": 41,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/24/2020 14:00",
+    "trailName": "Fremont Bridge",
+    "bike": 64,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/24/2020 15:00",
+    "trailName": "Fremont Bridge",
+    "bike": 107,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/24/2020 16:00",
+    "trailName": "Fremont Bridge",
+    "bike": 123,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/24/2020 17:00",
+    "trailName": "Fremont Bridge",
+    "bike": 223,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/24/2020 18:00",
+    "trailName": "Fremont Bridge",
+    "bike": 179,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/24/2020 19:00",
+    "trailName": "Fremont Bridge",
+    "bike": 87,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/24/2020 20:00",
+    "trailName": "Fremont Bridge",
+    "bike": 44,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/24/2020 21:00",
+    "trailName": "Fremont Bridge",
+    "bike": 18,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/24/2020 22:00",
+    "trailName": "Fremont Bridge",
+    "bike": 24,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/24/2020 23:00",
+    "trailName": "Fremont Bridge",
+    "bike": 6,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/25/2020 0:00",
+    "trailName": "Fremont Bridge",
+    "bike": 11,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/25/2020 1:00",
+    "trailName": "Fremont Bridge",
+    "bike": 2,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/25/2020 2:00",
+    "trailName": "Fremont Bridge",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/25/2020 3:00",
+    "trailName": "Fremont Bridge",
+    "bike": 2,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/25/2020 4:00",
+    "trailName": "Fremont Bridge",
+    "bike": 5,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/25/2020 5:00",
+    "trailName": "Fremont Bridge",
+    "bike": 14,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/25/2020 6:00",
+    "trailName": "Fremont Bridge",
+    "bike": 27,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/25/2020 7:00",
+    "trailName": "Fremont Bridge",
+    "bike": 45,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/25/2020 8:00",
+    "trailName": "Fremont Bridge",
+    "bike": 57,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/25/2020 9:00",
+    "trailName": "Fremont Bridge",
+    "bike": 34,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/25/2020 10:00",
+    "trailName": "Fremont Bridge",
+    "bike": 23,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/25/2020 11:00",
+    "trailName": "Fremont Bridge",
+    "bike": 24,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/25/2020 12:00",
+    "trailName": "Fremont Bridge",
+    "bike": 27,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/25/2020 13:00",
+    "trailName": "Fremont Bridge",
+    "bike": 27,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/25/2020 14:00",
+    "trailName": "Fremont Bridge",
+    "bike": 46,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/25/2020 15:00",
+    "trailName": "Fremont Bridge",
+    "bike": 51,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/25/2020 16:00",
+    "trailName": "Fremont Bridge",
+    "bike": 140,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/25/2020 17:00",
+    "trailName": "Fremont Bridge",
+    "bike": 187,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/25/2020 18:00",
+    "trailName": "Fremont Bridge",
+    "bike": 160,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/25/2020 19:00",
+    "trailName": "Fremont Bridge",
+    "bike": 102,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/25/2020 20:00",
+    "trailName": "Fremont Bridge",
+    "bike": 35,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/25/2020 21:00",
+    "trailName": "Fremont Bridge",
+    "bike": 34,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/25/2020 22:00",
+    "trailName": "Fremont Bridge",
+    "bike": 27,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/25/2020 23:00",
+    "trailName": "Fremont Bridge",
+    "bike": 15,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/26/2020 0:00",
+    "trailName": "Fremont Bridge",
+    "bike": 4,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/26/2020 1:00",
+    "trailName": "Fremont Bridge",
+    "bike": 6,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/26/2020 2:00",
+    "trailName": "Fremont Bridge",
+    "bike": 1,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/26/2020 3:00",
+    "trailName": "Fremont Bridge",
+    "bike": 1,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/26/2020 4:00",
+    "trailName": "Fremont Bridge",
+    "bike": 2,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/26/2020 5:00",
+    "trailName": "Fremont Bridge",
+    "bike": 6,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/26/2020 6:00",
+    "trailName": "Fremont Bridge",
+    "bike": 24,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/26/2020 7:00",
+    "trailName": "Fremont Bridge",
+    "bike": 36,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/26/2020 8:00",
+    "trailName": "Fremont Bridge",
+    "bike": 86,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/26/2020 9:00",
+    "trailName": "Fremont Bridge",
+    "bike": 110,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/26/2020 10:00",
+    "trailName": "Fremont Bridge",
+    "bike": 144,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/26/2020 11:00",
+    "trailName": "Fremont Bridge",
+    "bike": 233,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/26/2020 12:00",
+    "trailName": "Fremont Bridge",
+    "bike": 211,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/26/2020 13:00",
+    "trailName": "Fremont Bridge",
+    "bike": 237,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/26/2020 14:00",
+    "trailName": "Fremont Bridge",
+    "bike": 204,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/26/2020 15:00",
+    "trailName": "Fremont Bridge",
+    "bike": 189,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/26/2020 16:00",
+    "trailName": "Fremont Bridge",
+    "bike": 185,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/26/2020 17:00",
+    "trailName": "Fremont Bridge",
+    "bike": 163,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/26/2020 18:00",
+    "trailName": "Fremont Bridge",
+    "bike": 104,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/26/2020 19:00",
+    "trailName": "Fremont Bridge",
+    "bike": 65,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/26/2020 20:00",
+    "trailName": "Fremont Bridge",
+    "bike": 55,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/26/2020 21:00",
+    "trailName": "Fremont Bridge",
+    "bike": 32,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/26/2020 22:00",
+    "trailName": "Fremont Bridge",
+    "bike": 20,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/26/2020 23:00",
+    "trailName": "Fremont Bridge",
+    "bike": 15,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/27/2020 0:00",
+    "trailName": "Fremont Bridge",
+    "bike": 7,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/27/2020 1:00",
+    "trailName": "Fremont Bridge",
+    "bike": 4,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/27/2020 2:00",
+    "trailName": "Fremont Bridge",
+    "bike": 6,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/27/2020 3:00",
+    "trailName": "Fremont Bridge",
+    "bike": 2,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/27/2020 4:00",
+    "trailName": "Fremont Bridge",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/27/2020 5:00",
+    "trailName": "Fremont Bridge",
+    "bike": 14,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/27/2020 6:00",
+    "trailName": "Fremont Bridge",
+    "bike": 18,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/27/2020 7:00",
+    "trailName": "Fremont Bridge",
+    "bike": 45,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/27/2020 8:00",
+    "trailName": "Fremont Bridge",
+    "bike": 92,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/27/2020 9:00",
+    "trailName": "Fremont Bridge",
+    "bike": 145,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/27/2020 10:00",
+    "trailName": "Fremont Bridge",
+    "bike": 190,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/27/2020 11:00",
+    "trailName": "Fremont Bridge",
+    "bike": 261,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/27/2020 12:00",
+    "trailName": "Fremont Bridge",
+    "bike": 287,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/27/2020 13:00",
+    "trailName": "Fremont Bridge",
+    "bike": 305,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/27/2020 14:00",
+    "trailName": "Fremont Bridge",
+    "bike": 297,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/27/2020 15:00",
+    "trailName": "Fremont Bridge",
+    "bike": 329,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/27/2020 16:00",
+    "trailName": "Fremont Bridge",
+    "bike": 307,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/27/2020 17:00",
+    "trailName": "Fremont Bridge",
+    "bike": 250,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/27/2020 18:00",
+    "trailName": "Fremont Bridge",
+    "bike": 193,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/27/2020 19:00",
+    "trailName": "Fremont Bridge",
+    "bike": 88,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/27/2020 20:00",
+    "trailName": "Fremont Bridge",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/27/2020 21:00",
+    "trailName": "Fremont Bridge",
+    "bike": 36,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/27/2020 22:00",
+    "trailName": "Fremont Bridge",
+    "bike": 11,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/27/2020 23:00",
+    "trailName": "Fremont Bridge",
+    "bike": 11,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/28/2020 0:00",
+    "trailName": "Fremont Bridge",
+    "bike": 4,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/28/2020 1:00",
+    "trailName": "Fremont Bridge",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/28/2020 2:00",
+    "trailName": "Fremont Bridge",
+    "bike": 2,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/28/2020 3:00",
+    "trailName": "Fremont Bridge",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/28/2020 4:00",
+    "trailName": "Fremont Bridge",
+    "bike": 3,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/28/2020 5:00",
+    "trailName": "Fremont Bridge",
+    "bike": 27,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/28/2020 6:00",
+    "trailName": "Fremont Bridge",
+    "bike": 57,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/28/2020 7:00",
+    "trailName": "Fremont Bridge",
+    "bike": 165,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/28/2020 8:00",
+    "trailName": "Fremont Bridge",
+    "bike": 175,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/28/2020 9:00",
+    "trailName": "Fremont Bridge",
+    "bike": 137,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/28/2020 10:00",
+    "trailName": "Fremont Bridge",
+    "bike": 83,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/28/2020 11:00",
+    "trailName": "Fremont Bridge",
+    "bike": 97,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/28/2020 12:00",
+    "trailName": "Fremont Bridge",
+    "bike": 140,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/28/2020 13:00",
+    "trailName": "Fremont Bridge",
+    "bike": 130,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/28/2020 14:00",
+    "trailName": "Fremont Bridge",
+    "bike": 175,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/28/2020 15:00",
+    "trailName": "Fremont Bridge",
+    "bike": 205,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/28/2020 16:00",
+    "trailName": "Fremont Bridge",
+    "bike": 284,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/28/2020 17:00",
+    "trailName": "Fremont Bridge",
+    "bike": 405,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/28/2020 18:00",
+    "trailName": "Fremont Bridge",
+    "bike": 324,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/28/2020 19:00",
+    "trailName": "Fremont Bridge",
+    "bike": 155,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/28/2020 20:00",
+    "trailName": "Fremont Bridge",
+    "bike": 57,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/28/2020 21:00",
+    "trailName": "Fremont Bridge",
+    "bike": 40,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/28/2020 22:00",
+    "trailName": "Fremont Bridge",
+    "bike": 21,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/28/2020 23:00",
+    "trailName": "Fremont Bridge",
+    "bike": 6,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/29/2020 0:00",
+    "trailName": "Fremont Bridge",
+    "bike": 5,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/29/2020 1:00",
+    "trailName": "Fremont Bridge",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/29/2020 2:00",
+    "trailName": "Fremont Bridge",
+    "bike": 1,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/29/2020 3:00",
+    "trailName": "Fremont Bridge",
+    "bike": 1,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/29/2020 4:00",
+    "trailName": "Fremont Bridge",
+    "bike": 5,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/29/2020 5:00",
+    "trailName": "Fremont Bridge",
+    "bike": 20,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/29/2020 6:00",
+    "trailName": "Fremont Bridge",
+    "bike": 71,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/29/2020 7:00",
+    "trailName": "Fremont Bridge",
+    "bike": 188,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/29/2020 8:00",
+    "trailName": "Fremont Bridge",
+    "bike": 215,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/29/2020 9:00",
+    "trailName": "Fremont Bridge",
+    "bike": 145,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/29/2020 10:00",
+    "trailName": "Fremont Bridge",
+    "bike": 86,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/29/2020 11:00",
+    "trailName": "Fremont Bridge",
+    "bike": 129,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/29/2020 12:00",
+    "trailName": "Fremont Bridge",
+    "bike": 175,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/29/2020 13:00",
+    "trailName": "Fremont Bridge",
+    "bike": 161,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/29/2020 14:00",
+    "trailName": "Fremont Bridge",
+    "bike": 150,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/29/2020 15:00",
+    "trailName": "Fremont Bridge",
+    "bike": 197,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/29/2020 16:00",
+    "trailName": "Fremont Bridge",
+    "bike": 339,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/29/2020 17:00",
+    "trailName": "Fremont Bridge",
+    "bike": 482,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/29/2020 18:00",
+    "trailName": "Fremont Bridge",
+    "bike": 268,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/29/2020 19:00",
+    "trailName": "Fremont Bridge",
+    "bike": 154,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/29/2020 20:00",
+    "trailName": "Fremont Bridge",
+    "bike": 71,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/29/2020 21:00",
+    "trailName": "Fremont Bridge",
+    "bike": 40,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/29/2020 22:00",
+    "trailName": "Fremont Bridge",
+    "bike": 22,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/29/2020 23:00",
+    "trailName": "Fremont Bridge",
+    "bike": 14,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/30/2020 0:00",
+    "trailName": "Fremont Bridge",
+    "bike": 6,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/30/2020 1:00",
+    "trailName": "Fremont Bridge",
+    "bike": 5,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/30/2020 2:00",
+    "trailName": "Fremont Bridge",
+    "bike": 1,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/30/2020 3:00",
+    "trailName": "Fremont Bridge",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/30/2020 4:00",
+    "trailName": "Fremont Bridge",
+    "bike": 6,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/30/2020 5:00",
+    "trailName": "Fremont Bridge",
+    "bike": 22,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/30/2020 6:00",
+    "trailName": "Fremont Bridge",
+    "bike": 69,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/30/2020 7:00",
+    "trailName": "Fremont Bridge",
+    "bike": 196,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/30/2020 8:00",
+    "trailName": "Fremont Bridge",
+    "bike": 193,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/30/2020 9:00",
+    "trailName": "Fremont Bridge",
+    "bike": 137,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/30/2020 10:00",
+    "trailName": "Fremont Bridge",
+    "bike": 89,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/30/2020 11:00",
+    "trailName": "Fremont Bridge",
+    "bike": 89,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/30/2020 12:00",
+    "trailName": "Fremont Bridge",
+    "bike": 107,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/30/2020 13:00",
+    "trailName": "Fremont Bridge",
+    "bike": 127,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/30/2020 14:00",
+    "trailName": "Fremont Bridge",
+    "bike": 146,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/30/2020 15:00",
+    "trailName": "Fremont Bridge",
+    "bike": 169,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/30/2020 16:00",
+    "trailName": "Fremont Bridge",
+    "bike": 248,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/30/2020 17:00",
+    "trailName": "Fremont Bridge",
+    "bike": 348,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/30/2020 18:00",
+    "trailName": "Fremont Bridge",
+    "bike": 266,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/30/2020 19:00",
+    "trailName": "Fremont Bridge",
+    "bike": 156,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/30/2020 20:00",
+    "trailName": "Fremont Bridge",
+    "bike": 70,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/30/2020 21:00",
+    "trailName": "Fremont Bridge",
+    "bike": 40,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/30/2020 22:00",
+    "trailName": "Fremont Bridge",
+    "bike": 23,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/30/2020 23:00",
+    "trailName": "Fremont Bridge",
+    "bike": 17,
+    "pedestrian": "",
+    "id": 1
+  },
+  {
+    "date": "9/22/2020 15:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 200,
+    "pedestrian": 200,
+    "id": 2
+  },
+  {
+    "date": "9/22/2020 16:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 290,
+    "pedestrian": 290,
+    "id": 2
+  },
+  {
+    "date": "9/22/2020 17:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 274,
+    "pedestrian": 274,
+    "id": 2
+  },
+  {
+    "date": "9/22/2020 18:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 255,
+    "pedestrian": 255,
+    "id": 2
+  },
+  {
+    "date": "9/22/2020 19:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 110,
+    "pedestrian": 110,
+    "id": 2
+  },
+  {
+    "date": "9/22/2020 20:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 22,
+    "pedestrian": 22,
+    "id": 2
+  },
+  {
+    "date": "9/22/2020 21:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 9,
+    "pedestrian": 9,
+    "id": 2
+  },
+  {
+    "date": "9/22/2020 22:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 6,
+    "pedestrian": 6,
+    "id": 2
+  },
+  {
+    "date": "9/22/2020 23:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 6,
+    "pedestrian": 6,
+    "id": 2
+  },
+  {
+    "date": "9/23/2020 0:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 2
+  },
+  {
+    "date": "9/23/2020 1:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 3,
+    "pedestrian": 3,
+    "id": 2
+  },
+  {
+    "date": "9/23/2020 2:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 1,
+    "pedestrian": 1,
+    "id": 2
+  },
+  {
+    "date": "9/23/2020 3:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 2
+  },
+  {
+    "date": "9/23/2020 4:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 6,
+    "pedestrian": 6,
+    "id": 2
+  },
+  {
+    "date": "9/23/2020 5:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 10,
+    "pedestrian": 10,
+    "id": 2
+  },
+  {
+    "date": "9/23/2020 6:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 21,
+    "pedestrian": 21,
+    "id": 2
+  },
+  {
+    "date": "9/23/2020 7:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 69,
+    "pedestrian": 69,
+    "id": 2
+  },
+  {
+    "date": "9/23/2020 8:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 58,
+    "pedestrian": 58,
+    "id": 2
+  },
+  {
+    "date": "9/23/2020 9:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 54,
+    "pedestrian": 54,
+    "id": 2
+  },
+  {
+    "date": "9/23/2020 10:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 29,
+    "pedestrian": 29,
+    "id": 2
+  },
+  {
+    "date": "9/23/2020 11:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 35,
+    "pedestrian": 35,
+    "id": 2
+  },
+  {
+    "date": "9/23/2020 12:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 29,
+    "pedestrian": 29,
+    "id": 2
+  },
+  {
+    "date": "9/23/2020 13:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 16,
+    "pedestrian": 16,
+    "id": 2
+  },
+  {
+    "date": "9/23/2020 14:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 24,
+    "pedestrian": 24,
+    "id": 2
+  },
+  {
+    "date": "9/23/2020 15:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 35,
+    "pedestrian": 35,
+    "id": 2
+  },
+  {
+    "date": "9/23/2020 16:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 40,
+    "pedestrian": 40,
+    "id": 2
+  },
+  {
+    "date": "9/23/2020 17:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 55,
+    "pedestrian": 55,
+    "id": 2
+  },
+  {
+    "date": "9/23/2020 18:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 55,
+    "pedestrian": 55,
+    "id": 2
+  },
+  {
+    "date": "9/23/2020 19:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 18,
+    "pedestrian": 18,
+    "id": 2
+  },
+  {
+    "date": "9/23/2020 20:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 4,
+    "pedestrian": 4,
+    "id": 2
+  },
+  {
+    "date": "9/23/2020 21:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 9,
+    "pedestrian": 9,
+    "id": 2
+  },
+  {
+    "date": "9/23/2020 22:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 4,
+    "pedestrian": 4,
+    "id": 2
+  },
+  {
+    "date": "9/23/2020 23:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 3,
+    "pedestrian": 3,
+    "id": 2
+  },
+  {
+    "date": "9/24/2020 0:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 2
+  },
+  {
+    "date": "9/24/2020 1:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 2
+  },
+  {
+    "date": "9/24/2020 2:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 2
+  },
+  {
+    "date": "9/24/2020 3:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 2
+  },
+  {
+    "date": "9/24/2020 4:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 2
+  },
+  {
+    "date": "9/24/2020 5:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 9,
+    "pedestrian": 9,
+    "id": 2
+  },
+  {
+    "date": "9/24/2020 6:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 15,
+    "pedestrian": 15,
+    "id": 2
+  },
+  {
+    "date": "9/24/2020 7:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 44,
+    "pedestrian": 44,
+    "id": 2
+  },
+  {
+    "date": "9/24/2020 8:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 54,
+    "pedestrian": 54,
+    "id": 2
+  },
+  {
+    "date": "9/24/2020 9:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 32,
+    "pedestrian": 32,
+    "id": 2
+  },
+  {
+    "date": "9/24/2020 10:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 22,
+    "pedestrian": 22,
+    "id": 2
+  },
+  {
+    "date": "9/24/2020 11:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 21,
+    "pedestrian": 21,
+    "id": 2
+  },
+  {
+    "date": "9/24/2020 12:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 36,
+    "pedestrian": 36,
+    "id": 2
+  },
+  {
+    "date": "9/24/2020 13:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 41,
+    "pedestrian": 41,
+    "id": 2
+  },
+  {
+    "date": "9/24/2020 14:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 66,
+    "pedestrian": 66,
+    "id": 2
+  },
+  {
+    "date": "9/24/2020 15:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 108,
+    "pedestrian": 108,
+    "id": 2
+  },
+  {
+    "date": "9/24/2020 16:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 127,
+    "pedestrian": 127,
+    "id": 2
+  },
+  {
+    "date": "9/24/2020 17:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 132,
+    "pedestrian": 132,
+    "id": 2
+  },
+  {
+    "date": "9/24/2020 18:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 99,
+    "pedestrian": 99,
+    "id": 2
+  },
+  {
+    "date": "9/24/2020 19:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 59,
+    "pedestrian": 59,
+    "id": 2
+  },
+  {
+    "date": "9/24/2020 20:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 8,
+    "pedestrian": 8,
+    "id": 2
+  },
+  {
+    "date": "9/24/2020 21:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 7,
+    "pedestrian": 7,
+    "id": 2
+  },
+  {
+    "date": "9/24/2020 22:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 2,
+    "pedestrian": 2,
+    "id": 2
+  },
+  {
+    "date": "9/24/2020 23:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 2
+  },
+  {
+    "date": "9/25/2020 0:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 2
+  },
+  {
+    "date": "9/25/2020 1:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 2
+  },
+  {
+    "date": "9/25/2020 2:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 2
+  },
+  {
+    "date": "9/25/2020 3:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 2
+  },
+  {
+    "date": "9/25/2020 4:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 2
+  },
+  {
+    "date": "9/25/2020 5:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 6,
+    "pedestrian": 6,
+    "id": 2
+  },
+  {
+    "date": "9/25/2020 6:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 12,
+    "pedestrian": 12,
+    "id": 2
+  },
+  {
+    "date": "9/25/2020 7:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 15,
+    "pedestrian": 15,
+    "id": 2
+  },
+  {
+    "date": "9/25/2020 8:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 26,
+    "pedestrian": 26,
+    "id": 2
+  },
+  {
+    "date": "9/25/2020 9:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 10,
+    "pedestrian": 10,
+    "id": 2
+  },
+  {
+    "date": "9/25/2020 10:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 15,
+    "pedestrian": 15,
+    "id": 2
+  },
+  {
+    "date": "9/25/2020 11:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 18,
+    "pedestrian": 18,
+    "id": 2
+  },
+  {
+    "date": "9/25/2020 12:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 41,
+    "pedestrian": 41,
+    "id": 2
+  },
+  {
+    "date": "9/25/2020 13:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 37,
+    "pedestrian": 37,
+    "id": 2
+  },
+  {
+    "date": "9/25/2020 14:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 48,
+    "pedestrian": 48,
+    "id": 2
+  },
+  {
+    "date": "9/25/2020 15:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 61,
+    "pedestrian": 61,
+    "id": 2
+  },
+  {
+    "date": "9/25/2020 16:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 112,
+    "pedestrian": 112,
+    "id": 2
+  },
+  {
+    "date": "9/25/2020 17:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 119,
+    "pedestrian": 119,
+    "id": 2
+  },
+  {
+    "date": "9/25/2020 18:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 85,
+    "pedestrian": 85,
+    "id": 2
+  },
+  {
+    "date": "9/25/2020 19:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 22,
+    "pedestrian": 22,
+    "id": 2
+  },
+  {
+    "date": "9/25/2020 20:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 13,
+    "pedestrian": 13,
+    "id": 2
+  },
+  {
+    "date": "9/25/2020 21:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 4,
+    "pedestrian": 4,
+    "id": 2
+  },
+  {
+    "date": "9/25/2020 22:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 4,
+    "pedestrian": 4,
+    "id": 2
+  },
+  {
+    "date": "9/25/2020 23:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 6,
+    "pedestrian": 6,
+    "id": 2
+  },
+  {
+    "date": "9/26/2020 0:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 2
+  },
+  {
+    "date": "9/26/2020 1:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 2
+  },
+  {
+    "date": "9/26/2020 2:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 2
+  },
+  {
+    "date": "9/26/2020 3:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 2
+  },
+  {
+    "date": "9/26/2020 4:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 2,
+    "pedestrian": 2,
+    "id": 2
+  },
+  {
+    "date": "9/26/2020 5:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 3,
+    "pedestrian": 3,
+    "id": 2
+  },
+  {
+    "date": "9/26/2020 6:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 11,
+    "pedestrian": 11,
+    "id": 2
+  },
+  {
+    "date": "9/26/2020 7:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 36,
+    "pedestrian": 36,
+    "id": 2
+  },
+  {
+    "date": "9/26/2020 8:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 127,
+    "pedestrian": 127,
+    "id": 2
+  },
+  {
+    "date": "9/26/2020 9:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 134,
+    "pedestrian": 134,
+    "id": 2
+  },
+  {
+    "date": "9/26/2020 10:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 269,
+    "pedestrian": 269,
+    "id": 2
+  },
+  {
+    "date": "9/26/2020 11:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 201,
+    "pedestrian": 201,
+    "id": 2
+  },
+  {
+    "date": "9/26/2020 12:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 187,
+    "pedestrian": 187,
+    "id": 2
+  },
+  {
+    "date": "9/26/2020 13:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 193,
+    "pedestrian": 193,
+    "id": 2
+  },
+  {
+    "date": "9/26/2020 14:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 210,
+    "pedestrian": 210,
+    "id": 2
+  },
+  {
+    "date": "9/26/2020 15:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 145,
+    "pedestrian": 145,
+    "id": 2
+  },
+  {
+    "date": "9/26/2020 16:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 138,
+    "pedestrian": 138,
+    "id": 2
+  },
+  {
+    "date": "9/26/2020 17:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 130,
+    "pedestrian": 130,
+    "id": 2
+  },
+  {
+    "date": "9/26/2020 18:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 88,
+    "pedestrian": 88,
+    "id": 2
+  },
+  {
+    "date": "9/26/2020 19:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 34,
+    "pedestrian": 34,
+    "id": 2
+  },
+  {
+    "date": "9/26/2020 20:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 23,
+    "pedestrian": 23,
+    "id": 2
+  },
+  {
+    "date": "9/26/2020 21:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 4,
+    "pedestrian": 4,
+    "id": 2
+  },
+  {
+    "date": "9/26/2020 22:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 7,
+    "pedestrian": 7,
+    "id": 2
+  },
+  {
+    "date": "9/26/2020 23:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 1,
+    "pedestrian": 1,
+    "id": 2
+  },
+  {
+    "date": "9/27/2020 0:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 2
+  },
+  {
+    "date": "9/27/2020 1:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 2
+  },
+  {
+    "date": "9/27/2020 2:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 1,
+    "pedestrian": 1,
+    "id": 2
+  },
+  {
+    "date": "9/27/2020 3:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 2
+  },
+  {
+    "date": "9/27/2020 4:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 2
+  },
+  {
+    "date": "9/27/2020 5:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 3,
+    "pedestrian": 3,
+    "id": 2
+  },
+  {
+    "date": "9/27/2020 6:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 11,
+    "pedestrian": 11,
+    "id": 2
+  },
+  {
+    "date": "9/27/2020 7:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 61,
+    "pedestrian": 61,
+    "id": 2
+  },
+  {
+    "date": "9/27/2020 8:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 96,
+    "pedestrian": 96,
+    "id": 2
+  },
+  {
+    "date": "9/27/2020 9:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 204,
+    "pedestrian": 204,
+    "id": 2
+  },
+  {
+    "date": "9/27/2020 10:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 301,
+    "pedestrian": 301,
+    "id": 2
+  },
+  {
+    "date": "9/27/2020 11:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 315,
+    "pedestrian": 315,
+    "id": 2
+  },
+  {
+    "date": "9/27/2020 12:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 336,
+    "pedestrian": 336,
+    "id": 2
+  },
+  {
+    "date": "9/27/2020 13:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 365,
+    "pedestrian": 365,
+    "id": 2
+  },
+  {
+    "date": "9/27/2020 14:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 298,
+    "pedestrian": 298,
+    "id": 2
+  },
+  {
+    "date": "9/27/2020 15:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 321,
+    "pedestrian": 321,
+    "id": 2
+  },
+  {
+    "date": "9/27/2020 16:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 315,
+    "pedestrian": 315,
+    "id": 2
+  },
+  {
+    "date": "9/27/2020 17:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 210,
+    "pedestrian": 210,
+    "id": 2
+  },
+  {
+    "date": "9/27/2020 18:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 160,
+    "pedestrian": 160,
+    "id": 2
+  },
+  {
+    "date": "9/27/2020 19:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 46,
+    "pedestrian": 46,
+    "id": 2
+  },
+  {
+    "date": "9/27/2020 20:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 12,
+    "pedestrian": 12,
+    "id": 2
+  },
+  {
+    "date": "9/27/2020 21:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 1,
+    "pedestrian": 1,
+    "id": 2
+  },
+  {
+    "date": "9/27/2020 22:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 5,
+    "pedestrian": 5,
+    "id": 2
+  },
+  {
+    "date": "9/27/2020 23:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 1,
+    "pedestrian": 1,
+    "id": 2
+  },
+  {
+    "date": "9/28/2020 0:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 2
+  },
+  {
+    "date": "9/28/2020 1:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 2
+  },
+  {
+    "date": "9/28/2020 2:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 2
+  },
+  {
+    "date": "9/28/2020 3:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 1,
+    "pedestrian": 1,
+    "id": 2
+  },
+  {
+    "date": "9/28/2020 4:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 2,
+    "pedestrian": 2,
+    "id": 2
+  },
+  {
+    "date": "9/28/2020 5:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 4,
+    "pedestrian": 4,
+    "id": 2
+  },
+  {
+    "date": "9/28/2020 6:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 50,
+    "pedestrian": 50,
+    "id": 2
+  },
+  {
+    "date": "9/28/2020 7:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 86,
+    "pedestrian": 86,
+    "id": 2
+  },
+  {
+    "date": "9/28/2020 8:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 91,
+    "pedestrian": 91,
+    "id": 2
+  },
+  {
+    "date": "9/28/2020 9:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 100,
+    "pedestrian": 100,
+    "id": 2
+  },
+  {
+    "date": "9/28/2020 10:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 109,
+    "pedestrian": 109,
+    "id": 2
+  },
+  {
+    "date": "9/28/2020 11:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 101,
+    "pedestrian": 101,
+    "id": 2
+  },
+  {
+    "date": "9/28/2020 12:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 159,
+    "pedestrian": 159,
+    "id": 2
+  },
+  {
+    "date": "9/28/2020 13:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 160,
+    "pedestrian": 160,
+    "id": 2
+  },
+  {
+    "date": "9/28/2020 14:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 169,
+    "pedestrian": 169,
+    "id": 2
+  },
+  {
+    "date": "9/28/2020 15:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 200,
+    "pedestrian": 200,
+    "id": 2
+  },
+  {
+    "date": "9/28/2020 16:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 188,
+    "pedestrian": 188,
+    "id": 2
+  },
+  {
+    "date": "9/28/2020 17:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 248,
+    "pedestrian": 248,
+    "id": 2
+  },
+  {
+    "date": "9/28/2020 18:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 217,
+    "pedestrian": 217,
+    "id": 2
+  },
+  {
+    "date": "9/28/2020 19:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 85,
+    "pedestrian": 85,
+    "id": 2
+  },
+  {
+    "date": "9/28/2020 20:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 17,
+    "pedestrian": 17,
+    "id": 2
+  },
+  {
+    "date": "9/28/2020 21:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 6,
+    "pedestrian": 6,
+    "id": 2
+  },
+  {
+    "date": "9/28/2020 22:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 3,
+    "pedestrian": 3,
+    "id": 2
+  },
+  {
+    "date": "9/28/2020 23:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 6,
+    "pedestrian": 6,
+    "id": 2
+  },
+  {
+    "date": "9/29/2020 0:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 4,
+    "pedestrian": 4,
+    "id": 2
+  },
+  {
+    "date": "9/29/2020 1:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 1,
+    "pedestrian": 1,
+    "id": 2
+  },
+  {
+    "date": "9/29/2020 2:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 2
+  },
+  {
+    "date": "9/29/2020 3:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 2
+  },
+  {
+    "date": "9/29/2020 4:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 1,
+    "pedestrian": 1,
+    "id": 2
+  },
+  {
+    "date": "9/29/2020 5:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 14,
+    "pedestrian": 14,
+    "id": 2
+  },
+  {
+    "date": "9/29/2020 6:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 42,
+    "pedestrian": 42,
+    "id": 2
+  },
+  {
+    "date": "9/29/2020 7:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 91,
+    "pedestrian": 91,
+    "id": 2
+  },
+  {
+    "date": "9/29/2020 8:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 101,
+    "pedestrian": 101,
+    "id": 2
+  },
+  {
+    "date": "9/29/2020 9:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 101,
+    "pedestrian": 101,
+    "id": 2
+  },
+  {
+    "date": "9/29/2020 10:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 108,
+    "pedestrian": 108,
+    "id": 2
+  },
+  {
+    "date": "9/29/2020 11:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 123,
+    "pedestrian": 123,
+    "id": 2
+  },
+  {
+    "date": "9/29/2020 12:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 122,
+    "pedestrian": 122,
+    "id": 2
+  },
+  {
+    "date": "9/29/2020 13:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 126,
+    "pedestrian": 126,
+    "id": 2
+  },
+  {
+    "date": "9/29/2020 14:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 160,
+    "pedestrian": 160,
+    "id": 2
+  },
+  {
+    "date": "9/29/2020 15:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 174,
+    "pedestrian": 174,
+    "id": 2
+  },
+  {
+    "date": "9/29/2020 16:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 264,
+    "pedestrian": 264,
+    "id": 2
+  },
+  {
+    "date": "9/29/2020 17:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 254,
+    "pedestrian": 254,
+    "id": 2
+  },
+  {
+    "date": "9/29/2020 18:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 167,
+    "pedestrian": 167,
+    "id": 2
+  },
+  {
+    "date": "9/29/2020 19:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 72,
+    "pedestrian": 72,
+    "id": 2
+  },
+  {
+    "date": "9/29/2020 20:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 6,
+    "pedestrian": 6,
+    "id": 2
+  },
+  {
+    "date": "9/29/2020 21:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 2,
+    "pedestrian": 2,
+    "id": 2
+  },
+  {
+    "date": "9/29/2020 22:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 7,
+    "pedestrian": 7,
+    "id": 2
+  },
+  {
+    "date": "9/29/2020 23:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 1,
+    "pedestrian": 1,
+    "id": 2
+  },
+  {
+    "date": "9/30/2020 0:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 2
+  },
+  {
+    "date": "9/30/2020 1:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 2,
+    "pedestrian": 2,
+    "id": 2
+  },
+  {
+    "date": "9/30/2020 2:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 2,
+    "pedestrian": 2,
+    "id": 2
+  },
+  {
+    "date": "9/30/2020 3:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 2,
+    "pedestrian": 2,
+    "id": 2
+  },
+  {
+    "date": "9/30/2020 4:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 4,
+    "pedestrian": 4,
+    "id": 2
+  },
+  {
+    "date": "9/30/2020 5:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 15,
+    "pedestrian": 15,
+    "id": 2
+  },
+  {
+    "date": "9/30/2020 6:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 35,
+    "pedestrian": 35,
+    "id": 2
+  },
+  {
+    "date": "9/30/2020 7:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 102,
+    "pedestrian": 102,
+    "id": 2
+  },
+  {
+    "date": "9/30/2020 8:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 95,
+    "pedestrian": 95,
+    "id": 2
+  },
+  {
+    "date": "9/30/2020 9:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 94,
+    "pedestrian": 94,
+    "id": 2
+  },
+  {
+    "date": "9/30/2020 10:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 65,
+    "pedestrian": 65,
+    "id": 2
+  },
+  {
+    "date": "9/30/2020 11:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 98,
+    "pedestrian": 98,
+    "id": 2
+  },
+  {
+    "date": "9/30/2020 12:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 94,
+    "pedestrian": 94,
+    "id": 2
+  },
+  {
+    "date": "9/30/2020 13:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 114,
+    "pedestrian": 114,
+    "id": 2
+  },
+  {
+    "date": "9/30/2020 14:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 132,
+    "pedestrian": 132,
+    "id": 2
+  },
+  {
+    "date": "9/30/2020 15:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 152,
+    "pedestrian": 152,
+    "id": 2
+  },
+  {
+    "date": "9/30/2020 16:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 194,
+    "pedestrian": 194,
+    "id": 2
+  },
+  {
+    "date": "9/30/2020 17:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 242,
+    "pedestrian": 242,
+    "id": 2
+  },
+  {
+    "date": "9/30/2020 18:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 221,
+    "pedestrian": 221,
+    "id": 2
+  },
+  {
+    "date": "9/30/2020 19:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 69,
+    "pedestrian": 69,
+    "id": 2
+  },
+  {
+    "date": "9/30/2020 20:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 20,
+    "pedestrian": 20,
+    "id": 2
+  },
+  {
+    "date": "9/30/2020 21:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 8,
+    "pedestrian": 8,
+    "id": 2
+  },
+  {
+    "date": "9/30/2020 22:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 10,
+    "pedestrian": 10,
+    "id": 2
+  },
+  {
+    "date": "9/30/2020 23:00",
+    "trailName": "Burke-Gilman Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 2
+  },
+  {
+    "date": "6/22/2020 15:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/22/2020 16:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/22/2020 17:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/22/2020 18:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/22/2020 19:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/22/2020 20:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/22/2020 21:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/22/2020 22:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/22/2020 23:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/23/2020 0:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/23/2020 1:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/23/2020 2:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/23/2020 3:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/23/2020 4:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/23/2020 5:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/23/2020 6:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/23/2020 7:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/23/2020 8:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/23/2020 9:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/23/2020 10:00",
+    "trailName": "Broadway Cycle",
+    "bike": 2,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/23/2020 11:00",
+    "trailName": "Broadway Cycle",
+    "bike": 4,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/23/2020 12:00",
+    "trailName": "Broadway Cycle",
+    "bike": 1,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/23/2020 13:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/23/2020 14:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/23/2020 15:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/23/2020 16:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/23/2020 17:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/23/2020 18:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/23/2020 19:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/23/2020 20:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/23/2020 21:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/23/2020 22:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/23/2020 23:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/24/2020 0:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/24/2020 1:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/24/2020 2:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/24/2020 3:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/24/2020 4:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/24/2020 5:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/24/2020 6:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/24/2020 7:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/24/2020 8:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/24/2020 9:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/24/2020 10:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/24/2020 11:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/24/2020 12:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/24/2020 13:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/24/2020 14:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/24/2020 15:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/24/2020 16:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/24/2020 17:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/24/2020 18:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/24/2020 19:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/24/2020 20:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/24/2020 21:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/24/2020 22:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/24/2020 23:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/25/2020 0:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/25/2020 1:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/25/2020 2:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/25/2020 3:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/25/2020 4:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/25/2020 5:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/25/2020 6:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/25/2020 7:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/25/2020 8:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/25/2020 9:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/25/2020 10:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/25/2020 11:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/25/2020 12:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/25/2020 13:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/25/2020 14:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/25/2020 15:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/25/2020 16:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/25/2020 17:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/25/2020 18:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/25/2020 19:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/25/2020 20:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/25/2020 21:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/25/2020 22:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/25/2020 23:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/26/2020 0:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/26/2020 1:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/26/2020 2:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/26/2020 3:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/26/2020 4:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/26/2020 5:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/26/2020 6:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/26/2020 7:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/26/2020 8:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/26/2020 9:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/26/2020 10:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/26/2020 11:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/26/2020 12:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/26/2020 13:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/26/2020 14:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/26/2020 15:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/26/2020 16:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/26/2020 17:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/26/2020 18:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/26/2020 19:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/26/2020 20:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/26/2020 21:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/26/2020 22:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/26/2020 23:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/27/2020 0:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/27/2020 1:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/27/2020 2:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/27/2020 3:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/27/2020 4:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/27/2020 5:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/27/2020 6:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/27/2020 7:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/27/2020 8:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/27/2020 9:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/27/2020 10:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/27/2020 11:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/27/2020 12:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/27/2020 13:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/27/2020 14:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/27/2020 15:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/27/2020 16:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/27/2020 17:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/27/2020 18:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/27/2020 19:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/27/2020 20:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/27/2020 21:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/27/2020 22:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/27/2020 23:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/28/2020 0:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/28/2020 1:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/28/2020 2:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/28/2020 3:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/28/2020 4:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/28/2020 5:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/28/2020 6:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/28/2020 7:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/28/2020 8:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/28/2020 9:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/28/2020 10:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/28/2020 11:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/28/2020 12:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/28/2020 13:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/28/2020 14:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/28/2020 15:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/28/2020 16:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/28/2020 17:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/28/2020 18:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/28/2020 19:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/28/2020 20:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/28/2020 21:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/28/2020 22:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/28/2020 23:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/29/2020 0:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/29/2020 1:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/29/2020 2:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/29/2020 3:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/29/2020 4:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/29/2020 5:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/29/2020 6:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/29/2020 7:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/29/2020 8:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/29/2020 9:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/29/2020 10:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/29/2020 11:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/29/2020 12:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/29/2020 13:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/29/2020 14:00",
+    "trailName": "Broadway Cycle",
+    "bike": 2,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/29/2020 15:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/29/2020 16:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/29/2020 17:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/29/2020 18:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/29/2020 19:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/29/2020 20:00",
+    "trailName": "Broadway Cycle",
+    "bike": 2,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/29/2020 21:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/29/2020 22:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/29/2020 23:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/30/2020 0:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/30/2020 1:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/30/2020 2:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/30/2020 3:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/30/2020 4:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/30/2020 5:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/30/2020 6:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/30/2020 7:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/30/2020 8:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/30/2020 9:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/30/2020 10:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/30/2020 11:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/30/2020 12:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/30/2020 13:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/30/2020 14:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/30/2020 15:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/30/2020 16:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/30/2020 17:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/30/2020 18:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/30/2020 19:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/30/2020 20:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/30/2020 21:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/30/2020 22:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "6/30/2020 23:00",
+    "trailName": "Broadway Cycle",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 3
+  },
+  {
+    "date": "8/23/2020 15:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 78,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/23/2020 16:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 60,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/23/2020 17:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 69,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/23/2020 18:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 49,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/23/2020 19:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 32,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/23/2020 20:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 9,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/23/2020 21:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 3,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/23/2020 22:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 2,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/23/2020 23:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/24/2020 0:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 2,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/24/2020 1:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/24/2020 2:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/24/2020 3:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/24/2020 4:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 1,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/24/2020 5:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 6,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/24/2020 6:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 12,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/24/2020 7:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 20,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/24/2020 8:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 14,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/24/2020 9:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 9,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/24/2020 10:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 11,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/24/2020 11:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 19,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/24/2020 12:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 30,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/24/2020 13:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 19,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/24/2020 14:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 14,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/24/2020 15:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 29,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/24/2020 16:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 37,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/24/2020 17:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 60,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/24/2020 18:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 41,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/24/2020 19:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 41,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/24/2020 20:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 16,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/24/2020 21:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 1,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/24/2020 22:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/24/2020 23:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/25/2020 0:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/25/2020 1:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/25/2020 2:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/25/2020 3:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/25/2020 4:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 1,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/25/2020 5:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 3,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/25/2020 6:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 12,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/25/2020 7:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 20,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/25/2020 8:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 20,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/25/2020 9:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 18,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/25/2020 10:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 13,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/25/2020 11:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 20,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/25/2020 12:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 23,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/25/2020 13:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 20,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/25/2020 14:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 24,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/25/2020 15:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 20,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/25/2020 16:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 35,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/25/2020 17:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 44,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/25/2020 18:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 55,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/25/2020 19:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 64,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/25/2020 20:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 15,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/25/2020 21:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 3,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/25/2020 22:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 1,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/25/2020 23:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/26/2020 0:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 1,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/26/2020 1:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/26/2020 2:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/26/2020 3:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/26/2020 4:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 1,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/26/2020 5:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 6,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/26/2020 6:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 9,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/26/2020 7:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 29,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/26/2020 8:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 31,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/26/2020 9:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 17,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/26/2020 10:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 21,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/26/2020 11:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 24,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/26/2020 12:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 31,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/26/2020 13:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 22,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/26/2020 14:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 20,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/26/2020 15:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 21,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/26/2020 16:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 39,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/26/2020 17:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 56,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/26/2020 18:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 57,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/26/2020 19:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 47,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/26/2020 20:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 29,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/26/2020 21:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 5,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/26/2020 22:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 2,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/26/2020 23:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/27/2020 0:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 1,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/27/2020 1:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/27/2020 2:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/27/2020 3:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/27/2020 4:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 1,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/27/2020 5:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 3,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/27/2020 6:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 11,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/27/2020 7:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 28,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/27/2020 8:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 21,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/27/2020 9:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 14,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/27/2020 10:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 12,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/27/2020 11:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 14,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/27/2020 12:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 18,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/27/2020 13:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 21,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/27/2020 14:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 18,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/27/2020 15:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 28,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/27/2020 16:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 38,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/27/2020 17:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 34,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/27/2020 18:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 54,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/27/2020 19:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 53,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/27/2020 20:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 24,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/27/2020 21:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 2,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/27/2020 22:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 1,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/27/2020 23:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 1,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/28/2020 0:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/28/2020 1:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/28/2020 2:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/28/2020 3:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/28/2020 4:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 1,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/28/2020 5:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 3,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/28/2020 6:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 9,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/28/2020 7:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 23,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/28/2020 8:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 25,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/28/2020 9:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 18,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/28/2020 10:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 23,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/28/2020 11:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 28,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/28/2020 12:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 22,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/28/2020 13:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 32,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/28/2020 14:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 19,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/28/2020 15:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 45,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/28/2020 16:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 28,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/28/2020 17:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 47,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/28/2020 18:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 31,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/28/2020 19:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 33,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/28/2020 20:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 14,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/28/2020 21:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 5,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/28/2020 22:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 1,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/28/2020 23:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/29/2020 0:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/29/2020 1:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/29/2020 2:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/29/2020 3:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/29/2020 4:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/29/2020 5:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/29/2020 6:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 5,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/29/2020 7:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 7,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/29/2020 8:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 39,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/29/2020 9:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 46,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/29/2020 10:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 54,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/29/2020 11:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 72,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/29/2020 12:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 64,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/29/2020 13:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 60,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/29/2020 14:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 50,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/29/2020 15:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 53,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/29/2020 16:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 62,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/29/2020 17:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 46,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/29/2020 18:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 28,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/29/2020 19:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 16,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/29/2020 20:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 10,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/29/2020 21:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 2,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/29/2020 22:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 1,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/29/2020 23:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/30/2020 0:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/30/2020 1:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 1,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/30/2020 2:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/30/2020 3:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/30/2020 4:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/30/2020 5:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/30/2020 6:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 3,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/30/2020 7:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 7,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/30/2020 8:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 40,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/30/2020 9:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 50,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/30/2020 10:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 63,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/30/2020 11:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 71,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/30/2020 12:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 82,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/30/2020 13:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 107,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/30/2020 14:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 73,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/30/2020 15:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 66,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/30/2020 16:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 51,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/30/2020 17:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 54,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/30/2020 18:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 38,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/30/2020 19:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 19,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/30/2020 20:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 6,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/30/2020 21:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 2,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/30/2020 22:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/30/2020 23:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/31/2020 0:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/31/2020 1:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/31/2020 2:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/31/2020 3:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/31/2020 4:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/31/2020 5:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 1,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/31/2020 6:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 5,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/31/2020 7:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 14,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/31/2020 8:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 8,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/31/2020 9:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 11,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/31/2020 10:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 15,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/31/2020 11:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 10,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/31/2020 12:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 21,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/31/2020 13:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 14,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/31/2020 14:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 22,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/31/2020 15:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 21,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/31/2020 16:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 23,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/31/2020 17:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 24,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/31/2020 18:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 52,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/31/2020 19:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 25,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/31/2020 20:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 10,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/31/2020 21:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/31/2020 22:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "8/31/2020 23:00",
+    "trailName": "MTS Trail West of I-90",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 4
+  },
+  {
+    "date": "11/23/2015 1:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/17/2015 19:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 1,
+    "id": 5
+  },
+  {
+    "date": "11/12/2015 14:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 1,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/12/2015 5:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/6/2015 5:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/15/2015 11:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 1,
+    "pedestrian": 4,
+    "id": 5
+  },
+  {
+    "date": "11/13/2015 23:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/27/2015 19:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 1,
+    "id": 5
+  },
+  {
+    "date": "11/19/2015 6:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/28/2015 12:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 1,
+    "id": 5
+  },
+  {
+    "date": "11/19/2015 23:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 1,
+    "id": 5
+  },
+  {
+    "date": "11/20/2015 19:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/18/2015 4:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/6/2015 20:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/3/2015 4:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/17/2015 14:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/20/2015 20:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 1,
+    "id": 5
+  },
+  {
+    "date": "11/4/2015 1:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/5/2015 15:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 3,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/18/2015 6:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 1,
+    "id": 5
+  },
+  {
+    "date": "11/2/2015 23:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/8/2015 5:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/19/2015 7:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 2,
+    "pedestrian": 6,
+    "id": 5
+  },
+  {
+    "date": "11/27/2015 5:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/8/2015 11:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/5/2015 22:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/7/2015 16:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 2,
+    "id": 5
+  },
+  {
+    "date": "11/24/2015 6:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/28/2015 0:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/1/2015 20:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/8/2015 0:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/1/2015 12:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/25/2015 9:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 1,
+    "id": 5
+  },
+  {
+    "date": "11/26/2015 14:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 1,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/26/2015 9:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 1,
+    "pedestrian": 2,
+    "id": 5
+  },
+  {
+    "date": "11/27/2015 11:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 2,
+    "pedestrian": 1,
+    "id": 5
+  },
+  {
+    "date": "11/4/2015 0:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/4/2015 12:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 1,
+    "id": 5
+  },
+  {
+    "date": "11/6/2015 10:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 2,
+    "id": 5
+  },
+  {
+    "date": "11/8/2015 15:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/3/2015 2:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/21/2015 20:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/23/2015 17:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 4,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/17/2015 9:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/3/2015 20:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 1,
+    "pedestrian": 2,
+    "id": 5
+  },
+  {
+    "date": "11/2/2015 17:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 2,
+    "pedestrian": 1,
+    "id": 5
+  },
+  {
+    "date": "11/19/2015 13:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 1,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/30/2015 16:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/28/2015 1:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/19/2015 8:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 4,
+    "id": 5
+  },
+  {
+    "date": "11/7/2015 3:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/19/2015 12:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 1,
+    "pedestrian": 2,
+    "id": 5
+  },
+  {
+    "date": "11/5/2015 16:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 2,
+    "id": 5
+  },
+  {
+    "date": "11/19/2015 18:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/24/2015 12:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 4,
+    "id": 5
+  },
+  {
+    "date": "11/4/2015 11:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 1,
+    "id": 5
+  },
+  {
+    "date": "11/30/2015 15:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 2,
+    "id": 5
+  },
+  {
+    "date": "11/9/2015 8:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 1,
+    "id": 5
+  },
+  {
+    "date": "11/15/2015 10:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 1,
+    "pedestrian": 1,
+    "id": 5
+  },
+  {
+    "date": "11/11/2015 20:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 1,
+    "id": 5
+  },
+  {
+    "date": "11/10/2015 0:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/22/2015 22:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/9/2015 17:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/12/2015 22:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/26/2015 5:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 1,
+    "id": 5
+  },
+  {
+    "date": "11/12/2015 0:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/29/2015 20:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/10/2015 13:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/25/2015 13:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 2,
+    "id": 5
+  },
+  {
+    "date": "11/12/2015 10:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 1,
+    "id": 5
+  },
+  {
+    "date": "11/9/2015 9:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/26/2015 13:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 1,
+    "pedestrian": 4,
+    "id": 5
+  },
+  {
+    "date": "11/18/2015 18:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/25/2015 21:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/6/2015 2:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/11/2015 15:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 1,
+    "pedestrian": 4,
+    "id": 5
+  },
+  {
+    "date": "11/13/2015 7:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 1,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/15/2015 17:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/25/2015 5:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/23/2015 2:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/19/2015 10:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 1,
+    "id": 5
+  },
+  {
+    "date": "11/18/2015 20:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 2,
+    "id": 5
+  },
+  {
+    "date": "11/22/2015 6:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 2,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/15/2015 8:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 1,
+    "pedestrian": 3,
+    "id": 5
+  },
+  {
+    "date": "11/20/2015 8:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 1,
+    "id": 5
+  },
+  {
+    "date": "11/25/2015 12:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 2,
+    "id": 5
+  },
+  {
+    "date": "11/30/2015 8:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/6/2015 21:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/22/2015 17:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/16/2015 18:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 1,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/14/2015 22:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/17/2015 22:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/15/2015 1:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/13/2015 5:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 2,
+    "id": 5
+  },
+  {
+    "date": "11/13/2015 2:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/2/2015 9:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 1,
+    "id": 5
+  },
+  {
+    "date": "11/30/2015 20:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/26/2015 0:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/3/2015 0:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/9/2015 3:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/21/2015 8:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 3,
+    "id": 5
+  },
+  {
+    "date": "11/7/2015 0:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/17/2015 3:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/16/2015 6:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 1,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/13/2015 1:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/18/2015 22:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/3/2015 14:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 1,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/23/2015 22:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/1/2015 16:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 1,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/5/2015 19:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 2,
+    "pedestrian": 3,
+    "id": 5
+  },
+  {
+    "date": "11/4/2015 6:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 1,
+    "pedestrian": 1,
+    "id": 5
+  },
+  {
+    "date": "11/15/2015 16:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 3,
+    "id": 5
+  },
+  {
+    "date": "11/29/2015 10:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 2,
+    "id": 5
+  },
+  {
+    "date": "11/12/2015 11:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 1,
+    "pedestrian": 1,
+    "id": 5
+  },
+  {
+    "date": "11/21/2015 2:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/5/2015 21:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/20/2015 2:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/26/2015 1:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/8/2015 22:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/16/2015 7:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 3,
+    "pedestrian": 4,
+    "id": 5
+  },
+  {
+    "date": "11/24/2015 8:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 1,
+    "id": 5
+  },
+  {
+    "date": "11/12/2015 3:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/6/2015 4:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/11/2015 22:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/27/2015 18:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/26/2015 4:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/3/2015 9:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 1,
+    "id": 5
+  },
+  {
+    "date": "11/26/2015 17:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/23/2015 21:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/12/2015 12:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 1,
+    "id": 5
+  },
+  {
+    "date": "11/7/2015 18:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/10/2015 6:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 1,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/5/2015 0:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/2/2015 1:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 1,
+    "id": 5
+  },
+  {
+    "date": "11/14/2015 7:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/20/2015 10:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 1,
+    "id": 5
+  },
+  {
+    "date": "11/15/2015 13:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 1,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/28/2015 5:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/3/2015 3:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/11/2015 9:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 1,
+    "id": 5
+  },
+  {
+    "date": "11/2/2015 14:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/28/2015 9:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 1,
+    "id": 5
+  },
+  {
+    "date": "11/27/2015 13:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 4,
+    "id": 5
+  },
+  {
+    "date": "11/6/2015 22:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 1,
+    "id": 5
+  },
+  {
+    "date": "11/24/2015 1:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/28/2015 3:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/10/2015 8:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 1,
+    "pedestrian": 3,
+    "id": 5
+  },
+  {
+    "date": "11/12/2015 18:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 1,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/12/2015 21:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 1,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/27/2015 20:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/7/2015 5:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/25/2015 15:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 1,
+    "pedestrian": 2,
+    "id": 5
+  },
+  {
+    "date": "11/14/2015 0:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/9/2015 2:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 1,
+    "id": 5
+  },
+  {
+    "date": "11/14/2015 12:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 3,
+    "id": 5
+  },
+  {
+    "date": "11/30/2015 1:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/10/2015 17:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 3,
+    "pedestrian": 1,
+    "id": 5
+  },
+  {
+    "date": "11/8/2015 9:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 1,
+    "id": 5
+  },
+  {
+    "date": "11/7/2015 2:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/20/2015 12:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 4,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/1/2015 4:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/5/2015 10:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 1,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/5/2015 23:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/14/2015 15:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 2,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/21/2015 18:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 1,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/18/2015 21:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 1,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/20/2015 23:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/5/2015 13:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 1,
+    "id": 5
+  },
+  {
+    "date": "11/24/2015 17:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 1,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/11/2015 7:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 3,
+    "id": 5
+  },
+  {
+    "date": "11/13/2015 8:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 2,
+    "id": 5
+  },
+  {
+    "date": "11/26/2015 8:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 1,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/25/2015 8:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 1,
+    "id": 5
+  },
+  {
+    "date": "11/29/2015 22:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 1,
+    "id": 5
+  },
+  {
+    "date": "11/22/2015 13:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 3,
+    "id": 5
+  },
+  {
+    "date": "11/15/2015 19:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/1/2015 15:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 2,
+    "id": 5
+  },
+  {
+    "date": "11/26/2015 3:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/6/2015 16:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 1,
+    "pedestrian": 4,
+    "id": 5
+  },
+  {
+    "date": "11/18/2015 10:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 1,
+    "id": 5
+  },
+  {
+    "date": "11/27/2015 4:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/27/2015 7:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 1,
+    "id": 5
+  },
+  {
+    "date": "11/15/2015 2:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/11/2015 6:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 2,
+    "id": 5
+  },
+  {
+    "date": "11/4/2015 15:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/17/2015 1:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/18/2015 19:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 2,
+    "id": 5
+  },
+  {
+    "date": "11/15/2015 23:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/10/2015 11:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/13/2015 12:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/25/2015 19:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 1,
+    "id": 5
+  },
+  {
+    "date": "11/5/2015 4:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/5/2015 6:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 1,
+    "pedestrian": 1,
+    "id": 5
+  },
+  {
+    "date": "11/14/2015 14:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/18/2015 11:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/29/2015 21:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/7/2015 4:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/8/2015 13:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 5,
+    "id": 5
+  },
+  {
+    "date": "11/7/2015 21:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/9/2015 13:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "11/19/2015 1:00",
+    "trailName": "Chief Sealth Trail",
+    "bike": 0,
+    "pedestrian": 0,
+    "id": 5
+  },
+  {
+    "date": "9/22/2020 15:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 98,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/22/2020 16:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 137,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/22/2020 17:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 173,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/22/2020 18:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 99,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/22/2020 19:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 45,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/22/2020 20:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 15,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/22/2020 21:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 17,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/22/2020 22:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 11,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/22/2020 23:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 3,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/23/2020 0:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 8,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/23/2020 1:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 1,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/23/2020 2:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 2,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/23/2020 3:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 3,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/23/2020 4:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/23/2020 5:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 24,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/23/2020 6:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 41,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/23/2020 7:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 48,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/23/2020 8:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 39,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/23/2020 9:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 12,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/23/2020 10:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 11,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/23/2020 11:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 11,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/23/2020 12:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 8,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/23/2020 13:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 17,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/23/2020 14:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 18,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/23/2020 15:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 26,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/23/2020 16:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 38,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/23/2020 17:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 45,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/23/2020 18:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 16,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/23/2020 19:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 18,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/23/2020 20:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 7,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/23/2020 21:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 9,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/23/2020 22:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 1,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/23/2020 23:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 4,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/24/2020 0:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 2,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/24/2020 1:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 1,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/24/2020 2:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 3,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/24/2020 3:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 4,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/24/2020 4:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/24/2020 5:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 23,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/24/2020 6:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 35,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/24/2020 7:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 43,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/24/2020 8:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 34,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/24/2020 9:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 24,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/24/2020 10:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 14,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/24/2020 11:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 13,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/24/2020 12:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 10,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/24/2020 13:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 9,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/24/2020 14:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 21,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/24/2020 15:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 35,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/24/2020 16:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 54,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/24/2020 17:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 56,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/24/2020 18:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 45,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/24/2020 19:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 21,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/24/2020 20:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 12,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/24/2020 21:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 5,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/24/2020 22:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 4,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/24/2020 23:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 4,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/25/2020 0:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 3,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/25/2020 1:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 5,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/25/2020 2:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 6,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/25/2020 3:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 4,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/25/2020 4:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 7,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/25/2020 5:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 17,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/25/2020 6:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 24,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/25/2020 7:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 34,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/25/2020 8:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 31,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/25/2020 9:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 11,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/25/2020 10:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 16,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/25/2020 11:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 8,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/25/2020 12:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 10,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/25/2020 13:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 14,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/25/2020 14:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 26,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/25/2020 15:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 37,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/25/2020 16:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 49,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/25/2020 17:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 40,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/25/2020 18:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 49,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/25/2020 19:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 23,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/25/2020 20:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 13,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/25/2020 21:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 7,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/25/2020 22:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 4,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/25/2020 23:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 5,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/26/2020 0:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 4,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/26/2020 1:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 3,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/26/2020 2:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 1,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/26/2020 3:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 4,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/26/2020 4:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 4,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/26/2020 5:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 6,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/26/2020 6:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 5,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/26/2020 7:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 12,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/26/2020 8:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 38,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/26/2020 9:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 45,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/26/2020 10:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 54,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/26/2020 11:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 63,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/26/2020 12:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 81,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/26/2020 13:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 62,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/26/2020 14:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 51,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/26/2020 15:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 41,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/26/2020 16:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 44,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/26/2020 17:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 40,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/26/2020 18:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 33,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/26/2020 19:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 17,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/26/2020 20:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 10,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/26/2020 21:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 8,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/26/2020 22:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 5,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/26/2020 23:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 4,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/27/2020 0:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 1,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/27/2020 1:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 2,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/27/2020 2:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/27/2020 3:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 3,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/27/2020 4:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/27/2020 5:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 3,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/27/2020 6:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 12,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/27/2020 7:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 15,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/27/2020 8:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 32,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/27/2020 9:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 78,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/27/2020 10:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 99,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/27/2020 11:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 132,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/27/2020 12:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 139,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/27/2020 13:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 123,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/27/2020 14:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 91,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/27/2020 15:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 105,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/27/2020 16:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 90,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/27/2020 17:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 90,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/27/2020 18:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 64,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/27/2020 19:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 30,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/27/2020 20:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 12,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/27/2020 21:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 12,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/27/2020 22:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 8,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/27/2020 23:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 5,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/28/2020 0:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 2,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/28/2020 1:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 3,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/28/2020 2:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 2,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/28/2020 3:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 1,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/28/2020 4:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 5,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/28/2020 5:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 31,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/28/2020 6:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 60,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/28/2020 7:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 84,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/28/2020 8:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 75,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/28/2020 9:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 44,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/28/2020 10:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 40,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/28/2020 11:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 37,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/28/2020 12:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 35,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/28/2020 13:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 53,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/28/2020 14:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 69,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/28/2020 15:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 78,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/28/2020 16:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 107,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/28/2020 17:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 140,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/28/2020 18:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 92,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/28/2020 19:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 55,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/28/2020 20:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 23,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/28/2020 21:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 13,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/28/2020 22:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 10,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/28/2020 23:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 5,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/29/2020 0:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 5,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/29/2020 1:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 5,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/29/2020 2:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 4,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/29/2020 3:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/29/2020 4:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 6,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/29/2020 5:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 27,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/29/2020 6:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 68,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/29/2020 7:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 96,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/29/2020 8:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 85,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/29/2020 9:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 50,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/29/2020 10:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 38,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/29/2020 11:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 41,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/29/2020 12:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 53,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/29/2020 13:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 63,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/29/2020 14:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 73,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/29/2020 15:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 78,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/29/2020 16:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 134,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/29/2020 17:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 171,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/29/2020 18:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 88,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/29/2020 19:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 38,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/29/2020 20:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 21,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/29/2020 21:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 18,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/29/2020 22:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 8,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/29/2020 23:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 4,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/30/2020 0:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 5,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/30/2020 1:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/30/2020 2:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 4,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/30/2020 3:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 7,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/30/2020 4:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 4,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/30/2020 5:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 30,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/30/2020 6:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 82,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/30/2020 7:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 83,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/30/2020 8:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 85,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/30/2020 9:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 55,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/30/2020 10:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 26,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/30/2020 11:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 35,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/30/2020 12:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 45,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/30/2020 13:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 47,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/30/2020 14:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 67,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/30/2020 15:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 71,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/30/2020 16:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 137,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/30/2020 17:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 141,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/30/2020 18:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 86,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/30/2020 19:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 40,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/30/2020 20:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 23,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/30/2020 21:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 13,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/30/2020 22:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 15,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "9/30/2020 23:00",
+    "trailName": "Spokane St. Bridge",
+    "bike": 10,
+    "pedestrian": "",
+    "id": 6
+  },
+  {
+    "date": "7/23/2020 15:00",
+    "trailName": "58th St. Greenway",
+    "bike": 14,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/23/2020 16:00",
+    "trailName": "58th St. Greenway",
+    "bike": 9,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/23/2020 17:00",
+    "trailName": "58th St. Greenway",
+    "bike": 16,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/23/2020 18:00",
+    "trailName": "58th St. Greenway",
+    "bike": 17,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/23/2020 19:00",
+    "trailName": "58th St. Greenway",
+    "bike": 21,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/23/2020 20:00",
+    "trailName": "58th St. Greenway",
+    "bike": 16,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/23/2020 21:00",
+    "trailName": "58th St. Greenway",
+    "bike": 4,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/23/2020 22:00",
+    "trailName": "58th St. Greenway",
+    "bike": 1,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/23/2020 23:00",
+    "trailName": "58th St. Greenway",
+    "bike": 1,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/24/2020 0:00",
+    "trailName": "58th St. Greenway",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/24/2020 1:00",
+    "trailName": "58th St. Greenway",
+    "bike": 1,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/24/2020 2:00",
+    "trailName": "58th St. Greenway",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/24/2020 3:00",
+    "trailName": "58th St. Greenway",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/24/2020 4:00",
+    "trailName": "58th St. Greenway",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/24/2020 5:00",
+    "trailName": "58th St. Greenway",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/24/2020 6:00",
+    "trailName": "58th St. Greenway",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/24/2020 7:00",
+    "trailName": "58th St. Greenway",
+    "bike": 1,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/24/2020 8:00",
+    "trailName": "58th St. Greenway",
+    "bike": 1,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/24/2020 9:00",
+    "trailName": "58th St. Greenway",
+    "bike": 7,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/24/2020 10:00",
+    "trailName": "58th St. Greenway",
+    "bike": 10,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/24/2020 11:00",
+    "trailName": "58th St. Greenway",
+    "bike": 3,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/24/2020 12:00",
+    "trailName": "58th St. Greenway",
+    "bike": 18,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/24/2020 13:00",
+    "trailName": "58th St. Greenway",
+    "bike": 15,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/24/2020 14:00",
+    "trailName": "58th St. Greenway",
+    "bike": 18,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/24/2020 15:00",
+    "trailName": "58th St. Greenway",
+    "bike": 11,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/24/2020 16:00",
+    "trailName": "58th St. Greenway",
+    "bike": 12,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/24/2020 17:00",
+    "trailName": "58th St. Greenway",
+    "bike": 13,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/24/2020 18:00",
+    "trailName": "58th St. Greenway",
+    "bike": 17,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/24/2020 19:00",
+    "trailName": "58th St. Greenway",
+    "bike": 5,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/24/2020 20:00",
+    "trailName": "58th St. Greenway",
+    "bike": 5,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/24/2020 21:00",
+    "trailName": "58th St. Greenway",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/24/2020 22:00",
+    "trailName": "58th St. Greenway",
+    "bike": 1,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/24/2020 23:00",
+    "trailName": "58th St. Greenway",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/25/2020 0:00",
+    "trailName": "58th St. Greenway",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/25/2020 1:00",
+    "trailName": "58th St. Greenway",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/25/2020 2:00",
+    "trailName": "58th St. Greenway",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/25/2020 3:00",
+    "trailName": "58th St. Greenway",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/25/2020 4:00",
+    "trailName": "58th St. Greenway",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/25/2020 5:00",
+    "trailName": "58th St. Greenway",
+    "bike": 1,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/25/2020 6:00",
+    "trailName": "58th St. Greenway",
+    "bike": 1,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/25/2020 7:00",
+    "trailName": "58th St. Greenway",
+    "bike": 2,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/25/2020 8:00",
+    "trailName": "58th St. Greenway",
+    "bike": 2,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/25/2020 9:00",
+    "trailName": "58th St. Greenway",
+    "bike": 5,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/25/2020 10:00",
+    "trailName": "58th St. Greenway",
+    "bike": 11,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/25/2020 11:00",
+    "trailName": "58th St. Greenway",
+    "bike": 15,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/25/2020 12:00",
+    "trailName": "58th St. Greenway",
+    "bike": 21,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/25/2020 13:00",
+    "trailName": "58th St. Greenway",
+    "bike": 19,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/25/2020 14:00",
+    "trailName": "58th St. Greenway",
+    "bike": 21,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/25/2020 15:00",
+    "trailName": "58th St. Greenway",
+    "bike": 20,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/25/2020 16:00",
+    "trailName": "58th St. Greenway",
+    "bike": 16,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/25/2020 17:00",
+    "trailName": "58th St. Greenway",
+    "bike": 6,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/25/2020 18:00",
+    "trailName": "58th St. Greenway",
+    "bike": 18,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/25/2020 19:00",
+    "trailName": "58th St. Greenway",
+    "bike": 8,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/25/2020 20:00",
+    "trailName": "58th St. Greenway",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/25/2020 21:00",
+    "trailName": "58th St. Greenway",
+    "bike": 3,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/25/2020 22:00",
+    "trailName": "58th St. Greenway",
+    "bike": 1,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/25/2020 23:00",
+    "trailName": "58th St. Greenway",
+    "bike": 3,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/26/2020 0:00",
+    "trailName": "58th St. Greenway",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/26/2020 1:00",
+    "trailName": "58th St. Greenway",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/26/2020 2:00",
+    "trailName": "58th St. Greenway",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/26/2020 3:00",
+    "trailName": "58th St. Greenway",
+    "bike": 1,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/26/2020 4:00",
+    "trailName": "58th St. Greenway",
+    "bike": 1,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/26/2020 5:00",
+    "trailName": "58th St. Greenway",
+    "bike": 1,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/26/2020 6:00",
+    "trailName": "58th St. Greenway",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/26/2020 7:00",
+    "trailName": "58th St. Greenway",
+    "bike": 3,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/26/2020 8:00",
+    "trailName": "58th St. Greenway",
+    "bike": 3,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/26/2020 9:00",
+    "trailName": "58th St. Greenway",
+    "bike": 8,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/26/2020 10:00",
+    "trailName": "58th St. Greenway",
+    "bike": 13,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/26/2020 11:00",
+    "trailName": "58th St. Greenway",
+    "bike": 20,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/26/2020 12:00",
+    "trailName": "58th St. Greenway",
+    "bike": 16,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/26/2020 13:00",
+    "trailName": "58th St. Greenway",
+    "bike": 27,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/26/2020 14:00",
+    "trailName": "58th St. Greenway",
+    "bike": 14,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/26/2020 15:00",
+    "trailName": "58th St. Greenway",
+    "bike": 17,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/26/2020 16:00",
+    "trailName": "58th St. Greenway",
+    "bike": 13,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/26/2020 17:00",
+    "trailName": "58th St. Greenway",
+    "bike": 14,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/26/2020 18:00",
+    "trailName": "58th St. Greenway",
+    "bike": 12,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/26/2020 19:00",
+    "trailName": "58th St. Greenway",
+    "bike": 10,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/26/2020 20:00",
+    "trailName": "58th St. Greenway",
+    "bike": 11,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/26/2020 21:00",
+    "trailName": "58th St. Greenway",
+    "bike": 4,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/26/2020 22:00",
+    "trailName": "58th St. Greenway",
+    "bike": 4,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/26/2020 23:00",
+    "trailName": "58th St. Greenway",
+    "bike": 1,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/27/2020 0:00",
+    "trailName": "58th St. Greenway",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/27/2020 1:00",
+    "trailName": "58th St. Greenway",
+    "bike": 2,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/27/2020 2:00",
+    "trailName": "58th St. Greenway",
+    "bike": 1,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/27/2020 3:00",
+    "trailName": "58th St. Greenway",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/27/2020 4:00",
+    "trailName": "58th St. Greenway",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/27/2020 5:00",
+    "trailName": "58th St. Greenway",
+    "bike": 1,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/27/2020 6:00",
+    "trailName": "58th St. Greenway",
+    "bike": 3,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/27/2020 7:00",
+    "trailName": "58th St. Greenway",
+    "bike": 6,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/27/2020 8:00",
+    "trailName": "58th St. Greenway",
+    "bike": 6,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/27/2020 9:00",
+    "trailName": "58th St. Greenway",
+    "bike": 7,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/27/2020 10:00",
+    "trailName": "58th St. Greenway",
+    "bike": 9,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/27/2020 11:00",
+    "trailName": "58th St. Greenway",
+    "bike": 7,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/27/2020 12:00",
+    "trailName": "58th St. Greenway",
+    "bike": 9,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/27/2020 13:00",
+    "trailName": "58th St. Greenway",
+    "bike": 10,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/27/2020 14:00",
+    "trailName": "58th St. Greenway",
+    "bike": 10,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/27/2020 15:00",
+    "trailName": "58th St. Greenway",
+    "bike": 6,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/27/2020 16:00",
+    "trailName": "58th St. Greenway",
+    "bike": 13,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/27/2020 17:00",
+    "trailName": "58th St. Greenway",
+    "bike": 12,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/27/2020 18:00",
+    "trailName": "58th St. Greenway",
+    "bike": 18,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/27/2020 19:00",
+    "trailName": "58th St. Greenway",
+    "bike": 13,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/27/2020 20:00",
+    "trailName": "58th St. Greenway",
+    "bike": 6,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/27/2020 21:00",
+    "trailName": "58th St. Greenway",
+    "bike": 5,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/27/2020 22:00",
+    "trailName": "58th St. Greenway",
+    "bike": 3,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/27/2020 23:00",
+    "trailName": "58th St. Greenway",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/28/2020 0:00",
+    "trailName": "58th St. Greenway",
+    "bike": 3,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/28/2020 1:00",
+    "trailName": "58th St. Greenway",
+    "bike": 1,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/28/2020 2:00",
+    "trailName": "58th St. Greenway",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/28/2020 3:00",
+    "trailName": "58th St. Greenway",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/28/2020 4:00",
+    "trailName": "58th St. Greenway",
+    "bike": 1,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/28/2020 5:00",
+    "trailName": "58th St. Greenway",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/28/2020 6:00",
+    "trailName": "58th St. Greenway",
+    "bike": 1,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/28/2020 7:00",
+    "trailName": "58th St. Greenway",
+    "bike": 5,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/28/2020 8:00",
+    "trailName": "58th St. Greenway",
+    "bike": 11,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/28/2020 9:00",
+    "trailName": "58th St. Greenway",
+    "bike": 4,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/28/2020 10:00",
+    "trailName": "58th St. Greenway",
+    "bike": 4,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/28/2020 11:00",
+    "trailName": "58th St. Greenway",
+    "bike": 9,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/28/2020 12:00",
+    "trailName": "58th St. Greenway",
+    "bike": 10,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/28/2020 13:00",
+    "trailName": "58th St. Greenway",
+    "bike": 10,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/28/2020 14:00",
+    "trailName": "58th St. Greenway",
+    "bike": 8,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/28/2020 15:00",
+    "trailName": "58th St. Greenway",
+    "bike": 9,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/28/2020 16:00",
+    "trailName": "58th St. Greenway",
+    "bike": 16,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/28/2020 17:00",
+    "trailName": "58th St. Greenway",
+    "bike": 24,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/28/2020 18:00",
+    "trailName": "58th St. Greenway",
+    "bike": 14,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/28/2020 19:00",
+    "trailName": "58th St. Greenway",
+    "bike": 8,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/28/2020 20:00",
+    "trailName": "58th St. Greenway",
+    "bike": 17,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/28/2020 21:00",
+    "trailName": "58th St. Greenway",
+    "bike": 5,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/28/2020 22:00",
+    "trailName": "58th St. Greenway",
+    "bike": 1,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/28/2020 23:00",
+    "trailName": "58th St. Greenway",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/29/2020 0:00",
+    "trailName": "58th St. Greenway",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/29/2020 1:00",
+    "trailName": "58th St. Greenway",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/29/2020 2:00",
+    "trailName": "58th St. Greenway",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/29/2020 3:00",
+    "trailName": "58th St. Greenway",
+    "bike": 2,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/29/2020 4:00",
+    "trailName": "58th St. Greenway",
+    "bike": 1,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/29/2020 5:00",
+    "trailName": "58th St. Greenway",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/29/2020 6:00",
+    "trailName": "58th St. Greenway",
+    "bike": 2,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/29/2020 7:00",
+    "trailName": "58th St. Greenway",
+    "bike": 2,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/29/2020 8:00",
+    "trailName": "58th St. Greenway",
+    "bike": 2,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/29/2020 9:00",
+    "trailName": "58th St. Greenway",
+    "bike": 8,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/29/2020 10:00",
+    "trailName": "58th St. Greenway",
+    "bike": 15,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/29/2020 11:00",
+    "trailName": "58th St. Greenway",
+    "bike": 7,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/29/2020 12:00",
+    "trailName": "58th St. Greenway",
+    "bike": 10,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/29/2020 13:00",
+    "trailName": "58th St. Greenway",
+    "bike": 7,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/29/2020 14:00",
+    "trailName": "58th St. Greenway",
+    "bike": 8,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/29/2020 15:00",
+    "trailName": "58th St. Greenway",
+    "bike": 8,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/29/2020 16:00",
+    "trailName": "58th St. Greenway",
+    "bike": 18,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/29/2020 17:00",
+    "trailName": "58th St. Greenway",
+    "bike": 18,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/29/2020 18:00",
+    "trailName": "58th St. Greenway",
+    "bike": 27,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/29/2020 19:00",
+    "trailName": "58th St. Greenway",
+    "bike": 22,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/29/2020 20:00",
+    "trailName": "58th St. Greenway",
+    "bike": 13,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/29/2020 21:00",
+    "trailName": "58th St. Greenway",
+    "bike": 14,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/29/2020 22:00",
+    "trailName": "58th St. Greenway",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/29/2020 23:00",
+    "trailName": "58th St. Greenway",
+    "bike": 3,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/30/2020 0:00",
+    "trailName": "58th St. Greenway",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/30/2020 1:00",
+    "trailName": "58th St. Greenway",
+    "bike": 1,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/30/2020 2:00",
+    "trailName": "58th St. Greenway",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/30/2020 3:00",
+    "trailName": "58th St. Greenway",
+    "bike": 2,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/30/2020 4:00",
+    "trailName": "58th St. Greenway",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/30/2020 5:00",
+    "trailName": "58th St. Greenway",
+    "bike": 1,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/30/2020 6:00",
+    "trailName": "58th St. Greenway",
+    "bike": 1,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/30/2020 7:00",
+    "trailName": "58th St. Greenway",
+    "bike": 4,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/30/2020 8:00",
+    "trailName": "58th St. Greenway",
+    "bike": 5,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/30/2020 9:00",
+    "trailName": "58th St. Greenway",
+    "bike": 8,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/30/2020 10:00",
+    "trailName": "58th St. Greenway",
+    "bike": 11,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/30/2020 11:00",
+    "trailName": "58th St. Greenway",
+    "bike": 14,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/30/2020 12:00",
+    "trailName": "58th St. Greenway",
+    "bike": 11,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/30/2020 13:00",
+    "trailName": "58th St. Greenway",
+    "bike": 14,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/30/2020 14:00",
+    "trailName": "58th St. Greenway",
+    "bike": 5,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/30/2020 15:00",
+    "trailName": "58th St. Greenway",
+    "bike": 12,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/30/2020 16:00",
+    "trailName": "58th St. Greenway",
+    "bike": 10,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/30/2020 17:00",
+    "trailName": "58th St. Greenway",
+    "bike": 14,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/30/2020 18:00",
+    "trailName": "58th St. Greenway",
+    "bike": 21,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/30/2020 19:00",
+    "trailName": "58th St. Greenway",
+    "bike": 12,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/30/2020 20:00",
+    "trailName": "58th St. Greenway",
+    "bike": 7,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/30/2020 21:00",
+    "trailName": "58th St. Greenway",
+    "bike": 6,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/30/2020 22:00",
+    "trailName": "58th St. Greenway",
+    "bike": 1,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/30/2020 23:00",
+    "trailName": "58th St. Greenway",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/31/2020 0:00",
+    "trailName": "58th St. Greenway",
+    "bike": 3,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/31/2020 1:00",
+    "trailName": "58th St. Greenway",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/31/2020 2:00",
+    "trailName": "58th St. Greenway",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/31/2020 3:00",
+    "trailName": "58th St. Greenway",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/31/2020 4:00",
+    "trailName": "58th St. Greenway",
+    "bike": 1,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/31/2020 5:00",
+    "trailName": "58th St. Greenway",
+    "bike": 1,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/31/2020 6:00",
+    "trailName": "58th St. Greenway",
+    "bike": 2,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/31/2020 7:00",
+    "trailName": "58th St. Greenway",
+    "bike": 7,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/31/2020 8:00",
+    "trailName": "58th St. Greenway",
+    "bike": 2,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/31/2020 9:00",
+    "trailName": "58th St. Greenway",
+    "bike": 7,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/31/2020 10:00",
+    "trailName": "58th St. Greenway",
+    "bike": 11,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/31/2020 11:00",
+    "trailName": "58th St. Greenway",
+    "bike": 13,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/31/2020 12:00",
+    "trailName": "58th St. Greenway",
+    "bike": 11,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/31/2020 13:00",
+    "trailName": "58th St. Greenway",
+    "bike": 9,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/31/2020 14:00",
+    "trailName": "58th St. Greenway",
+    "bike": 13,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/31/2020 15:00",
+    "trailName": "58th St. Greenway",
+    "bike": 5,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/31/2020 16:00",
+    "trailName": "58th St. Greenway",
+    "bike": 11,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/31/2020 17:00",
+    "trailName": "58th St. Greenway",
+    "bike": 19,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/31/2020 18:00",
+    "trailName": "58th St. Greenway",
+    "bike": 17,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/31/2020 19:00",
+    "trailName": "58th St. Greenway",
+    "bike": 12,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/31/2020 20:00",
+    "trailName": "58th St. Greenway",
+    "bike": 13,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/31/2020 21:00",
+    "trailName": "58th St. Greenway",
+    "bike": 1,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/31/2020 22:00",
+    "trailName": "58th St. Greenway",
+    "bike": 5,
+    "pedestrian": "",
+    "id": 7
+  },
+  {
+    "date": "7/31/2020 23:00",
+    "trailName": "58th St. Greenway",
+    "bike": 0,
+    "pedestrian": "",
+    "id": 7
+  }
+]

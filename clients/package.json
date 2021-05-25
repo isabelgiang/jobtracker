@@ -1,0 +1,41 @@
+{
+  "name": "project-2-wills0ng",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "firebase": "^7.24.0",
+    "font-awesome": "^4.7.0",
+    "plotly.js": "^1.58.2",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-plotly.js": "^2.5.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.4",
+    "reactstrap": "^8.7.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,166 @@
+
+/*
+header.jumbotron {
+    background-color: #2d708d;
+    color: white;
+}*/
+
+html, body, div#root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+nav {
+    background-color: #ddd;  
+    margin-bottom: 2em; 
+    padding: 1em;  
+}
+  
+nav h2 {
+    font-size: 1.25rem;
+}
+
+h1{
+    color: white;
+    font-family: Impact, Charcoal, sans-serif;
+    margin-bottom: 0%;
+}
+
+h2{
+    margin-top: .9em;
+    margin-bottom: .7em;
+}
+h3, li, ul{
+    margin-top: .9em;
+    margin-bottom: .7em;
+}
+p{
+    margin-top: 0em;
+    margin-bottom: .2em;
+}
+
+footer {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+
+/* Add drop shadow to cards */
+.card {
+    box-shadow: 4px 9px 10px -4px rgba(0,0,0,0.10), -4px 9px 10px -4px rgba(0,0,0,0.10);
+}
+
+/* keep images in check */
+.card-deck .card {
+    flex-basis: 200px;
+    margin-bottom: 30px;
+}
+
+.heart {
+    color:white;
+    text-shadow: 0px 0px 1px gray; /* To stand out on white background */
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+.favorited {
+	color: red;
+}
+
+.trail-status {
+    display: inline;
+    vertical-align: center;
+}
+
+/* Landing page styling */
+footer.landing {
+    display: block;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin-top: 5px;
+}
+small.landing {
+    color: white;
+}
+#landing-page-container {
+    height: 100%;
+    background-color: #fafafa;
+    text-align: center;
+    padding-top: 25vh;
+}
+h1.landing {  
+    font-size: 5em; 
+    color: black;
+}
+h2.landing {
+    font-size: 2em;
+    margin: 1em;
+    color: black;
+}
+p.landing > a.copyright-info {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    header {
+        background-image: url('/img/trees-m.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+    /* Landing page styling */
+    #landing-page-container{
+        background-image: url('/img/trees-m.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+    h1.landing, h2.landing {
+        color: white;
+    }
+    p.landing > a.copyright-info {
+        display: block;
+    }
+    /* Hide the tree icon if the background is showing */
+    #tree {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    header {
+        background-image: url('/img/trees-lg.jpg');
+    }
+    nav a{
+        font-size: 1.5rem;
+    }
+    h1 {
+        font-size: 5rem;
+    }
+    h2 {
+        font-size: 3rem;
+    }
+
+    /* Landing page styling */
+    #landing-page-container{
+        background-image: url('/img/trees-lg.jpg');
+    }
+    p.landing {
+        color: white;
+    }
+}
+
+@media (min-width: 1200px) {
+    header {
+        background-image: url('/img/trees-xl.jpg');
+    }
+    #landing-page-container{
+        background-image: url('/img/trees-xl.jpg');
+    }
+}

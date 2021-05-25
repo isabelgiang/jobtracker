@@ -1,0 +1,72 @@
+[
+  {
+    "trailName": "Fremont Bridge",
+    "id": 1,
+    "zipcode": 98103,
+    "description": "The bright blue and orange Fremont Bridge is one of Seattle's most distinctive pieces of infrastructure. Completed in 1917, the Fremont Bridge was was the first double leaf bascule drawbridge to be raised in the region, making it cutting edge for its time. A major overhaul of its approaches, decks, railings, and mechanical and electrical systems completed between 2005 and 2007 preserved the landmark, including the iconic paint job, but did little to change the distribution of transportation modes served by the bridge.",
+    "image": "fremont.jpg",
+    "address": "Fremont Bridge Seattle, WA 98103",
+    "bike": "Y",
+    "pedestrian": "N"
+  },
+  {
+    "trailName": "Chief Sealth Trail",
+    "id": 5,
+    "zipcode": 98118,
+    "description": "The Chief Sealth Trail is an urban gem! Four and a half miles of paved trail connect Jefferson Park with the Kubota Gardens and with expansive views all along the way. Opened in 2007, this trail connects the Beacon Hill neighborhood with the Rainier Beach area using the greenbelt under large powerlines. Along the way one passes by several large (and very productive) P-Patch gardens and as the trail meanders up and down the ridgeline hills, one has views of the Cascades, the Olympics, Mount Rainier, and Lake Washington.",
+    "image": "sealth.jpg",
+    "address": "S. Ferdinand Street at Beacon Avenue S.",
+    "bike": "Y",
+    "pedestrian": "Y"
+  },
+  {
+    "trailName": "Burke-Gilman Trail",
+    "id": 2,
+    "zipcode": 98105,
+    "description": "The Burke-Gilman Trail is a rail trail in King County, Washington. The 27-mile (43 km) multi-use recreational trail is part of the King County Regional Trail System and occupies an abandoned Seattle, Lake Shore and Eastern Railway corridor. The Burke-Gilman segment is managed by the City of Seattle south of NE 145th Street.",
+    "image": "bg.jpg",
+    "address": "Golden Gardens Park at Seaview Ave. NW (Seattle)",
+    "bike": "Y",
+    "pedestrian": "Y"
+  },
+  {
+    "trailName": "Broadway Cycle Track",
+    "id": 3,
+    "zipcode": 98122,
+    "description": "Broadway connects from Yesler Terrace and First Hill into the heart of Capitol Hill. It runs through some of the densest neighborhoods in the whole city and is lined with vital destinations of all kinds, from small businesses to grocery stores to major medical centers and colleges.",
+    "image": "broadway.jpg",
+    "address": "1425 Broadway #42, Seattle, WA 98122",
+    "bike": "Y",
+    "pedestrian": "N"
+  },
+  {
+    "trailName": "MTS Trail",
+    "id": 4,
+    "zipcode": 98144,
+    "description": "The I-90 Trail, known as the Mountain to Sound Greenway, or the John Wayne Trail, depending on how far east you are on the trail, is a long distance east-west trail that theoretically crosses Washington State. In practice, the going gets very difficult if not impossible beyond the Columbia River. Near Seattle it's generally called the I-90 trail because it follows the freeway.",
+    "image": "mts.jpg",
+    "address": "12th Ave. S. just south of I-90 near Sturgus Park (Seattle)",
+    "bike": "Y",
+    "pedestrian": "Y"
+  },
+  {
+    "trailName": "Spokane St. Bridge",
+    "id": 6,
+    "zipcode": 98106,
+    "description": "The Spokane Street Bridge, also known as the West Seattle Low-Level Bridge, is a concrete double-leaf swing bridge in Seattle, Washington. It carries Southwest Spokane Street over the Duwamish River, connecting Harbor Island to West Seattle. It has two separate end-to-end swing-span sections, each 480 ft. long.",
+    "image": "spokane.jpg",
+    "address": "3500 W Marginal Way SW. Seattle, WA 98106",
+    "bike": "Y",
+    "pedestrian": "N"
+  },
+  {
+    "trailName": "58th St. Greenway",
+    "id": 7,
+    "zipcode": 98107,
+    "description": "Ballard Commons Park is on the corner of an urban bike trail! It features a skate bowl, water feature, engaging public art, relaxing seating areas and lawns and ADA accessible walkways. The park forms part of a new municipal center in Ballard, with a Seattle Public Library branch and Neighborhood Service Center.",
+    "image": "ballard.jpg",
+    "address": "5701 22nd Ave NW, Seattle, WA 98107",
+    "bike": "Y",
+    "pedestrian": "N"
+  }
+]
