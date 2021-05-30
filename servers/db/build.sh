@@ -4,5 +4,5 @@
 scriptdir=$(dirname $0)
 cd $scriptdir
 
-docker build -t wills0ng/info441-postgresstore .
+docker build -t $DOCKER_USER/jobtracker-postgresstore .
 docker system prune -f
