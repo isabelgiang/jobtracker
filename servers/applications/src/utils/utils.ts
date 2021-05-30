@@ -60,11 +60,11 @@ export const GetStage = async (req : Request, res : Response, next : NextFunctio
         
         // Try querying stage from DB
         const query = `
-        SELECT s.*, a."userID"
-        FROM stages s
-        INNER JOIN applications a
-            ON s."applicationID" = a."applicationID"
-        WHERE s."stageID" = $1;
+        SELECT stages.*, applications."userID"
+        FROM stages
+        INNER JOIN applications
+            ON stages."applicationID" = applications.id
+        WHERE stages.id = $1;
         `
         let result;
         try {

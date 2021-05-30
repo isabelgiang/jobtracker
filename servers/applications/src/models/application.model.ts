@@ -1,8 +1,13 @@
 export interface Application {
-    applicationID: bigint;
+    id: bigint;
     userID: bigint;
-    positionID: bigint;
+    positionName: string;
+    positionURL?: string;
+    companyName: string;
+    location: string;
     status: string;
     dateApplied?: number;
     dateReplied?: number;
+    createdDate: number;
+    updatedDate: number;
 }

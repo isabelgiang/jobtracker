@@ -33,68 +33,33 @@ create table if not exists usersignins (
    - Freeform input: 4096
 */
 
-create table if not exists companies (
-    "companyID"       bigserial primary key,
-    "companyName"     varchar(128) not null,
-    "companyLogoURL"  varchar(255)
-);
-
-insert into companies ("companyName", "companyLogoURL")
-values ('TestCompany1', 'http://www.testcompany1.com/logourl');
-
-create table if not exists positiontags (
-    "positionTagID"   serial primary key,
-    tag               varchar(32)
-);
-
-insert into positiontags (tag)
-values ('TestTag');
-
-create table if not exists positions (
-    "positionID"       bigserial primary key,
-    "companyID"        bigint references companies("companyID") not null,
-    "positionName"     varchar(128) not null,
-    "positionTagIDs"   int[],
-    "experienceLevel"  varchar(32),
-    "positionURL"      varchar(255),
-    location           varchar(128),
-    season             varchar(32)
-);
-
-insert into positions ("companyID", "positionName")
-values (1, 'TestPosition1');
-
 create table if not exists applications (
-    "applicationID"  bigserial primary key,
-    "userID"         bigint references users(id) not null,
-    "positionID"     bigint references positions("positionID") not null,
-    status           varchar(128) not null,
-    "dateApplied"    timestamp,
-    "dateReplied"    timestamp
+    id              bigserial primary key,
+    "userID"        bigint references users(id) not null,
+    "positionName"  varchar(128) not null,
+    "positionURL"   varchar(255),
+    "companyName"   varchar(128) not null,
+    location        varchar(128),
+    status          varchar(32) not null,
+    "dateApplied"   timestamp,
+    "dateReplied"   timestamp,
+    "createdDate"   timestamp not null,
+    "updatedDate"   timestamp not null
 );
 
-insert into applications ("userID", "positionID", status)
-values (1, 1, 'TestStatus');
-
-create table if not exists stagetags (
-    "stageTagIDs"  serial primary key,
-    tag          varchar(32)
-);
-
-insert into stagetags (tag)
-values ('TestTag');
+insert into applications ("userID", "positionName", "companyName", status, "createdDate", "updatedDate")
+values (1, 'TestPositionName', 'TestCompanyName', 'TestStatus', now(), now());
 
 create table if not exists stages (
-    "stageID"        bigserial primary key,
-    "applicationID"  bigint references applications("applicationID") not null,
-    "stageTagIDs"    int[],
+    id               bigserial primary key,
+    "applicationID"  bigint references applications(id) not null,
     "stageType"      varchar(32) not null,
-    "stageDate"      timestamp,
-    "stageNum"       int not null,
-    "stageURL"       varchar(255),
-    duration         int not null,
-    notes            varchar(4096)
+    "stageDate"      timestamp not null,
+    "durationMins"   int not null,
+    notes            varchar(4096),
+    "createdDate"    timestamp not null,
+    "updatedDate"    timestamp not null
 );
 
-insert into stages ("applicationID", "stageType", "stageNum", duration)
-values (1, 'TestStageType', 1, 60);
+insert into stages ("applicationID", "stageType", "stageDate", "durationMins", "createdDate", "updatedDate")
+values (1, 'TestStageType', date '2021-06-03', 60, now(), now());
