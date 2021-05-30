@@ -7,7 +7,7 @@ import { logger } from './logger';
 import { pgPool } from '../database';
 
 
-export const queryUserProfile = async (id : string) : Promise<User> => {
+export const queryUserProfile = async (id : bigint) : Promise<User> => {
     let result;
     try {
         result = await pgPool.query('SELECT * FROM users WHERE id = $1', [id]);
@@ -75,8 +75,9 @@ export const GetApplication = async (req : Request, res : Response, next : NextF
             return;
         }
 
-        // Otherwise pass the application info to the next handler
+        // Otherwise pass the application and creatorID info to the next handler
         res.locals.application = application;
+        res.locals.creatorID = application.userID;
         next();
     } catch (err) {
         next(err);
@@ -105,14 +106,18 @@ export const GetStage = async (req : Request, res : Response, next : NextFunctio
         }
 
         // Pass an exception if the stage doesn't exist
-        const stage : Stage = result.rows[0];
-        if (isEmpty(stage)) {
+        const row = result.rows[0];
+        if (isEmpty(row)) {
             next(new HttpException(400, `stage with id ${stageID} doesn't exist`));
             return;
         }
 
-        // Otherwise pass the stage info to the next handler
+        // Otherwise destructure the row into userID and stage
+        const {userID, ...stage} = row;
+
+        // Then pass the stage and creatorID info to the next handler
         res.locals.stage = stage;
+        res.locals.creatorID = userID;
         next();
     } catch (err) {
         next(err);
@@ -121,14 +126,9 @@ export const GetStage = async (req : Request, res : Response, next : NextFunctio
 
 export const IsCreator = (req : Request, res : Response, next : NextFunction) => {
     try {
-        let resource : Application | Stage | undefined;
-        if (req.originalUrl.includes('applications/')) {
-            resource = res.locals.application;
-        } else if (req.originalUrl.includes('stages/')) {
-            resource = res.locals.stage;
-        }
-        if (!resource) {
-            next(new HttpException(500, 'resource was expected but not received'));
+        const creatorID : bigint = res.locals.creatorID
+        if (!creatorID) {
+            next(new HttpException(500, 'creatorID was expected but not received'));
             return;
         }
 
@@ -138,7 +138,7 @@ export const IsCreator = (req : Request, res : Response, next : NextFunction) =>
             return;
         }
 
-        if (resource.userID.toString() != user.id) {
+        if (creatorID != user.id) {
             next(new HttpException(403, 'user is not the creator of this stage'));
         }
         next();
@@ -147,7 +147,7 @@ export const IsCreator = (req : Request, res : Response, next : NextFunction) =>
     }
 }
 
-export const isEmpty = (value : string | number | object | Application | Stage | User | null | undefined) : boolean => {
+export const isEmpty = (value : string | number | bigint | object | Application | Stage | User | null | undefined) : boolean => {
     if (value === null) {
         return true;
     } else if (typeof value !== 'number' && value === '') {

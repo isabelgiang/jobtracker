@@ -29,7 +29,7 @@ export const ApplicationsHandler = {
     },
     // Put an application into the store
     post : async (req : Request, res : Response, next : NextFunction) => {
-        try { 
+        try {
             // Immediately error if the user wasn't successfully
             // passed from the GetUser middleware
             const user : User = res.locals.user;
@@ -39,7 +39,7 @@ export const ApplicationsHandler = {
             }
 
             // TODO: Validate request
-            
+
             // TODO: Create a new application in Postgres
             // logger.info(`user ${JSON.stringify(user)} is creating an application`);
             res.status(501).send('not implemented');

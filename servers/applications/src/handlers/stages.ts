@@ -52,8 +52,10 @@ export const SpecificStageHandler = {
                 return;
             }
             // TODO: Pass an error if the request is empty or has empty value
+
             // TODO: Update stage with requested values and return updated stage
             res.status(501).send('not implemented');
+
             // res.status(200).json(stage);
         } catch (err) {
             next(err);
