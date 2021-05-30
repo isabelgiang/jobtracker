@@ -47,6 +47,3 @@ export const testPostgresConnection = () => {
         });
     });
 }
-
-
-
