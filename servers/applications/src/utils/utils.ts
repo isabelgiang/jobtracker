@@ -139,7 +139,7 @@ export const IsCreator = (req : Request, res : Response, next : NextFunction) =>
         }
 
         if (creatorID != user.id) {
-            next(new HttpException(403, 'user is not the creator of this stage'));
+            next(new HttpException(403, 'user is not the creator of this resource'));
         }
         next();
     } catch (err) {
