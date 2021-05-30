@@ -2,7 +2,7 @@ import express from 'express';
 
 import { ApplicationsHandler, SpecificApplicationHandler } from "./handlers/applications";
 import { StagesHandler, SpecificStageHandler } from "./handlers/stages";
-import { GetUser, GetStage, IsCreator } from './utils/utils';
+import { GetUser, GetApplication, GetStage, IsCreator } from './utils/utils';
 import { testPostgresConnection } from "./database";
 
 import { logger } from './utils/logger';
@@ -46,6 +46,8 @@ class App {
 
         this.app.use(express.json());
         this.app.use(GetUser);
+        this.app.use("/v1/applications/:applicationID*", GetApplication, IsCreator);
+        this.app.use("/v1/stages/:stageID", GetStage, IsCreator);
     }
 
     private initializeHandlers() {
@@ -63,9 +65,9 @@ class App {
         this.app.post("/v1/applications/:applicationID/stages", StagesHandler.post);
 
         // /v1/stages/:stageID
-        this.app.get("/v1/stages/:stageID", GetStage, IsCreator, SpecificStageHandler.get);
-        this.app.patch("/v1/stages/:stageID", GetStage, IsCreator, SpecificStageHandler.patch);
-        this.app.delete("/v1/stages/:stageID", GetStage, IsCreator, SpecificStageHandler.delete);
+        this.app.get("/v1/stages/:stageID", SpecificStageHandler.get);
+        this.app.patch("/v1/stages/:stageID", SpecificStageHandler.patch);
+        this.app.delete("/v1/stages/:stageID",SpecificStageHandler.delete);
     }
 
     private initializeErrorHandling() {

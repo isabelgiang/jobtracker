@@ -14,7 +14,7 @@ export const queryUserProfile = async (id : string) : Promise<User> => {
     } catch (err) {
         throw new HttpException(500, `error querying from postgres: ${err}`);
     }
-    
+
     const userProfile : User = result.rows[0];
     if (isEmpty(userProfile)) {
         throw new HttpException(400, `user with id ${id} doesn't exist`);
@@ -53,11 +53,41 @@ export const GetUser = async (req : Request, res : Response, next : NextFunction
     }
 }
 
+export const GetApplication = async (req : Request, res : Response, next : NextFunction) => {
+    try {
+        // Look for application in DB using applicationID path param
+        const applicationID = req.params.applicationID;
+
+        // Try querying application from DB
+        const query = 'SELECT * FROM applications WHERE applications.id = $1;'
+        let result;
+        try {
+            result = await pgPool.query(query, [applicationID]);
+        } catch (err) {
+            next(new HttpException(500, `error querying from DB: ${err}`));
+            return;
+        }
+
+        // Pass an exception if the application doesn't exist
+        const application : Application = result.rows[0];
+        if (isEmpty(application)) {
+            next(new HttpException(400, `application with id ${applicationID} doesn't exist`));
+            return;
+        }
+
+        // Otherwise pass the application info to the next handler
+        res.locals.application = application;
+        next();
+    } catch (err) {
+        next(err);
+    }
+}
+
 export const GetStage = async (req : Request, res : Response, next : NextFunction) => {
     try {
         // Look for stage in DB using stageID path param
         const stageID = req.params.stageID;
-        
+
         // Try querying stage from DB
         const query = `
         SELECT stages.*, applications."userID"
@@ -73,14 +103,13 @@ export const GetStage = async (req : Request, res : Response, next : NextFunctio
             next(new HttpException(500, `error querying from DB: ${err}`));
             return;
         }
-    
+
         // Pass an exception if the stage doesn't exist
         const stage : Stage = result.rows[0];
         if (isEmpty(stage)) {
             next(new HttpException(400, `stage with id ${stageID} doesn't exist`));
             return;
         }
-        logger.info(`Retrieved stage info ${JSON.stringify(stage)} from DB.`)
 
         // Otherwise pass the stage info to the next handler
         res.locals.stage = stage;
@@ -93,9 +122,9 @@ export const GetStage = async (req : Request, res : Response, next : NextFunctio
 export const IsCreator = (req : Request, res : Response, next : NextFunction) => {
     try {
         let resource : Application | Stage | undefined;
-        if (req.path.includes('applications')) {
+        if (req.originalUrl.includes('applications/')) {
             resource = res.locals.application;
-        } else if (req.path.includes('stages')) {
+        } else if (req.originalUrl.includes('stages/')) {
             resource = res.locals.stage;
         }
         if (!resource) {
@@ -105,10 +134,10 @@ export const IsCreator = (req : Request, res : Response, next : NextFunction) =>
 
         const user : User = res.locals.user;
         if (!user) {
-            next(new HttpException(500, 'user was expected but not received')); 
+            next(new HttpException(500, 'user was expected but not received'));
             return;
         }
-        
+
         if (resource.userID.toString() != user.id) {
             next(new HttpException(403, 'user is not the creator of this stage'));
         }
