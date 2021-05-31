@@ -81,12 +81,33 @@ jobs:
       packages: write
     steps: 
     - uses: actions/checkout@v2
-    
-    - name: debug step
-      run: ls -l
+      with:
+          fetch-depth: 0
 
-    - name: Deploy web client to EC2 instance
+    - name: Get all changed files
+      id: changed-files
+      uses: tj-actions/changed-files@v6.3
+      with:
+        files: |
+          clients/src
+          default.conf
+          clients/public
+    
+    - name: Configure SSH
+      if: steps.changed-files.outputs.any_changed == 'true'
       run: |
-        TEMP=$(mktemp)
-        echo "${{ secrets.SSH_PRIVATE_KEY }}" > $TEMP
-        ssh -o 'StrictHostKeyChecking no' -i $TEMP ec2-user@${{ secrets.WEB_CLIENT_HOST }} 'bash -s' < ./update_web_client.sh
+        mkdir -p ~/.ssh/
+        echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/staging.key
+        chmod 600 ~/.ssh/staging.key
+        cat >>~/.ssh/config <<END
+        Host staging
+          HostName ${{ secrets.WEB_CLIENT_HOST }}
+          User ec2-user
+          IdentityFile ~/.ssh/staging.key
+          StrictHostKeyChecking no
+        END
+        
+    - name: SSH and deploy client
+      if: steps.changed-files.outputs.any_changed == 'true'
+      run: |
+        ssh staging < ./update_web_client.sh
