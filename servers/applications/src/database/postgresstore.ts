@@ -56,7 +56,7 @@ export default class PostgresStore implements Store {
     }
 
     // GetUser returns the User with the given id
-    async GetUser(id : bigint) : Promise<User> {
+    async GetUser(id : number) : Promise<User> {
         let result;
         try {
             result = await this.pool.query('SELECT * FROM users WHERE id = $1', [id]);
@@ -75,7 +75,7 @@ export default class PostgresStore implements Store {
     };
 
     // GetApplication returns the application with the given id
-    async GetApplication(id : bigint) : Promise<Application> {
+    async GetApplication(id : number) : Promise<Application> {
         const query = 'SELECT * FROM applications WHERE applications.id = $1;'
 
         // Try querying application from DB
@@ -103,18 +103,18 @@ export default class PostgresStore implements Store {
 
     // UpdateApplication updates the application for the given id with the given inputs
     // and returns the newly-updated application
-    async UpdateApplication(id : bigint, updates : ApplicationInputs) : Promise<Application> {
+    async UpdateApplication(id : number, updates : ApplicationInputs) : Promise<Application> {
 
     };
 
     // DeleteApplication deletes the application with the given id and its associated stages
-    async DeleteApplication(id : bigint) : Promise<void> {
+    async DeleteApplication(id : number) : Promise<void> {
 
     };
     */
 
     // GetApplicationStages returns the stages for the application with the given id
-    async GetApplicationStages(id : bigint) : Promise<Stage[]> {
+    async GetApplicationStages(id : number) : Promise<Stage[]> {
         // Try querying results from DB
         let result;
         try {
@@ -130,7 +130,7 @@ export default class PostgresStore implements Store {
     };
 
     // GetStage returns the stage with the given stageID, and its creator's id
-    async GetStage(id : bigint) : Promise<[Stage, bigint]> {
+    async GetStage(id : number) : Promise<[Stage, number]> {
         const query = `
         SELECT stages.*, applications."userID"
         FROM stages
@@ -159,7 +159,7 @@ export default class PostgresStore implements Store {
 
     // InsertStage inserts a new stage with the given inputs for the specified applicationID
     // and returns the newly-inserted stage, complete with the DBMS-assigned ID
-    async InsertStage(applicationID: bigint, inputs : StageInputs) : Promise<Stage> {
+    async InsertStage(applicationID: number, inputs : StageInputs) : Promise<Stage> {
         let result;
         try {
             const query = `
@@ -183,7 +183,7 @@ export default class PostgresStore implements Store {
 
     // UpdateStage updates the stage for the given id with the given inputs
     // and returns the newly-updated stage
-    async UpdateStage(id : bigint, updates : StageInputs) : Promise<Stage> {
+    async UpdateStage(id : number, updates : StageInputs) : Promise<Stage> {
         let result;
         try {
             const query = `
@@ -212,7 +212,7 @@ export default class PostgresStore implements Store {
     };
 
     // DeleteStage deletes the stage with the given id
-    async DeleteStage(id : bigint) : Promise<void> {
+    async DeleteStage(id : number) : Promise<void> {
         let result;
         try {
             const query = 'DELETE FROM stages WHERE id = $1;'

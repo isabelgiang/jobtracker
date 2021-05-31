@@ -1,15 +1,15 @@
 export interface Application {
-    id: bigint;
-    userID: bigint;
+    id: number;
+    userID: number;
     positionName: string;
     positionURL?: string;
     companyName: string;
     location: string;
     status: string;
-    dateApplied?: number;
-    dateReplied?: number;
-    createdDate: number;
-    updatedDate: number;
+    dateApplied?: Date;
+    dateReplied?: Date;
+    createdDate: Date;
+    updatedDate: Date;
 }
 
 export interface ApplicationInputs {
@@ -18,6 +18,6 @@ export interface ApplicationInputs {
     companyName: string;
     location: string;
     status: string;
-    dateApplied?: number;
-    dateReplied?: number;
+    dateApplied?: Date;
+    dateReplied?: Date;
 }
