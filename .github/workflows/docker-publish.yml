@@ -1,4 +1,4 @@
-name: Docker CI for Web Client
+name: Docker CI/CD for Web Client
 
 defaults:
   run:
@@ -82,3 +82,20 @@ jobs:
 
           docker tag $IMAGE_NAME $IMAGE_ID:$VERSION
           docker push $IMAGE_ID:$VERSION
+  deploy:
+    needs: push
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      packages: write
+    
+    - name: Deploy web client to EC2 instance
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.WEB_CLIENT_HOST }}
+        username: ec2-user
+        key: $${{ secrets.SSH_KEY }}
+        script: |
+          ./update_web_client.sh
+    
