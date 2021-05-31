@@ -1,5 +1,5 @@
 import { NextFunction, Request, Response } from 'express';
-import { Stage, StageInputs } from "../models/stage.model";
+import { Stage, StageInputs, ToStageInputs } from "../models/stage.model";
 import { HttpException } from "../utils/error";
 import { db } from '../database';
 import { logger } from '../utils/logger';
@@ -22,14 +22,7 @@ export const StagesHandler = {
     post : async (req : Request, res : Response, next : NextFunction) => {
         try {
             const applicationID = BigInt(req.params.applicationID);
-
-            // TODO: validate inputs, e.g. db.ToStage(stageInputs)
-            const stageInputs : StageInputs = {
-                stageType: req.body.stageType,
-                stageDate: req.body.stageDate,
-                durationMins: req.body.durationMins,
-                notes: req.body.notes
-            }
+            const stageInputs = ToStageInputs(req.body)
             const stage = await db.InsertStage(applicationID, stageInputs);
 
             // Return inserted stage as JSON
@@ -61,15 +54,7 @@ export const SpecificStageHandler = {
     patch : async (req : Request, res : Response, next : NextFunction) => {
         try {
             const stageID = BigInt(req.params.stageID);
-            // TODO: Validate request inputs
-
-            // TODO: Update stage with requested values and return updated stage
-            const stageInputs : StageInputs = {
-                stageType: req.body.stageType,
-                stageDate: req.body.stageDate,
-                durationMins: req.body.durationMins,
-                notes: req.body.notes
-            }
+            const stageInputs = ToStageInputs(req.body)
             const stage = await db.UpdateStage(stageID, stageInputs);
 
             res.status(200).json(stage);
