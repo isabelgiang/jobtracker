@@ -65,8 +65,8 @@ export const SpecificStageHandler = {
     // Delete a stage
     delete : async (req : Request, res : Response, next : NextFunction) => {
         try {
-            const stageID = req.params.stageID;
-            await db.DeleteStage;
+            const stageID = parseInt(req.params.stageID);
+            await db.DeleteStage(stageID);
             res.status(200).send('stage deleted successfully');
         } catch (err) {
             next(err);
