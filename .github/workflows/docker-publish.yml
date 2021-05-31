@@ -1,21 +1,10 @@
-name: Docker CI/CD for Web Client
+name: Docker CI for Web Client
 
 defaults:
   run:
     working-directory: ./clients
-on:
-  push:
-    # Publish `main` as Docker `latest` image.
-    branches:
-      - main
-
-    # Publish `v1.2.3` tags as releases.
-    tags:
-      - v*
-
-  # Run tests for any PRs.
-  pull_request:
-
+    
+on: [push]
 env:
   IMAGE_NAME: web-client
   REPO_NAME: hollowsunsets
@@ -34,34 +23,34 @@ jobs:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
-          
+      
       - name: Get all changed files
-        id: web-client-files
+        id: changed-files
         uses: tj-actions/changed-files@v6.3
         with:
           files: |
             clients/src
             default.conf
             clients/public
-            
-      - name: Install NPM packages:
-        if: steps.web-client-files.output.any_changed == 'true'
+           
+      - name: Install NPM packages
+        if: steps.changed-files.outputs.any_changed == 'true'
         run: npm ci
-        
+      
       - name: Build React app
-        if: steps.web-client-files.output.any_changed == 'true'
+        if: steps.changed-files.outputs.any_changed == 'true'
         run: CI=false npm run build
-        
+
       - name: Build image
-        if: steps.web-client-files.output.any_changed == 'true'
+        if: steps.changed-files.outputs.any_changed == 'true'
         run: docker build . --file Dockerfile --tag $IMAGE_NAME
 
       - name: Log into registry
-        if: steps.web-client-files.output.any_changed == 'true'
+        if: steps.changed-files.outputs.any_changed == 'true'
         run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}"  --password-stdin
 
       - name: Push image
-        if: steps.web-client-files.output.any_changed == 'true'
+        if: steps.changed-files.outputs.any_changed == 'true'
         run: |
           IMAGE_ID=$REPO_NAME/$IMAGE_NAME
 
@@ -82,6 +71,7 @@ jobs:
 
           docker tag $IMAGE_NAME $IMAGE_ID:$VERSION
           docker push $IMAGE_ID:$VERSION
+
   deploy:
     needs: push
     runs-on: ubuntu-latest
@@ -89,13 +79,14 @@ jobs:
     permissions:
       contents: read
       packages: write
+    steps: 
+    - uses: actions/checkout@v2
     
+    - name: debug step
+      run: ls -l
+
     - name: Deploy web client to EC2 instance
-      uses: appleboy/ssh-action@master
-      with:
-        host: ${{ secrets.WEB_CLIENT_HOST }}
-        username: ec2-user
-        key: $${{ secrets.SSH_KEY }}
-        script: |
-          ./update_web_client.sh
-    
+      run: |
+        TEMP=$(mktemp)
+        echo "${{ secrets.SSH_PRIVATE_KEY }}" > $TEMP
+        ssh -o 'StrictHostKeyChecking no' -i $TEMP ec2-user@${{ secrets.WEB_CLIENT_HOST }} 'bash -s' < ./update_web_client.sh
