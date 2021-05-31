@@ -3,7 +3,7 @@ import express from 'express';
 import { ApplicationsHandler, SpecificApplicationHandler } from "./handlers/applications";
 import { StagesHandler, SpecificStageHandler } from "./handlers/stages";
 import { GetUser, GetApplication, GetStage, IsCreator } from './utils/utils';
-import { testPostgresConnection } from "./database";
+import { db } from "./database";
 
 import { logger } from './utils/logger';
 import morganBody from 'morgan-body';
@@ -13,7 +13,7 @@ class App {
     public app: express.Application;
     public port: string | number;
     public env: string;
-    
+
     constructor() {
         this.app = express();
         this.port = process.env.PORT || 4000;
@@ -27,7 +27,7 @@ class App {
 
     public listen() {
         this.app.listen(this.port , () => {
-            logger.info(`server listening on port ${this.port}`);  
+            logger.info(`server listening on port ${this.port}`);
         });
     }
 
@@ -36,7 +36,7 @@ class App {
     }
 
     private connectToDatabases() {
-        testPostgresConnection();
+        db.Connect();
     }
 
     private initializeMiddleware() {
@@ -54,12 +54,12 @@ class App {
         // /v1/users/:userID/applications
         this.app.get("/v1/users/:userID/applications", ApplicationsHandler.get);
         this.app.post("/v1/users/:userID/applications", ApplicationsHandler.post);
-        
+
         // /v1/applications/:applicationID
         this.app.get("/v1/applications/:applicationID", SpecificApplicationHandler.get);
         this.app.patch("/v1/applications/:applicationID", SpecificApplicationHandler.patch);
         this.app.delete("/v1/applications/:applicationID", SpecificApplicationHandler.delete);
-    
+
         // /v1/applications/:applicationID/stages
         this.app.get("/v1/applications/:applicationID/stages", StagesHandler.get);
         this.app.post("/v1/applications/:applicationID/stages", StagesHandler.post);

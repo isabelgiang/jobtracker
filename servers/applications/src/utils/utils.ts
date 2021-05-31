@@ -1,29 +1,11 @@
-import { NextFunction, Request, Response } from 'express';
+import { application, NextFunction, Request, Response } from 'express';
 import { Application } from "../models/application.model";
 import { Stage } from "../models/stage.model";
 import { User } from "../models/user.model";
 import { HttpException } from "./error";
 import { logger } from './logger';
-import { pgPool } from '../database';
+import { db } from '../database';
 
-
-export const queryUserProfile = async (id : bigint) : Promise<User> => {
-    let result;
-    try {
-        result = await pgPool.query('SELECT * FROM users WHERE id = $1', [id]);
-    } catch (err) {
-        throw new HttpException(500, `error querying from postgres: ${err}`);
-    }
-
-    const userProfile : User = result.rows[0];
-    if (isEmpty(userProfile)) {
-        throw new HttpException(400, `user with id ${id} doesn't exist`);
-    }
-    if (isEmpty(userProfile.email)) {
-        throw new HttpException(500, `email is missing for user with id ${id}`);
-    }
-    return userProfile;
-}
 
 export const GetUser = async (req : Request, res : Response, next : NextFunction) => {
     let user : User;
@@ -44,7 +26,7 @@ export const GetUser = async (req : Request, res : Response, next : NextFunction
             return;
         }
         // Get email from user store
-        const userProfile = await queryUserProfile(user.id);
+        const userProfile = await db.GetUser(user.id);
         user.email = userProfile.email;
         res.locals.user = user;
         next();
@@ -56,26 +38,10 @@ export const GetUser = async (req : Request, res : Response, next : NextFunction
 export const GetApplication = async (req : Request, res : Response, next : NextFunction) => {
     try {
         // Look for application in DB using applicationID path param
-        const applicationID = req.params.applicationID;
+        const applicationID = BigInt(req.params.applicationID);
+        const application : Application = await db.GetApplication(applicationID);
 
-        // Try querying application from DB
-        const query = 'SELECT * FROM applications WHERE applications.id = $1;'
-        let result;
-        try {
-            result = await pgPool.query(query, [applicationID]);
-        } catch (err) {
-            next(new HttpException(500, `error querying from DB: ${err}`));
-            return;
-        }
-
-        // Pass an exception if the application doesn't exist
-        const application : Application = result.rows[0];
-        if (isEmpty(application)) {
-            next(new HttpException(400, `application with id ${applicationID} doesn't exist`));
-            return;
-        }
-
-        // Otherwise pass the application and creatorID info to the next handler
+        // Pass the application and creatorID info to the next handler
         res.locals.application = application;
         res.locals.creatorID = application.userID;
         next();
@@ -87,37 +53,12 @@ export const GetApplication = async (req : Request, res : Response, next : NextF
 export const GetStage = async (req : Request, res : Response, next : NextFunction) => {
     try {
         // Look for stage in DB using stageID path param
-        const stageID = req.params.stageID;
-
-        // Try querying stage from DB
-        const query = `
-        SELECT stages.*, applications."userID"
-        FROM stages
-        INNER JOIN applications
-            ON stages."applicationID" = applications.id
-        WHERE stages.id = $1;
-        `
-        let result;
-        try {
-            result = await pgPool.query(query, [stageID]);
-        } catch (err) {
-            next(new HttpException(500, `error querying from DB: ${err}`));
-            return;
-        }
-
-        // Pass an exception if the stage doesn't exist
-        const row = result.rows[0];
-        if (isEmpty(row)) {
-            next(new HttpException(400, `stage with id ${stageID} doesn't exist`));
-            return;
-        }
-
-        // Otherwise destructure the row into userID and stage
-        const {userID, ...stage} = row;
+        const stageID = BigInt(req.params.stageID);
+        const [stage, creatorID] = await db.GetStage(stageID);
 
         // Then pass the stage and creatorID info to the next handler
         res.locals.stage = stage;
-        res.locals.creatorID = userID;
+        res.locals.creatorID = creatorID;
         next();
     } catch (err) {
         next(err);
