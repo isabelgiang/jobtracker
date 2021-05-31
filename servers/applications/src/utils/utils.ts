@@ -38,7 +38,7 @@ export const GetUser = async (req : Request, res : Response, next : NextFunction
 export const GetApplication = async (req : Request, res : Response, next : NextFunction) => {
     try {
         // Look for application in DB using applicationID path param
-        const applicationID = BigInt(req.params.applicationID);
+        const applicationID = parseInt(req.params.applicationID);
         const application : Application = await db.GetApplication(applicationID);
 
         // Pass the application and creatorID info to the next handler
@@ -53,7 +53,7 @@ export const GetApplication = async (req : Request, res : Response, next : NextF
 export const GetStage = async (req : Request, res : Response, next : NextFunction) => {
     try {
         // Look for stage in DB using stageID path param
-        const stageID = BigInt(req.params.stageID);
+        const stageID = parseInt(req.params.stageID);
         const [stage, creatorID] = await db.GetStage(stageID);
 
         // Then pass the stage and creatorID info to the next handler
@@ -67,7 +67,7 @@ export const GetStage = async (req : Request, res : Response, next : NextFunctio
 
 export const IsCreator = (req : Request, res : Response, next : NextFunction) => {
     try {
-        const creatorID : bigint = res.locals.creatorID
+        const creatorID : number = res.locals.creatorID
         if (!creatorID) {
             next(new HttpException(500, 'creatorID was expected but not received'));
             return;
@@ -88,7 +88,7 @@ export const IsCreator = (req : Request, res : Response, next : NextFunction) =>
     }
 }
 
-export const isEmpty = (value : string | number | bigint | object | Application | Stage | User | null | undefined) : boolean => {
+export const isEmpty = (value : string | number | object | Application | Stage | User | null | undefined) : boolean => {
     if (value === null) {
         return true;
     } else if (typeof value !== 'number' && value === '') {

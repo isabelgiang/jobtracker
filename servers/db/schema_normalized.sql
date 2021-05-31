@@ -3,7 +3,7 @@
    These limits are not enforced in user.go
 */
 create table if not exists users (
-    id         bigserial    primary key,
+    id         serial       primary key,
     email      varchar(320) unique       not null, /* https://tools.ietf.org/html/rfc3696 */
     passhash   bytea                     not null,
     username   varchar(255) unique       not null,
@@ -20,8 +20,8 @@ insert into users (email, passhash, username, firstname, lastname, photourl)
 values ('test2@test.com', 'passhash', 'test2', 'test', 'test', 'photourl');
 
 create table if not exists usersignins (
-    id          bigserial primary key,
-    userid      bigserial not null,
+    id          serial primary key,
+    userid      int not null,
     signintime  timestamp not null,
     IP          varchar(45) not null
 );
@@ -34,7 +34,7 @@ create table if not exists usersignins (
 */
 
 create table if not exists companies (
-    "companyID"       bigserial primary key,
+    "companyID"       serial primary key,
     "companyName"     varchar(128) not null,
     "companyLogoURL"  varchar(255)
 );
@@ -51,8 +51,8 @@ insert into positiontags (tag)
 values ('TestTag');
 
 create table if not exists positions (
-    "positionID"       bigserial primary key,
-    "companyID"        bigint references companies("companyID") not null,
+    "positionID"       serial primary key,
+    "companyID"        int references companies("companyID") not null,
     "positionName"     varchar(128) not null,
     "positionTagIDs"   int[],
     "experienceLevel"  varchar(32),
@@ -65,9 +65,9 @@ insert into positions ("companyID", "positionName")
 values (1, 'TestPosition1');
 
 create table if not exists applications (
-    "applicationID"  bigserial primary key,
-    "userID"         bigint references users(id) not null,
-    "positionID"     bigint references positions("positionID") not null,
+    "applicationID"  serial primary key,
+    "userID"         int references users(id) not null,
+    "positionID"     int references positions("positionID") not null,
     status           varchar(128) not null,
     "dateApplied"    timestamp,
     "dateReplied"    timestamp
@@ -85,8 +85,8 @@ insert into stagetags (tag)
 values ('TestTag');
 
 create table if not exists stages (
-    "stageID"        bigserial primary key,
-    "applicationID"  bigint references applications("applicationID") not null,
+    "stageID"        serial primary key,
+    "applicationID"  int references applications("applicationID") not null,
     "stageTagIDs"    int[],
     "stageType"      varchar(32) not null,
     "stageDate"      timestamp,

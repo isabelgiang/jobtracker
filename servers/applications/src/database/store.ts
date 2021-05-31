@@ -9,10 +9,10 @@ export interface Store {
     Connect(dsn : string) : void;
 
     // GetUser returns the User with the given id
-    GetUser(id : bigint) : Promise<User>;
+    GetUser(id : number) : Promise<User>;
 
     // GetApplication returns the application with the given id
-    GetApplication(id : bigint) : Promise<Application>;
+    GetApplication(id : number) : Promise<Application>;
 
     /*
     // InsertApplication inserts a new application with the given inputs
@@ -21,26 +21,26 @@ export interface Store {
 
     // UpdateApplication updates the application for the given id with the given inputs
     // and returns the newly-updated application
-    UpdateApplication(id : bigint, updates : ApplicationInputs) : Promise<Application>;
+    UpdateApplication(id : number, updates : ApplicationInputs) : Promise<Application>;
 
     // DeleteApplication deletes the application with the given id and its associated stages
-    DeleteApplication(id : bigint) : Promise<void>;
+    DeleteApplication(id : number) : Promise<void>;
     */
 
     // GetApplicationStages returns the stages for the application with the given id
-    GetApplicationStages(id : bigint) : Promise<Stage[]>;
+    GetApplicationStages(id : number) : Promise<Stage[]>;
 
     // GetStage returns the stage with the given stageID, and its creator's id
-    GetStage(id : bigint) : Promise<[Stage, bigint]>;
+    GetStage(id : number) : Promise<[Stage, number]>;
 
     // InsertStage inserts a new stage with the given inputs for the specified applicationID
     // and returns the newly-inserted stage, complete with the DBMS-assigned ID
-    InsertStage(applicationID: bigint, inputs : StageInputs) : Promise<Stage>;
+    InsertStage(applicationID: number, inputs : StageInputs) : Promise<Stage>;
 
     // UpdateStage updates the stage for the given id with the given inputs
     // and returns the newly-updated stage
-    UpdateStage(id : bigint, updates : StageInputs) : Promise<Stage>;
+    UpdateStage(id : number, updates : StageInputs) : Promise<Stage>;
 
     // DeleteStage deletes the stage with the given id
-    DeleteStage(id : bigint) : Promise<void>;
+    DeleteStage(id : number) : Promise<void>;
 }

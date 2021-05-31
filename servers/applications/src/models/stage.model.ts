@@ -3,8 +3,8 @@ import { isEmpty } from "../utils/utils";
 
 // Stage is an interface for the fields of a stage in the DB
 export interface Stage {
-    id: bigint;
-    applicationID: bigint;
+    id: number;
+    applicationID: number;
     stageType: string;
     stageDate: number;
     durationMins: number;

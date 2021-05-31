@@ -3,7 +3,7 @@
    These limits are not enforced in user.go
 */
 create table if not exists users (
-    id         bigserial    primary key,
+    id         serial       primary key,
     email      varchar(320) unique       not null, /* https://tools.ietf.org/html/rfc3696 */
     passhash   bytea                     not null,
     username   varchar(255) unique       not null,
@@ -20,8 +20,8 @@ insert into users (email, passhash, username, firstname, lastname, photourl)
 values ('test2@test.com', 'passhash', 'test2', 'test', 'test', 'photourl');
 
 create table if not exists usersignins (
-    id          bigserial primary key,
-    userid      bigserial not null,
+    id          serial primary key,
+    userid      int not null,
     signintime  timestamp not null,
     IP          varchar(45) not null
 );
@@ -34,8 +34,8 @@ create table if not exists usersignins (
 */
 
 create table if not exists applications (
-    id              bigserial primary key,
-    "userID"        bigint references users(id) not null,
+    id              serial primary key,
+    "userID"        int references users(id) not null,
     "positionName"  varchar(128) not null,
     "positionURL"   varchar(255),
     "companyName"   varchar(128) not null,
@@ -51,8 +51,8 @@ insert into applications ("userID", "positionName", "companyName", status, "crea
 values (1, 'TestPositionName', 'TestCompanyName', 'TestStatus', now(), now());
 
 create table if not exists stages (
-    id               bigserial primary key,
-    "applicationID"  bigint references applications(id) not null,
+    id               serial primary key,
+    "applicationID"  int references applications(id) not null,
     "stageType"      varchar(32) not null,
     "stageDate"      timestamp not null,
     "durationMins"   int not null,

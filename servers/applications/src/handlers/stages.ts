@@ -9,7 +9,7 @@ export const StagesHandler = {
     // Read all stages for an application
     get : async (req : Request, res : Response, next : NextFunction) => {
         try {
-            const applicationID = BigInt(req.params.applicationID);
+            const applicationID = parseInt(req.params.applicationID);
             const stages = await db.GetApplicationStages(applicationID);
 
             // Return array of stages as JSON
@@ -21,7 +21,7 @@ export const StagesHandler = {
     // Put a stage into the store
     post : async (req : Request, res : Response, next : NextFunction) => {
         try {
-            const applicationID = BigInt(req.params.applicationID);
+            const applicationID = parseInt(req.params.applicationID);
             const stageInputs = ToStageInputs(req.body)
             const stage = await db.InsertStage(applicationID, stageInputs);
 
@@ -53,7 +53,7 @@ export const SpecificStageHandler = {
     // Update a stage
     patch : async (req : Request, res : Response, next : NextFunction) => {
         try {
-            const stageID = BigInt(req.params.stageID);
+            const stageID = parseInt(req.params.stageID);
             const stageInputs = ToStageInputs(req.body)
             const stage = await db.UpdateStage(stageID, stageInputs);
 
