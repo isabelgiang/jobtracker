@@ -1,10 +1,15 @@
-name: Docker CI for Web Client
+name: Docker CI/CD for Web Client
 
 defaults:
   run:
     working-directory: ./clients
     
-on: [push]
+on: 
+  push:
+    branches:
+      - main
+  # Run tests for any PR
+  pull_request:
 env:
   IMAGE_NAME: web-client
   REPO_NAME: hollowsunsets
