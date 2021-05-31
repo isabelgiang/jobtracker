@@ -2,7 +2,7 @@ name: Docker CI for Web Client
 
 defaults:
   run:
-    working-directory: clients
+    working-directory: ./clients
 on:
   push:
     # Publish `main` as Docker `latest` image.
@@ -32,14 +32,36 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-
+        with:
+          fetch-depth: 0
+          
+      - name: Get all changed files
+        id: web-client-files
+        uses: tj-actions/changed-files@v6.3
+        with:
+          files: |
+            clients/src
+            default.conf
+            clients/public
+            
+      - name: Install NPM packages:
+        if: steps.web-client-files.output.any_changed == 'true'
+        run: npm ci
+        
+      - name: Build React app
+        if: steps.web-client-files.output.any_changed == 'true'
+        run: CI=false npm run build
+        
       - name: Build image
+        if: steps.web-client-files.output.any_changed == 'true'
         run: docker build . --file Dockerfile --tag $IMAGE_NAME
 
       - name: Log into registry
+        if: steps.web-client-files.output.any_changed == 'true'
         run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}"  --password-stdin
 
       - name: Push image
+        if: steps.web-client-files.output.any_changed == 'true'
         run: |
           IMAGE_ID=$REPO_NAME/$IMAGE_NAME
 
