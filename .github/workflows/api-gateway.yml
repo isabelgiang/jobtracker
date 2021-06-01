@@ -6,9 +6,9 @@ defaults:
     
 on: [ push ]
   push:
-   branches:
-     - main
-  Run tests for any PR
+  branches:
+    - main
+  # Run tests for any PR
   pull_request:
 env:
   API_GATEWAY_IMAGE_NAME: api-gateway 
