@@ -1,0 +1,44 @@
+[
+  {
+    "companyName": "Google",
+    "id": 1,
+    "status": "Open",
+    "image": "fremont.jpg",
+    "positionName": "Software Development Intern - Google Cloud"
+  },
+  {
+    "companyName": "Microsoft",
+    "id": 5,
+    "status": "Open",
+    "image": "sealth.jpg",
+    "positionName": "Software Develpment Intern - Azure"
+  },
+  {
+    "companyName": "Amazon",
+    "id": 2,
+    "status": "Interview",
+    "image": "bg.jpg",
+    "positionName": "Software Develpment Intern - AWS"
+  },
+  {
+    "companyName": "Facebook",
+    "id": 3,
+    "status": "Rejected",
+    "image": "broadway.jpg",
+    "positionName": "Data Science Intern"
+  },
+  {
+    "companyName": "Expedia",
+    "id": 4,
+    "status": "Open",
+    "image": "mts.jpg",
+    "positionName": "Product Management Intern"
+  },
+  {
+    "companyName": "Boeing",
+    "id": 6,
+    "status": "Interview",
+    "image": "spokane.jpg",
+    "positionName": "Research and Develpment Intern"
+  }
+]

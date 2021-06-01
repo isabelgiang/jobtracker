@@ -1,9 +1,9 @@
 import firebase from 'firebase/app';
 import React, { useState, useEffect }from 'react';
 import { Route , Switch, Redirect } from 'react-router-dom';
-import AboutTrailPage from './components/AboutTrailPage';
+import ApplicationPage from './components/ApplicationPage';
 import LandingPage from './components/LandingPage';
-import TrailsPage from './components/TrailsPage';
+import Dashboard from './components/Dashboard';
 import SignInPage from './components/SignInPage';
 
 export default function App(props) {
@@ -11,7 +11,7 @@ export default function App(props) {
   const [user, setUser] = useState(undefined);
   const [isLoading, setIsLoading] = useState(true);
 
-  let trails = props.info;
+  let applications = props.applications;
 
   //A callback function for registering new users
   const handleSignUp = (email, password, displayName) => {
@@ -73,25 +73,25 @@ export default function App(props) {
   function renderSignInPage(props) {
     return <SignInPage {...props} signInCallback={handleSignIn} signUpCallback={handleSignUp} />
   }
-  function renderTrailsPage(props) {
-    return <TrailsPage {...props} trails={trails} currentUser={user} signOutCallback={handleSignOut} />
+  function renderDashboard(props) {
+    return <Dashboard {...props} applications={applications} currentUser={user} signOutCallback={handleSignOut} />
   }
-  function renderAboutTrailPage(props) {
-    return <AboutTrailPage {...props} trails={trails} />
+  function renderApplicationPage(props) {
+    return <ApplicationPage {...props} applications={applications} />
   }
 
   return (
     <Switch>
       <Route exact path="/">
-        { user ? <Redirect to="/trails" /> : LandingPage }
+        { user ? <Redirect to="/dashboard" /> : LandingPage }
       </Route>
       <Route path="/sign-in">
-        { user ? <Redirect to="/trails" /> : renderSignInPage }
+        { user ? <Redirect to="/dashboard" /> : renderSignInPage }
       </Route>
-      <Route exact path="/trails">
-        { user ? renderTrailsPage : <Redirect to="/" /> }
+      <Route exact path="/dashboard">
+        { user ? renderDashboard : <Redirect to="/" /> }
       </Route>
-      <Route path="/trails/:trailname" render={renderAboutTrailPage} />
+      <Route path="/applications/:applicationID" render={renderApplicationPage} />
       <Redirect to="/" />
     </Switch>
   );
