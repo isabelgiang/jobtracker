@@ -1,0 +1,216 @@
+name: CI/CD for API Gateway
+
+defaults:
+  run:
+    working-directory: ./servers
+    
+on: 
+  push:
+    branches:
+      - main
+  # Run tests for any PR
+  pull_request:
+env:
+  API_GATEWAY_IMAGE_NAME: api-gateway 
+  DATABASE_IMAGE_NAME: postgres
+  REPO_NAME: hollowsunsets
+
+jobs:
+  build_api_gateway: 
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push'
+    
+    permissions:
+      contents: read
+      packages: write
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      
+      - name: Get API gateway changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v6.3
+        with:
+          files: |
+            gateway/
+            docker-compose.yml
+      
+      - name: Build API server image
+        if: steps.changed-files.outputs.any_changed == 'true'
+        run: gateway/build.sh $API_GATEWAY_IMAGE_NAME
+       
+      - name: Get PostgreSQL database changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v6.3
+        with:
+          files: |
+            db/
+
+  
+  build_database: 
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push'
+    
+    permissions:
+      contents: read
+      packages: write
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      
+      - name: Get PostgreSQL database changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v6.3
+        with:
+          files: |
+            db/
+
+      - name: Build database image
+        if: steps.changed-files.outputs.any_changed == 'true':
+        run: docker build . --file Dockerfile --tag $DATABASE_IMAGE_NAME 
+  
+  push_api_gateway:
+    needs: build_api_gateway
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push'
+
+    permissions:
+      contents: read
+      packages: write
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      
+      - name: Get API gateway changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v6.3
+        with:
+          files: |
+            gateway/
+            docker-compose.yml
+      
+      - name: Log into registry
+        if: steps.changed-files.outputs.any_changed == 'true'
+        run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}"  --password-stdin
+
+      - name: Push API gateway image
+        if: steps.changed-files.outputs.any_changed == 'true'
+        run: |
+          IMAGE_ID=$REPO_NAME/$IMAGE_NAME
+
+          # Change all uppercase to lowercase
+          IMAGE_ID=$(echo $IMAGE_ID | tr '[A-Z]' '[a-z]')
+
+          # Strip git ref prefix from version
+          VERSION=$(echo "${{ github.ref }}" | sed -e 's,.*/\(.*\),\1,')
+
+          # Strip "v" prefix from tag name
+          [[ "${{ github.ref }}" == "refs/tags/"* ]] && VERSION=$(echo $VERSION | sed -e 's/^v//')
+
+          # Use Docker `latest` tag convention
+          [ "$VERSION" == "main" ] && VERSION=latest
+
+          echo IMAGE_ID=$IMAGE_ID
+          echo VERSION=$VERSION
+
+          docker tag $IMAGE_NAME $IMAGE_ID:$VERSION
+          docker push $IMAGE_ID:$VERSION
+
+  push_database:
+    needs: build
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push'
+
+    permissions:
+      contents: read
+      packages: write
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      
+      - name: Get database changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v6.3
+        with:
+          files: |
+            db/ 
+      - name: Log into registry
+        if: steps.changed-files.outputs.any_changed == 'true'
+        run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}"  --password-stdin
+
+      - name: Push database image
+        if: steps.changed-files.outputs.any_changed == 'true'
+        run: |
+          IMAGE_ID=$REPO_NAME/$DATABASE_IMAGE_NAME
+
+          # Change all uppercase to lowercase
+          IMAGE_ID=$(echo $IMAGE_ID | tr '[A-Z]' '[a-z]')
+
+          # Strip git ref prefix from version
+          VERSION=$(echo "${{ github.ref }}" | sed -e 's,.*/\(.*\),\1,')
+
+          # Strip "v" prefix from tag name
+          [[ "${{ github.ref }}" == "refs/tags/"* ]] && VERSION=$(echo $VERSION | sed -e 's/^v//')
+
+          # Use Docker `latest` tag convention
+          [ "$VERSION" == "main" ] && VERSION=latest
+
+          echo IMAGE_ID=$IMAGE_ID
+          echo VERSION=$VERSION
+
+          docker tag $IMAGE_NAME $IMAGE_ID:$VERSION
+          docker push $IMAGE_ID:$VERSION
+  deploy:
+    needs:
+      - push_database
+      - push_api_gateway
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      packages: write
+    steps: 
+    - uses: actions/checkout@v2
+      with:
+          fetch-depth: 0
+
+    - name: Get all changed files
+      id: changed-files
+      uses: tj-actions/changed-files@v6.3
+      with:
+        files: |
+          db/
+          gateway/
+          docker-compose.yml
+
+    - name: Configure SSH
+      if: steps.changed-files.outputs.any_changed == 'true'
+      run: |
+        mkdir -p ~/.ssh/
+        echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/staging.key
+        chmod 600 ~/.ssh/staging.key
+        cat >>~/.ssh/config <<END
+        Host staging
+          HostName ${{ secrets.WEB_CLIENT_HOST }}
+          User ec2-user
+          IdentityFile ~/.ssh/staging.key
+          StrictHostKeyChecking no
+        END
+       
+    - name: Copy docker-compose files over SSH
+      if: steps.changed-files.outputs.any_changed == 'true'
+      run: |
+        scp staging docker-compose.*:/home/ec2-user 
+
+    - name: Deploy client over SSH
+      if: steps.changed-files.outputs.any_changed == 'true'
+      run: |
+        ssh staging < ./update_api_gateway.sh
