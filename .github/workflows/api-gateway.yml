@@ -159,8 +159,8 @@ jobs:
     - name: Copy docker-compose files over SSH
       # if: steps.changed-files.outputs.any_changed == 'true'
       run: |
-        scp staging docker-compose.yaml:/home/ec2-user 
-        scp staging docker-compose.prod.yaml:/home/ec2-user 
+        scp docker-compose.yaml:/home/ec2-user 
+        scp docker-compose.prod.yaml:/home/ec2-user 
 
     - name: Deploy client over SSH
       # if: steps.changed-files.outputs.any_changed == 'true'
