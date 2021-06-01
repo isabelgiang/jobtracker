@@ -22,7 +22,7 @@ describe('ToStageInputs()', () => {
       ${{notes: " notes "}} | ${{notes: "notes"}}   | ${"trim notes with whitespace"}
       ${{notes: undefined}} | ${{notes: undefined}} | ${"accept undefined notes"}
       ${{notes: ""}}        | ${{notes: undefined}} | ${"accept empty string notes and convert to undefined"}
-      ${{notes: null}}      | ${{notes: undefined}} | ${"accept null notes ancd convert to undefined"}
+      ${{notes: null}}      | ${{notes: undefined}} | ${"accept null notes and convert to undefined"}
     `('should $label', ({bodyChanges, expectedResultChanges}) => {
         const body = { ...baseBody, ...bodyChanges }
         const expectedResult = { ...baseExpectedResult, ...expectedResultChanges }
