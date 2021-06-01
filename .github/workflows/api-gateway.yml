@@ -6,8 +6,8 @@ defaults:
     
 on:
   push:
-  branches:
-    - main
+    branches:
+      - main
   # Run tests for any PR
   pull_request:
 env:
