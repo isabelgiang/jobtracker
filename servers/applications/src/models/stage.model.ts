@@ -67,7 +67,6 @@ export function ToStageInputs(body : any) : StageInputs {
         // Convert null to undefined
         if (body.notes === null) {
             body.notes = undefined;
-
         }
         // Handle various string inputs
         else if (typeof body.notes === "string") {
