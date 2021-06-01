@@ -9,8 +9,6 @@ import App from './App';
 import './index.css';
 import APPLICATIONS from './data/applications.json';
 
-import 'font-awesome/css/font-awesome.css'; //using FA 4.7 atm
-
 const firebaseConfig = {
     apiKey: "AIzaSyC-ZwwK1bVE9YT51KxWwhmXLIreFC1-AtU",
     authDomain: "trailfinder-9f4d2.firebaseapp.com",
