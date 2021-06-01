@@ -5,6 +5,7 @@ services:
     depends_on:
       - postgres
       - redis
+      - applications
     container_name: job-tracker-api-gateway
     image: hollowsunsets/api-gateway
     ports:
@@ -15,6 +16,11 @@ services:
       - POSTGRES_PASSWORD=postgres
       - APPLICATIONADDR=http://applicationMicroservice
       - DSN=postgres://postgres:%s@postgresStore:5432/postgres?sslmode=disable
+  applications:
+    depends_on: 
+      - postgres
+    container_name: job-tracker-applications-microservice
+    image: hollowsunsets/applications-microservice
   postgres:
     container_name: job-tracker-postgres-container
     image: hollowsunsets/postgres
