@@ -6,10 +6,10 @@ services:
       context: .
       dockerfile: gateway/Dockerfile
     environment:
-      - TLSCERT="/certs/fullchain.pem"
-      - TLSKEY="/certs/privkey.pem"
+      - TLSCERT=/certs/fullchain.pem
+      - TLSKEY=/certs/privkey.pem
     volumes:
-      - "./gateway/certs:/certs"
+      - ./gateway/certs:/certs
   postgres:
     build:
       context: .
