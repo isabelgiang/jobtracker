@@ -4,12 +4,12 @@ defaults:
   run:
     working-directory: ./servers
     
-on: 
-  push:
-    branches:
-      - main
+on: [ push ]
+  # push:
+  #  branches:
+  #    - main
   # Run tests for any PR
-  pull_request:
+  # pull_request:
 env:
   API_GATEWAY_IMAGE_NAME: api-gateway 
   DATABASE_IMAGE_NAME: postgres
