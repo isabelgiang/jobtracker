@@ -13,6 +13,7 @@ on:
 env:
   API_GATEWAY_IMAGE_NAME: api-gateway 
   DATABASE_IMAGE_NAME: postgres
+  APPLICATIONS_IMAGE_NAME: applications-microservice
   REPO_NAME: hollowsunsets
 
 jobs:
@@ -28,10 +29,6 @@ jobs:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
-      
-      - name: Build API server image
-        if: steps.changed-files.outputs.any_changed == 'true'
-        run: gateway/build.sh $API_GATEWAY_IMAGE_NAME
 
       - name: Get API gateway changed files
         id: changed-files
@@ -40,6 +37,10 @@ jobs:
           files: |
             gateway/
             docker-compose.yml
+            
+      - name: Build API server image
+        if: steps.changed-files.outputs.any_changed == 'true'
+        run: gateway/build.sh $API_GATEWAY_IMAGE_NAME
       
       - name: Log into registry
         if: steps.changed-files.outputs.any_changed == 'true'
@@ -80,17 +81,16 @@ jobs:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
-      
-      - name: Build database image
-        if: steps.changed-files.outputs.any_changed == 'true'
-        run: ./db/build.sh 
-      
       - name: Get database changed files
         id: changed-files
         uses: tj-actions/changed-files@v6.3
         with:
           files: |
             db/ 
+      
+      - name: Build database image
+        if: steps.changed-files.outputs.any_changed == 'true'
+        run: ./db/build.sh
       - name: Log into registry
         if: steps.changed-files.outputs.any_changed == 'true'
         run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}"  --password-stdin
@@ -117,10 +117,62 @@ jobs:
 
           docker tag $DATABASE_IMAGE_NAME $IMAGE_ID:$VERSION
           docker push $IMAGE_ID:$VERSION
+          
+  push_applications:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push'
+
+    permissions:
+      contents: read
+      packages: write
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Get applications microservice changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v6.3
+        with:
+          files: |
+            applications/
+            
+      - name: Build applications microservice image
+        if: steps.changed-files.outputs.any_changed == 'true'
+        run: gateway/build.sh $APPLICATIONS_IMAGE_NAME
+      
+      - name: Log into registry
+        if: steps.changed-files.outputs.any_changed == 'true'
+        run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}"  --password-stdin
+
+      - name: Push applications microservice image
+        if: steps.changed-files.outputs.any_changed == 'true'
+        run: |
+          IMAGE_ID=$REPO_NAME/$APPLICATIONS_IMAGE_NAME
+
+          # Change all uppercase to lowercase
+          IMAGE_ID=$(echo $IMAGE_ID | tr '[A-Z]' '[a-z]')
+
+          # Strip git ref prefix from version
+          VERSION=$(echo "${{ github.ref }}" | sed -e 's,.*/\(.*\),\1,')
+
+          # Strip "v" prefix from tag name
+          [[ "${{ github.ref }}" == "refs/tags/"* ]] && VERSION=$(echo $VERSION | sed -e 's/^v//')
+
+          # Use Docker `latest` tag convention
+          [ "$VERSION" == "main" ] && VERSION=latest
+
+          echo IMAGE_ID=$IMAGE_ID
+          echo VERSION=$VERSION
+
+          docker tag $APPLICATIONS_IMAGE_NAME $IMAGE_ID:$VERSION
+          docker push $IMAGE_ID:$VERSION
   deploy:
     needs:
       - push_database
       - push_api_gateway
+      - push_applications
     runs-on: ubuntu-latest
 
     permissions:
@@ -138,6 +190,7 @@ jobs:
         files: |
           db/
           gateway/
+          applications/
           docker-compose.yml
 
     - name: Configure SSH
