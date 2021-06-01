@@ -70,7 +70,7 @@ jobs:
             db/
 
       - name: Build database image
-        if: steps.changed-files.outputs.any_changed == 'true':
+        if: steps.changed-files.outputs.any_changed == 'true'
         run: docker build . --file Dockerfile --tag $DATABASE_IMAGE_NAME 
   
   push_api_gateway:
