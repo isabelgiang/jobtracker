@@ -5,11 +5,11 @@ defaults:
     working-directory: ./servers
     
 on: [ push ]
-  # push:
-  #  branches:
-  #    - main
-  # Run tests for any PR
-  # pull_request:
+  push:
+   branches:
+     - main
+  Run tests for any PR
+  pull_request:
 env:
   API_GATEWAY_IMAGE_NAME: api-gateway 
   DATABASE_IMAGE_NAME: postgres
@@ -28,10 +28,9 @@ jobs:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
-      - run: ls -lart 
       
       - name: Build API server image
-        # if: steps.changed-files.outputs.any_changed == 'true'
+        if: steps.changed-files.outputs.any_changed == 'true'
         run: gateway/build.sh $API_GATEWAY_IMAGE_NAME
 
       - name: Get API gateway changed files
@@ -43,11 +42,11 @@ jobs:
             docker-compose.yml
       
       - name: Log into registry
-        # if: steps.changed-files.outputs.any_changed == 'true'
+        if: steps.changed-files.outputs.any_changed == 'true'
         run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}"  --password-stdin
 
       - name: Push API gateway image
-        # if: steps.changed-files.outputs.any_changed == 'true'
+        if: steps.changed-files.outputs.any_changed == 'true'
         run: |
           IMAGE_ID=$REPO_NAME/$API_GATEWAY_IMAGE_NAME
 
@@ -83,7 +82,7 @@ jobs:
           fetch-depth: 0
       
       - name: Build database image
-        # if: steps.changed-files.outputs.any_changed == 'true'
+        if: steps.changed-files.outputs.any_changed == 'true'
         run: ./db/build.sh 
       
       - name: Get database changed files
@@ -93,11 +92,11 @@ jobs:
           files: |
             db/ 
       - name: Log into registry
-        # if: steps.changed-files.outputs.any_changed == 'true'
+        if: steps.changed-files.outputs.any_changed == 'true'
         run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}"  --password-stdin
 
       - name: Push database image
-        # if: steps.changed-files.outputs.any_changed == 'true'
+        if: steps.changed-files.outputs.any_changed == 'true'
         run: |
           IMAGE_ID=$REPO_NAME/$DATABASE_IMAGE_NAME
 
@@ -131,7 +130,6 @@ jobs:
     - uses: actions/checkout@v2
       with:
           fetch-depth: 0
-    - run: ls -lart 
 
     - name: Get all changed files
       id: changed-files
@@ -143,7 +141,7 @@ jobs:
           docker-compose.yml
 
     - name: Configure SSH
-      # if: steps.changed-files.outputs.any_changed == 'true'
+      if: steps.changed-files.outputs.any_changed == 'true'
       run: |
         mkdir -p ~/.ssh/
         echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/staging.key
@@ -163,6 +161,6 @@ jobs:
       # scp docker-compose.prod.yml /home/ec2-user 
 
     - name: Deploy client over SSH
-      # if: steps.changed-files.outputs.any_changed == 'true'
+      if: steps.changed-files.outputs.any_changed == 'true'
       run: |
         ssh staging < ./update_api_gateway.sh
