@@ -38,7 +38,7 @@ jobs:
             docker-compose.yml
       
       - name: Build API server image
-        if: steps.changed-files.outputs.any_changed == 'true'
+        # if: steps.changed-files.outputs.any_changed == 'true'
         run: gateway/build.sh $API_GATEWAY_IMAGE_NAME
        
 
@@ -64,7 +64,7 @@ jobs:
             db/
 
       - name: Build database image
-        if: steps.changed-files.outputs.any_changed == 'true'
+        # if: steps.changed-files.outputs.any_changed == 'true'
         run: docker build . --file Dockerfile --tag $DATABASE_IMAGE_NAME 
   
   push_api_gateway:
@@ -91,11 +91,11 @@ jobs:
             docker-compose.yml
       
       - name: Log into registry
-        if: steps.changed-files.outputs.any_changed == 'true'
+        # if: steps.changed-files.outputs.any_changed == 'true'
         run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}"  --password-stdin
 
       - name: Push API gateway image
-        if: steps.changed-files.outputs.any_changed == 'true'
+        # if: steps.changed-files.outputs.any_changed == 'true'
         run: |
           IMAGE_ID=$REPO_NAME/$IMAGE_NAME
 
@@ -138,11 +138,11 @@ jobs:
           files: |
             db/ 
       - name: Log into registry
-        if: steps.changed-files.outputs.any_changed == 'true'
+        # if: steps.changed-files.outputs.any_changed == 'true'
         run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}"  --password-stdin
 
       - name: Push database image
-        if: steps.changed-files.outputs.any_changed == 'true'
+        # if: steps.changed-files.outputs.any_changed == 'true'
         run: |
           IMAGE_ID=$REPO_NAME/$DATABASE_IMAGE_NAME
 
@@ -188,7 +188,7 @@ jobs:
           docker-compose.yml
 
     - name: Configure SSH
-      if: steps.changed-files.outputs.any_changed == 'true'
+      # if: steps.changed-files.outputs.any_changed == 'true'
       run: |
         mkdir -p ~/.ssh/
         echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/staging.key
@@ -202,11 +202,11 @@ jobs:
         END
        
     - name: Copy docker-compose files over SSH
-      if: steps.changed-files.outputs.any_changed == 'true'
+      # if: steps.changed-files.outputs.any_changed == 'true'
       run: |
         scp staging docker-compose.*:/home/ec2-user 
 
     - name: Deploy client over SSH
-      if: steps.changed-files.outputs.any_changed == 'true'
+      # if: steps.changed-files.outputs.any_changed == 'true'
       run: |
         ssh staging < ./update_api_gateway.sh
