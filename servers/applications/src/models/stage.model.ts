@@ -63,8 +63,28 @@ export function ToStageInputs(body : any) : StageInputs {
     if (body.durationMins < 1) {
         throw new HttpException(400, 'durationMins must be positive');
     }
-    if (body.notes.length > 4000) {
-        throw new HttpException(400, 'notes cannot exceed 4000 characters');
+    if (body.notes !== undefined) {
+        // Convert null to undefined
+        if (body.notes === null) {
+            body.notes = undefined;
+
+        }
+        // Handle various string inputs
+        else if (typeof body.notes === "string") {
+            if (body.notes.length > 4000) {
+                throw new HttpException(400, 'notes cannot exceed 4000 characters');
+            }
+            // Convert empty or whitespace-only notes to undefined
+            else if (!body.notes.trim()) {
+                body.notes = undefined;
+            } else {
+                body.notes = body.notes.trim()
+            }
+        }
+        // If notes are not undefined, null, or string, throw an HttpException
+        else {
+            throw new HttpException(400, 'notes should be a string');
+        }
     }
 
     const stageInputs : StageInputs = {
