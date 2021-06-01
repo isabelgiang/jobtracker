@@ -16,57 +16,6 @@ env:
   REPO_NAME: hollowsunsets
 
 jobs:
-  build_api_gateway: 
-    runs-on: ubuntu-latest
-    if: github.event_name == 'push'
-    
-    permissions:
-      contents: read
-      packages: write
-
-    steps:
-      - uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
-      - run: ls -lart 
-      - name: Get API gateway changed files
-        id: changed-files
-        uses: tj-actions/changed-files@v6.3
-        with:
-          files: |
-            gateway/
-            docker-compose.yml
-      
-      - name: Build API server image
-        # if: steps.changed-files.outputs.any_changed == 'true'
-        run: gateway/build.sh $API_GATEWAY_IMAGE_NAME
-       
-
-  
-  build_database: 
-    runs-on: ubuntu-latest
-    if: github.event_name == 'push'
-    
-    permissions:
-      contents: read
-      packages: write
-
-    steps:
-      - uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
-      
-      - name: Get PostgreSQL database changed files
-        id: changed-files
-        uses: tj-actions/changed-files@v6.3
-        with:
-          files: |
-            db/
-
-      - name: Build database image
-        # if: steps.changed-files.outputs.any_changed == 'true'
-        run: ./db/build.sh 
-  
   push_api_gateway:
     needs: build_api_gateway
     runs-on: ubuntu-latest
@@ -81,6 +30,10 @@ jobs:
         with:
           fetch-depth: 0
       - run: ls -lart 
+      
+      - name: Build API server image
+        # if: steps.changed-files.outputs.any_changed == 'true'
+        run: gateway/build.sh $API_GATEWAY_IMAGE_NAME
 
       - name: Get API gateway changed files
         id: changed-files
@@ -130,6 +83,10 @@ jobs:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
+      
+      - name: Build database image
+        # if: steps.changed-files.outputs.any_changed == 'true'
+        run: ./db/build.sh 
       
       - name: Get database changed files
         id: changed-files
