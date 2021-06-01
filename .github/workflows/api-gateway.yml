@@ -140,7 +140,7 @@ jobs:
             
       - name: Build applications microservice image
         if: steps.changed-files.outputs.any_changed == 'true'
-        run: gateway/build.sh $APPLICATIONS_IMAGE_NAME
+        run: applications/build.sh
       
       - name: Log into registry
         if: steps.changed-files.outputs.any_changed == 'true'
