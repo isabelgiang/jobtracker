@@ -156,11 +156,11 @@ jobs:
           StrictHostKeyChecking no
         END
        
-    - name: Copy docker-compose files over SSH
+        # - name: Copy docker-compose files over SSH
       # if: steps.changed-files.outputs.any_changed == 'true'
-      run: |
-        scp docker-compose.yml /home/ec2-user 
-        scp docker-compose.prod.yml /home/ec2-user 
+      # run: |
+      # scp docker-compose.yml /home/ec2-user 
+      # scp docker-compose.prod.yml /home/ec2-user 
 
     - name: Deploy client over SSH
       # if: steps.changed-files.outputs.any_changed == 'true'
