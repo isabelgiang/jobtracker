@@ -3,7 +3,7 @@ version: "3.9"
 services:
   gateway:
     environment:
-      - TLSCERT="/etc/letsencrypt/live/api.jobtracker.fyi/fullchain.pem"
-      - TLSKEY="/etc/letsencrypt/live/api.jobtracker.fyi/privkey.pem"
+      - TLSCERT=/etc/letsencrypt/live/api.jobtracker.fyi/fullchain.pem
+      - TLSKEY=/etc/letsencrypt/live/api.jobtracker.fyi/privkey.pem
     volumes:
-      - "/etc/letsencrypt:/etc/letsencrypt:ro"
+      - /etc/letsencrypt:/etc/letsencrypt:ro
