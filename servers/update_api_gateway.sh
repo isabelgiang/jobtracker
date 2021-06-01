@@ -1,11 +1,8 @@
 #!/bin/bash
 
-docker pull hollowsunsets/api-gateway
-docker pull hollowsunsets/postgres
+# Pull down the most recent versions of all containers
+docker-compose pull
 
-# Remove all containers and stop all running services
-docker-compose down
-
-# Restart all containers and start all services again
+# Restart oudated running containers
 docker-compose -f docker-compose.yml -f docker-compose.prod.yml up -d
 exit 0
