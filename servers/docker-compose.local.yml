@@ -1,0 +1,16 @@
+version: "3.9"
+
+services:
+  gateway:
+    build:
+      context: .
+      dockerfile: gateway/Dockerfile
+    environment:
+      - TLSCERT="/certs/fullchain.pem"
+      - TLSKEY="/certs/privkey.pem"
+    volumes:
+      - "./gateway/certs:/certs"
+  postgres:
+    build:
+      context: .
+      dockerfile: db/Dockerfile
