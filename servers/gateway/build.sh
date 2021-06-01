@@ -2,9 +2,8 @@
 
 # cd to current script directory
 scriptdir=$(dirname $0)
+image_name = $1
 cd $scriptdir
 
 GOOS=linux go build
-docker build -t wills0ng/info441-api-gateway-server .
-go clean
-docker system prune -f
+docker build -t $image_name .
