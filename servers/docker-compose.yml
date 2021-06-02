@@ -11,7 +11,7 @@ services:
     ports:
       - "443:443"
     environment:
-      - REDISADDR=6379
+      - REDISADDR=job-tracker-redis-container:6379
       - SESSIONKEY=sessionkey
       - POSTGRES_PASSWORD=postgres
       - APPLICATIONADDR=http://job-tracker-applications-microservice
