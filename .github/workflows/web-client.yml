@@ -34,9 +34,7 @@ jobs:
         uses: tj-actions/changed-files@v6.3
         with:
           files: |
-            clients/src
-            default.conf
-            clients/public
+            clients/
            
       - name: Install NPM packages
         if: steps.changed-files.outputs.any_changed == 'true'
@@ -94,9 +92,7 @@ jobs:
       uses: tj-actions/changed-files@v6.3
       with:
         files: |
-          clients/src
-          default.conf
-          clients/public
+          clients/
     
     - name: Configure SSH
       if: steps.changed-files.outputs.any_changed == 'true'

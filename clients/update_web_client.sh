@@ -1,5 +1,4 @@
 #!/bin/bash
-
 export HOSTNAME="jobtracker.fyi"
 export TLSCERT="/etc/letsencrypt/live/$HOSTNAME/fullchain.pem"
 export TLSKEY="/etc/letsencrypt/live/$HOSTNAME/privkey.pem"

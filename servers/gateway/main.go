@@ -103,8 +103,9 @@ func main() {
 		"SESSIONKEY",        // Key for signing and validating session IDs
 		"DSN",               // Data source name to pass to SQL connection
 		"POSTGRES_PASSWORD", // Password for Postgres user store
-		"MESSAGESADDR",      // Comma-delimited list of network addresses where the messaging microservice instances are listening
-		"SUMMARYADDR",       // Comma-delimited list of network addresses where the page summary microservice instances are listening
+		//	"MESSAGESADDR",      // Comma-delimited list of network addresses where the messaging microservice instances are listening
+		//	"SUMMARYADDR",       // Comma-delimited list of network addresses where the page summary microservice instances are listening
+		"APPLICATIONADDR", // Comma-delimited list of network addresses where the applications microservice instances are listening
 	}
 	// These are all required, so check that they are set correctly
 	for _, v := range envVars {
@@ -142,12 +143,14 @@ func main() {
 	}
 
 	// Create URLs for proxies
-	messagesURLs := getURLs(env["MESSAGESADDR"])
-	summaryURLs := getURLs(env["SUMMARYADDR"])
+	applicationsURLs := getURLs(env["APPLICATIONADDR"])
+	// messagesURLs := getURLs(env["MESSAGESADDR"])
+	// summaryURLs := getURLs(env["SUMMARYADDR"])
 
 	// Create reverse proxies
-	messagesProxy := &httputil.ReverseProxy{Director: CustomDirector(messagesURLs, ctx)}
-	summaryProxy := &httputil.ReverseProxy{Director: CustomDirector(summaryURLs, ctx)}
+	applicationsProxy := &httputil.ReverseProxy{Director: CustomDirector(applicationsURLs, ctx)}
+	// messagesProxy := &httputil.ReverseProxy{Director: CustomDirector(messagesURLs, ctx)}
+	// summaryProxy := &httputil.ReverseProxy{Director: CustomDirector(summaryURLs, ctx)}
 
 	// Create mux and handle various endpoints
 	mux := http.NewServeMux()
@@ -155,10 +158,14 @@ func main() {
 	mux.HandleFunc("/v1/users/", ctx.SpecificUserHandler)
 	mux.HandleFunc("/v1/sessions", ctx.SessionsHandler)
 	mux.HandleFunc("/v1/sessions/", ctx.SpecificSessionHandler)
-	mux.Handle("/v1/channels", messagesProxy)
-	mux.Handle("/v1/channels/", messagesProxy)
-	mux.Handle("/v1/messages/", messagesProxy)
-	mux.Handle("/v1/summary", summaryProxy)
+	mux.Handle("/v1/applications", applicationsProxy)
+	mux.Handle("/v1/applications/", applicationsProxy)
+	mux.Handle("/v1/stages", applicationsProxy)
+	mux.Handle("/v1/stages/", applicationsProxy)
+	// mux.Handle("/v1/channels", messagesProxy)
+	// mux.Handle("/v1/channels/", messagesProxy)
+	// mux.Handle("/v1/messages/", messagesProxy)
+	// mux.Handle("/v1/summary", summaryProxy)
 
 	// Add CORS middleware
 	corsMux := handlers.NewHandlerCORS(mux)
