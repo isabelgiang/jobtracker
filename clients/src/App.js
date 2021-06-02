@@ -1,98 +1,133 @@
-import firebase from 'firebase/app';
-import React, { useState, useEffect }from 'react';
+import React, { Component } from 'react';
 import { Route , Switch, Redirect } from 'react-router-dom';
-import ApplicationPage from './components/ApplicationPage';
-import LandingPage from './components/LandingPage';
-import DashboardPage from './components/DashboardPage';
-import SignInPage from './components/SignInPage';
+import Auth from './Components/Auth/Auth';
+import PageTypes from './Constants/PageTypes/PageTypes';
+import Main from './Components/Main/Main';
+import LandingPage from './Components/LandingPage';
+import DashboardPage from './Components/DashboardPage';
+import ApplicationPage from './Components/ApplicationPage';
+import './Styles/App.css';
+import api from './Constants/APIEndpoints/APIEndpoints';
 
-export default function App(props) {
-  const [errorMessage, setErrorMessage] = useState(undefined);
-  const [user, setUser] = useState(undefined);
-  const [isLoading, setIsLoading] = useState(true);
-
-  let applications = props.applications;
-
-  //A callback function for registering new users
-  const handleSignUp = (email, password, displayName) => {
-    setErrorMessage(null); //clear any old errors
-    let profileInfo = {
-      displayName: displayName
-    };
-    firebase.auth().createUserWithEmailAndPassword(email, password)
-      .then((userCredentials) => {
-          let firebaseUser = userCredentials.user; //access the newly created user
-          setUser(firebaseUser); //
-          return firebaseUser.updateProfile(profileInfo);
-      })
-      .then(() => {
-        let updatedUser = {
-          ...user,
-          ...profileInfo
+class App extends Component {
+    constructor() {
+        super();
+        this.state = {
+            page: localStorage.getItem("Authorization") ? PageTypes.signedInMain : PageTypes.signIn,
+            authToken: localStorage.getItem("Authorization") || null,
+            user: null
         }
-        setUser(updatedUser);
-      })
-      .catch((error) => { //report any errors
-          setErrorMessage(error.message);
-      });
-  }
 
-  //A callback function for signing in existing users
-  const handleSignIn = (email, password) => {
-    setErrorMessage(null); //clear any old errors
-    firebase.auth().signInWithEmailAndPassword(email, password)
-      .catch((error) => {
-        setErrorMessage(error.message);
-      });
-  }
+        this.getCurrentUser()
+    }
 
-  // Effect hook for handling authentication events
-  useEffect(() => {
-    let unregisterAuthStateListener = firebase.auth().onAuthStateChanged((firebaseUser) => {
-      if (firebaseUser) {
-        setUser(firebaseUser);
-      } else {
-        setUser(undefined);
+    /**
+     * @description Gets the users
+     */
+    getCurrentUser = async () => {
+        if (!this.state.authToken) {
+            return;
+        }
+        const response = await fetch(api.base + api.handlers.myuser, {
+            headers: new Headers({
+                "Authorization": this.state.authToken
+            })
+        });
+        if (response.status >= 300) {
+            alert("Unable to verify login. Logging out...");
+            localStorage.setItem("Authorization", "");
+            this.setAuthToken("");
+            this.setUser(null)
+            return;
+        }
+        const user = await response.json()
+        this.setUser(user);
+
+    }
+
+    /**
+     * @description sets the page type to sign in
+     */
+    setPageToSignIn = (e) => {
+        e.preventDefault();
+        this.setState({ page: PageTypes.signIn });
+    }
+
+    /**
+     * @description sets the page type to sign up
+     */
+    setPageToSignUp = (e) => {
+        e.preventDefault();
+        this.setState({ page: PageTypes.signUp });
+    }
+
+    setPage = (e, page) => {
+        e.preventDefault();
+        this.setState({ page });
+    }
+
+    /**
+     * @description sets auth token
+     */
+    setAuthToken = (authToken) => {
+        this.setState({ authToken, page: authToken === "" ? PageTypes.signIn : PageTypes.signedInMain });
+    }
+
+    /**
+     * @description sets the user
+     */
+    setUser = (user) => {
+        this.setState({ user });
+    }
+
+    handleSignOut = () => {
+        console.log('Signing out... not!');
       }
-      setIsLoading(false);
-    });
-    return unregisterAuthStateListener;
-  }, [user]);
 
 
-  //A callback function for signing out the current user
-  const handleSignOut = () => {
-    setErrorMessage(null); //clear any old errors
-    firebase.auth().signOut()
-      .catch((error) => {
-        setErrorMessage(error.message);
-      });
-  }
+    renderLandingPage = () => {
+        return <LandingPage />
+    }
 
-  // Render functions
-  function renderSignInPage(props) {
-    return <SignInPage {...props} signInCallback={handleSignIn} signUpCallback={handleSignUp} />
-  }
-  function renderDashboardPage(props) {
-    return <DashboardPage {...props} applications={applications} currentUser={user} signOutCallback={handleSignOut} />
-  }
-  function renderApplicationPage(props) {
-    return <ApplicationPage {...props} applications={applications} />
-  }
+    renderAuthPage = () => {
+        return <Auth
+            page={this.state.page}
+            setPage={this.setPage}
+            setAuthToken={this.setAuthToken}
+            setUser={this.setUser}
+        />
+    }
 
-  return (
-    <Switch>
-      <Route exact path="/">
-        { user ? <Redirect to="/dashboard" /> : LandingPage }
-      </Route>
-      <Route path="/sign-in">
-        { user ? <Redirect to="/dashboard" /> : renderSignInPage }
-      </Route>
-      <Route exact path="/dashboard">
-        { user ? renderDashboardPage : <Redirect to="/" /> }
-      </Route>
-      <Route path="/applications/:applicationID" render={renderApplicationPage} />
-      <Redirect to="/" />
-    </Switch>
-  );
+    renderDashboardPage = () => {
+        return <DashboardPage
+            {...this.props}
+            currentUser={this.state.user}
+            signOutCallback={this.handleSignOut}
+        />
+    }
+
+    renderApplicationPage = () => {
+        return <ApplicationPage {...this.props} />
+    }
+
+    render() {
+        const user = this.state.user;
+        return (
+            <Switch>
+            <Route exact path="/">
+                { user ? <Redirect to="/dashboard" /> : this.renderLandingPage }
+            </Route>
+            <Route path="/signin">
+                {user ? this.renderDashboardPage : this.renderAuthPage}
+            </Route>
+            <Route exact path="/dashboard">
+                { user ? this.renderDashboardPage : <Redirect to="/" /> }
+            </Route>
+            <Route path="/applications/:applicationID" render={this.renderApplicationPage} />
+            <Redirect to="/" />
+          </Switch>
+        );
+    }
 }
+
+export default App;

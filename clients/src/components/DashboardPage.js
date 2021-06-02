@@ -34,7 +34,7 @@ function Applications(props) {
   return (
     <main>
       <div className="container">
-        <h2>Applications</h2>
+        <h2>My Applications</h2>
         <div className="card-deck">
           {deck}
         </div>
@@ -44,10 +44,8 @@ function Applications(props) {
 }
 
 function ApplicationCard(props) {
-  let user = props.currentUser;
   let application = props.application;
   let imgSrc = application.image;
-  console.log(imgSrc);
   let imgAlt = application.companyName + " image";
 
   const [redirectTo, setRedirectTo] = useState(undefined);
