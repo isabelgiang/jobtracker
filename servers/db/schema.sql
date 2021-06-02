@@ -12,13 +12,6 @@ create table if not exists users (
     photourl   varchar(68)               not null  -- TODO: remove
 );
 
--- Populate users table with a couple of test users on startup;
-insert into users (email, passhash, username, firstname, lastname, photourl)
-values ('test@test.com', 'passhash', 'test1', 'test', 'test', 'photourl');
-
-insert into users (email, passhash, username, firstname, lastname, photourl)
-values ('test2@test.com', 'passhash', 'test2', 'test', 'test', 'photourl');
-
 create table if not exists usersignins (
     id          serial primary key,
     userid      int not null,
