@@ -15,9 +15,9 @@ services:
       - SESSIONKEY=sessionkey
       - POSTGRES_PASSWORD=postgres
       - APPLICATIONADDR=http://job-tracker-applications-microservice
-      - DSN=postgres://postgres:%s@postgresStore:5432/postgres?sslmode=disable
+      - DSN=postgres://postgres:%s@job-tracker-postgres-container:5432/postgres?sslmode=disable
   applications:
-    depends_on: 
+    depends_on:
       - postgres
     container_name: job-tracker-applications-microservice
     image: hollowsunsets/applications-microservice
