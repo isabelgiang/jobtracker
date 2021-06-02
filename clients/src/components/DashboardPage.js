@@ -80,7 +80,7 @@ function ApplicationCard(props) {
   return (
     <div className="d-flex p-2 col-lg-4">
       <div key={application.id} className="card mx-2 my-4">
-        <img className="card-img-top" src={imgSrc} alt={imgAlt} />
+        <img className="card-img-top px-4 pt-5" src={imgSrc} alt={imgAlt} />
         <div className="card-body">
           <h3 className="card-title">{application.companyName}</h3>
           <span className={statusBadgeClasses}>{statusText}</span>
