@@ -46,7 +46,8 @@ function Applications(props) {
 function ApplicationCard(props) {
   let user = props.currentUser;
   let application = props.application;
-  let imgSrc = 'img/'+application.image;
+  let imgSrc = application.image;
+  console.log(imgSrc);
   let imgAlt = application.companyName + " image";
 
   const [redirectTo, setRedirectTo] = useState(undefined);
