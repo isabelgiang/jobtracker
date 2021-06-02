@@ -13,7 +13,6 @@ export default function Dashboard(props) {
 }
 
 function Header(props) {
-  console.log(props.user)
   return (
     <header className="jumbotron jumbotron-fluid text-white">
       <div className="container">

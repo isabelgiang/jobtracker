@@ -79,10 +79,25 @@ class App extends Component {
         this.setState({ user });
     }
 
-    handleSignOut = () => {
-        console.log('Signing out... not!');
-      }
-
+    handleSignOut = async (e) => {
+        e.preventDefault();
+        const response = await fetch(api.base + api.handlers.sessionsMine, {
+            method: "DELETE",
+            headers: new Headers({
+                "Authorization": localStorage.getItem("Authorization"),
+                "Content-Type": "application/json"
+            })
+        });
+        if (response.status >= 300) {
+            const error = await response.text();
+            //setError(error);
+            return;
+        }
+        localStorage.removeItem("Authorization");
+        //setError("");
+        this.setAuthToken("");
+        this.setUser(null);
+    }
 
     renderLandingPage = () => {
         return <LandingPage />
