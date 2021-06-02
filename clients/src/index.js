@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import APPLICATIONS from './Data/Applications.json';
+import APPLICATIONS from './Data/applications.json';
 
 ReactDOM.render(<BrowserRouter><App applications={APPLICATIONS}/></BrowserRouter>, document.getElementById('root'));
 
