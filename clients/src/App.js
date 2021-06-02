@@ -132,7 +132,7 @@ class App extends Component {
                 { user ? <Redirect to="/dashboard" /> : this.renderLandingPage }
             </Route>
             <Route path="/signin">
-                {user ? this.renderDashboardPage : this.renderAuthPage}
+                { user ? <Redirect to="/dashboard" /> : this.renderAuthPage}
             </Route>
             <Route exact path="/dashboard">
                 { user ? this.renderDashboardPage : <Redirect to="/" /> }
