@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Route , Switch, Redirect } from 'react-router-dom';
 import Auth from './Components/Auth/Auth';
 import PageTypes from './Constants/PageTypes/PageTypes';
-import Main from './Components/Main/Main';
 import LandingPage from './Components/LandingPage';
 import DashboardPage from './Components/DashboardPage';
 import ApplicationPage from './Components/ApplicationPage';
@@ -101,7 +100,7 @@ class App extends Component {
     renderDashboardPage = () => {
         return <DashboardPage
             {...this.props}
-            currentUser={this.state.user}
+            user={this.state.user}
             signOutCallback={this.handleSignOut}
         />
     }

@@ -125,7 +125,7 @@ export default function App(props) {
     return <SignInPage {...props} signInCallback={handleSignIn} signUpCallback={handleSignUp} />
   }
   function renderDashboardPage(props) {
-    return <DashboardPage {...props} applications={applications} currentUser={user} signOutCallback={handleSignOut} />
+    return <DashboardPage {...props} applications={applications} user={user} signOutCallback={handleSignOut} />
   }
   function renderApplicationPage(props) {
     return <ApplicationPage {...props} applications={applications} />

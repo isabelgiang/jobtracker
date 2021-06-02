@@ -6,29 +6,30 @@ import { Button } from 'reactstrap';
 export default function Dashboard(props) {
   return (
     <React.Fragment>
-      <Header currentUser={props.currentUser} signOutCallback={props.signOutCallback} />
-      <Applications applications={props.applications} currentUser={props.currentUser} />
+      <Header user={props.user} signOutCallback={props.signOutCallback} />
+      <Applications applications={props.applications} user={props.user} />
     </React.Fragment>
   )
 }
 
 function Header(props) {
+  console.log(props.user)
   return (
     <header className="jumbotron jumbotron-fluid text-white">
       <div className="container">
         <h1>JobTracker</h1>
         <p className="lead">JobTracker - Track Job Applications</p>
-        <button id="logout" className="btn btn-warning" onClick={props.signOutCallback}>{`Log out ${props.currentUser.displayName}`}</button>
+        <button id="logout" className="btn btn-warning" onClick={props.signOutCallback}>{`Log out ${props.user.userName}`}</button>
       </div>
     </header>
   )
 }
 
 function Applications(props) {
-  let user = props.currentUser;
+  let user = props.user;
 
   let deck = props.applications.map((application) => {
-    return <ApplicationCard application={application} currentUser={user} key={application.id} />;
+    return <ApplicationCard application={application} user={user} key={application.id} />;
   });
 
   return (
