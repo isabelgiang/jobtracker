@@ -1,0 +1,12 @@
+.error {
+    padding: 10px;
+    background-color: pink;
+    border: 1px solid maroon;
+    border-radius: 5px;
+}
+
+.error-hide {
+    color: black;
+    margin-right: 20px;
+    cursor: pointer;
+}

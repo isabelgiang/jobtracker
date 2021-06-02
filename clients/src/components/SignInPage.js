@@ -3,8 +3,12 @@ import React, { useState } from 'react';
 export default function SignInForm(props) {
   //storing all form values in a single object for "convenience"
   const [formValues, setFormValues] = useState({
-    'email': undefined,
-    'password': undefined
+    email: undefined,
+    userName: "test2",
+    firstName: "test",
+    lastName: "test",
+    password: undefined,
+    passwordConf: undefined
   })
 
   //update state for specific field
@@ -19,16 +23,14 @@ export default function SignInForm(props) {
 
   //handle signUp button
   const handleSignUp = (event) => {
-    let email = formValues.email;
-    let displayName = email.substring(0, email.indexOf("@"));
     event.preventDefault(); //don't submit
-    props.signUpCallback(email, formValues.password, displayName);
+    props.signUpCallback(formValues);
   }
 
   //handle signIn button
   const handleSignIn = (event) => {
     event.preventDefault(); //don't submit
-    props.signInCallback(formValues.email, formValues.password);
+    props.signInCallback(formValues);
   }
 
   return (
@@ -36,21 +38,32 @@ export default function SignInForm(props) {
       {/* email */}
       <div className="form-group">
         <label htmlFor="email">Email</label>
-        <input className="form-control" 
-          id="email" 
-          type="email" 
+        <input className="form-control"
+          id="email"
+          type="email"
           name="email"
           onChange={handleChange}
           />
       </div>
-      
+
       {/* password */}
       <div className="form-group">
         <label htmlFor="password">Password</label>
-        <input className="form-control" 
-          id="password" 
+        <input className="form-control"
+          id="password"
           type="password"
           name="password"
+          onChange={handleChange}
+          />
+      </div>
+
+      {/* passwordConf */}
+      <div className="form-group">
+        <label htmlFor="passwordConf">PasswordConf</label>
+        <input className="form-control"
+          id="passwordConf"
+          type="password"
+          name="passwordConf"
           onChange={handleChange}
           />
       </div>
