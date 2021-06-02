@@ -1,5 +1,5 @@
 import firebase from 'firebase/app';
-import 'firebase/auth'; 
+import 'firebase/auth';
 import 'firebase/database';
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -7,10 +7,7 @@ import { BrowserRouter } from 'react-router-dom';
 import _ from 'lodash';
 import App from './App';
 import './index.css';
-import TRAIL_DATA from './data/trail_data.json';
-import TRAIL_INFO from './data/trail_info.json';
-
-import 'font-awesome/css/font-awesome.css'; //using FA 4.7 atm
+import APPLICATIONS from './data/applications.json';
 
 const firebaseConfig = {
     apiKey: "AIzaSyC-ZwwK1bVE9YT51KxWwhmXLIreFC1-AtU",
@@ -23,17 +20,4 @@ const firebaseConfig = {
 };
 firebase.initializeApp(firebaseConfig);
 
-let avgTraffic = _(TRAIL_DATA)
-    .groupBy('id')
-    .map((trail, id) => ({
-        id: id,
-        avgTraffic: _.meanBy(trail, 'bike')
-    }))
-    .value();
-
-TRAIL_INFO.forEach(trail => {
-    let trafficRow = _.find(avgTraffic, {id: trail.id.toString()});
-    trail['avgTraffic'] = trafficRow['avgTraffic'];
-});
-
-ReactDOM.render(<BrowserRouter><App info={TRAIL_INFO} /></BrowserRouter>, document.getElementById('root'));
+ReactDOM.render(<BrowserRouter><App applications={APPLICATIONS} /></BrowserRouter>, document.getElementById('root'));
