@@ -3,7 +3,7 @@ import React, { useState, useEffect }from 'react';
 import { Route , Switch, Redirect } from 'react-router-dom';
 import ApplicationPage from './components/ApplicationPage';
 import LandingPage from './components/LandingPage';
-import Dashboard from './components/Dashboard';
+import DashboardPage from './components/DashboardPage';
 import SignInPage from './components/SignInPage';
 
 export default function App(props) {
@@ -73,8 +73,8 @@ export default function App(props) {
   function renderSignInPage(props) {
     return <SignInPage {...props} signInCallback={handleSignIn} signUpCallback={handleSignUp} />
   }
-  function renderDashboard(props) {
-    return <Dashboard {...props} applications={applications} currentUser={user} signOutCallback={handleSignOut} />
+  function renderDashboardPage(props) {
+    return <DashboardPage {...props} applications={applications} currentUser={user} signOutCallback={handleSignOut} />
   }
   function renderApplicationPage(props) {
     return <ApplicationPage {...props} applications={applications} />
@@ -89,7 +89,7 @@ export default function App(props) {
         { user ? <Redirect to="/dashboard" /> : renderSignInPage }
       </Route>
       <Route exact path="/dashboard">
-        { user ? renderDashboard : <Redirect to="/" /> }
+        { user ? renderDashboardPage : <Redirect to="/" /> }
       </Route>
       <Route path="/applications/:applicationID" render={renderApplicationPage} />
       <Redirect to="/" />
