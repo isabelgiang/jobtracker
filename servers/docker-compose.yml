@@ -14,13 +14,21 @@ services:
       - REDISADDR=6379
       - SESSIONKEY=sessionkey
       - POSTGRES_PASSWORD=postgres
-      - APPLICATIONADDR=http://applicationMicroservice
+      - APPLICATIONADDR=http://job-tracker-applications-microservice
       - DSN=postgres://postgres:%s@postgresStore:5432/postgres?sslmode=disable
   applications:
     depends_on: 
       - postgres
     container_name: job-tracker-applications-microservice
     image: hollowsunsets/applications-microservice
+    ports:
+      - "80:80"
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_HOST=job-tracker-postgres-container
+      - POSTGRES_PORT=5432
+      - POSTGRES_DB=postgres
   postgres:
     container_name: job-tracker-postgres-container
     image: hollowsunsets/postgres
