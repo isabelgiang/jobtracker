@@ -4,7 +4,6 @@ import 'firebase/database';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
-import _ from 'lodash';
 import App from './App';
 import './index.css';
 import APPLICATIONS from './data/applications.json';
