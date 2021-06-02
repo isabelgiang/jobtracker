@@ -9,7 +9,7 @@ export default function LandingPage() {
           <div>
             <h1 className="landing">JobTracker</h1>
             <h2 className="landing">JobTracker - Track Job Applications</h2>
-            <Link to="/sign-in"><button className="btn btn-danger btn-lg" type="button">Get Started</button></Link>
+            <Link to="/signin"><button className="btn btn-danger btn-lg" type="button">Get Started</button></Link>
           </div>
         </main>
       </div>
