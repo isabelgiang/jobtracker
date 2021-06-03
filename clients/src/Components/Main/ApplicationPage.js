@@ -11,7 +11,7 @@ export default function ApplicationPage(props) {
   const applicationID = parseInt(urlParams.applicationID);
   let application =  _.find(props.applications, {id: parseInt(urlParams.applicationID)});
 
-  // Retrieve stages from DB
+
   const [stages, setStages] = useState(undefined);
 
   // Retrieve stages once on page start

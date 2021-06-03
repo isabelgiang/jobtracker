@@ -1,24 +1,55 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Redirect } from 'react-router-dom';
 import { Button } from 'reactstrap';
 import Header from '../Header';
 
 
 export default function Dashboard(props) {
+  const user = props.user;
+  const [applications, setApplications] = useState(undefined);
+
+  // Retrieve applications once on page start
+  useEffect(() => {
+    async function getApplicationsForUser() {
+      const response = await fetch(`https://api.jobtracker.fyi/v1/users/${user.id}/applications`, {
+          method: "GET",
+          headers: new Headers({
+              "Authorization": localStorage.getItem("Authorization"),
+              "Content-Type": "application/json"
+          })
+      });
+      if (response.status >= 300) {
+          const error = await response.text();
+          //setError(error);
+          return;
+      }
+      const applications = await response.json();
+      console.log(`Retrieved the following applications: ${JSON.stringify(applications)}`);
+      setApplications(applications);
+    }
+
+    getApplicationsForUser();
+  }, []);
+
   return (
     <React.Fragment>
       <Header user={props.user} signOutCallback={props.signOutCallback} />
-      <Applications applications={props.applications} user={props.user} />
+      <Applications applications={applications} user={props.user} />
     </React.Fragment>
   )
 }
 
 function Applications(props) {
   let user = props.user;
+  let applications = props.applications;
 
-  let applicationDeck = props.applications.map((application) => {
-    return <ApplicationCard application={application} user={user} key={application.id} />;
-  });
+  let applicationDeck;
+  if (applications) {
+    applicationDeck = props.applications.map((application) => {
+      return <ApplicationCard application={application} user={user} key={application.id} />;
+    });
+  }
+
 
   return (
     <main>
