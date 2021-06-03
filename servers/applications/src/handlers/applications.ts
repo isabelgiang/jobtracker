@@ -2,6 +2,7 @@ import { NextFunction, Request, Response } from 'express';
 import { Application } from "../models/application.model";
 import { User } from "../models/user.model";
 
+import { db } from '../database';
 import { logger } from "../utils/logger";
 import { HttpException } from "../utils/error";
 
@@ -17,12 +18,11 @@ export const ApplicationsHandler = {
                 next(new HttpException(500, 'user was expected but not received'));
                 return;
             }
-            // TODO: Retrieve all applications for a user
+            const userID = user.id;
+            const applications = await db.GetUserApplications(userID);
+
             logger.info("fetching applications from Postgres");
-            // TODO: Send applications as JSON
-            // const applications : Application[] = [];
-            // res.status(200).json(applications);
-            res.status(501).send('not implemented');
+            res.status(200).json(applications);
         } catch (err) {
             next(err);
         }

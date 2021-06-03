@@ -11,10 +11,12 @@ export interface Store {
     // GetUser returns the User with the given id
     GetUser(id : number) : Promise<User>;
 
+    // GetUserApplications returns the applications for the user with the given id
+    GetUserApplications(id : number) : Promise<Application[]>;
+
     // GetApplication returns the application with the given id
     GetApplication(id : number) : Promise<Application>;
 
-    /*
     // InsertApplication inserts a new application with the given inputs
     // and returns the newly-inserted application, complete with the DBMS-assigned ID
     InsertApplication(inputs : ApplicationInputs) : Promise<Application>;
@@ -25,7 +27,6 @@ export interface Store {
 
     // DeleteApplication deletes the application with the given id and its associated stages
     DeleteApplication(id : number) : Promise<void>;
-    */
 
     // GetApplicationStages returns the stages for the application with the given id
     GetApplicationStages(id : number) : Promise<Stage[]>;
