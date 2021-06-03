@@ -81,13 +81,15 @@ class SignIn extends Component {
         const { error } = this.state;
         return <>
             <Errors error={error} setError={this.setError} />
-            <SignForm
-                setField={this.setField}
-                submitForm={this.submitForm}
-                values={values}
-                fields={this.fields} />
-            <button onClick={(e) => this.props.setPage(e, PageTypes.signUp)}>Sign up instead</button>
-            <button onClick={(e) => this.props.setPage(e, PageTypes.forgotPassword)}>Forgot password</button>
+            <div class="container mt-4">
+                <SignForm
+                    setField={this.setField}
+                    submitForm={this.submitForm}
+                    values={values}
+                    fields={this.fields} />
+                <button onClick={(e) => this.props.setPage(e, PageTypes.signUp)}>Sign up instead</button>
+                <button onClick={(e) => this.props.setPage(e, PageTypes.forgotPassword)}>Forgot password</button>
+            </div>
         </>
     }
 }

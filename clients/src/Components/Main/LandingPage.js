@@ -8,7 +8,7 @@ export default function LandingPage() {
         <main className="landing">
           <div>
             <h1 className="landing">JobTracker</h1>
-            <h2 className="landing">JobTracker - Track Job Applications</h2>
+            <h2 className="landing">JobTracker - A Better Way to Track Job Applications</h2>
             <Link to="/signin"><button className="btn btn-danger btn-lg" type="button">Get Started</button></Link>
           </div>
         </main>

@@ -42,6 +42,16 @@ p{
     vertical-align: center;
 }
 
+#edit-application:hover {
+    cursor: pointer;
+    color: darkgray;
+}
+
+#add-stage:hover {
+    cursor: pointer;
+    color: darkgray;
+}
+
 /* Landing page styling */
 #landing-page-container {
     height: 100%;

@@ -6,15 +6,18 @@ const SignForm = ({ setField, submitForm, values, fields }) => {
         <form onSubmit={submitForm}>
             {fields.map(d => {
                 const { key, name } = d;
-                return <div key={key}>
-                    <span>{name}: </span>
-                    <input
-                        value={values[key]}
-                        name={key}
-                        onChange={setField}
-                        type={key === "password" || key === "passwordConf" ? "password" : ''}
-                    />
-                </div>
+                return (
+                    <div class="form-group" key={key}>
+                        <label>{name}: </label>
+                        <input
+                            class="form-control"
+                            value={values[key]}
+                            name={key}
+                            onChange={setField}
+                            type={key === "password" || key === "passwordConf" ? "password" : ''}
+                        />
+                    </div>
+                )
             })}
             <input type="submit" value="Submit" />
         </form>
