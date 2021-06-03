@@ -68,7 +68,7 @@ function Stages(props) {
         <h2>Stages</h2>
         <div className="card-deck">
           {stageDeck}
-         <AddItemCard redirectTo={`/applications/${applicationID}/addstage`} />
+         <AddItemCard redirectTo={`/applications/${applicationID}/add-stage`} />
         </div>
       </div>
     </main>

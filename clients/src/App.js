@@ -165,10 +165,10 @@ class App extends Component {
                 <Route exact path="/applications/:applicationID">
                     { user ? this.renderApplicationPage : <Redirect to="/" /> }
                 </Route>
-                <Route path="/applications/:applicationID/edit">
+                <Route path={["/add-application", "/applications/:applicationID/edit"]}>
                     { user ? this.renderApplicationFormPage : <Redirect to="/" /> }
                 </Route>
-                <Route path={["/applications/:applicationID/addstage", "/stages/:stageID/edit"]}>
+                <Route path={["/applications/:applicationID/add-stage", "/stages/:stageID/edit"]}>
                     { user ? this.renderStageFormPage : <Redirect to="/" /> }
                 </Route>
                 <Redirect to="/" />

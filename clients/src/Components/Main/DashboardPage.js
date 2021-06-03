@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Redirect } from 'react-router-dom';
 import { Button } from 'reactstrap';
 import Header from '../Header';
+import AddItemCard from './Components/AddItemCard'
 
 
 export default function Dashboard(props) {
@@ -34,7 +35,7 @@ export default function Dashboard(props) {
   return (
     <React.Fragment>
       <Header user={props.user} signOutCallback={props.signOutCallback} />
-      <Applications applications={applications} user={props.user} />
+      <Applications applications={props.applications} user={props.user} />
     </React.Fragment>
   )
 }
@@ -48,6 +49,8 @@ function Applications(props) {
     applicationDeck = props.applications.map((application) => {
       return <ApplicationCard application={application} user={user} key={application.id} />;
     });
+  } else {
+    applicationDeck = <></>;
   }
 
 
@@ -57,6 +60,7 @@ function Applications(props) {
         <h2>My Applications</h2>
         <div className="card-deck">
           {applicationDeck}
+          <AddItemCard redirectTo={`/add-application`} />
         </div>
       </div>
     </main>
@@ -95,10 +99,17 @@ function ApplicationCard(props) {
       break;
   }
 
+  let companyImage;
+  if (!application.image) {
+    companyImage = <img className="card-img-top" src={'img/default-company-image.png'} alt={"Default company image"} />
+  } else {
+    companyImage = <img className="card-img-top px-4 pt-5" src={imgSrc} alt={imgAlt} />
+  }
+
   return (
     <div className="d-flex p-2 col-lg-4">
       <div key={application.id} className="card mx-2 my-4">
-        <img className="card-img-top px-4 pt-5" src={imgSrc} alt={imgAlt} />
+        {companyImage}
         <div className="card-body">
           <h3 className="card-title">{application.companyName}</h3>
           <span className={statusBadgeClasses}>{statusText}</span>
