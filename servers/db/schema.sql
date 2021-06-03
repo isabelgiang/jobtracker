@@ -28,7 +28,7 @@ create table if not exists usersignins (
 
 create table if not exists applications (
     id              serial primary key,
-    "userID"        int users(id) not null,
+    "userID"        int not null,
     "positionName"  varchar(128) not null,
     "positionURL"   varchar(255),
     "companyName"   varchar(128) not null,
