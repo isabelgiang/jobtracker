@@ -1,9 +1,10 @@
 import React, {useState, useEffect} from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import _ from 'lodash';
 import { useParams, Redirect } from 'react-router-dom';
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import _ from 'lodash';
 import Header from '../Header'
+import AddItemCard from './Components/AddItemCard'
 
 export default function ApplicationPage(props) {
   const urlParams = useParams();
@@ -44,13 +45,13 @@ export default function ApplicationPage(props) {
       <h5>{application.positionName}</h5>
       <p><b>Status:</b> {application.status}</p>
     </div>
-    <Stages stages={stages} user={props.user}/>
+    <Stages applicationID={application.id} stages={stages} user={props.user}/>
     </>
   );
 }
 
 function Stages(props) {
-  let { user, stages } = props;
+  let { applicationID, user, stages } = props;
 
   let stageDeck;
   if (stages) {
@@ -67,13 +68,7 @@ function Stages(props) {
         <h2>Stages</h2>
         <div className="card-deck">
           {stageDeck}
-          <div className="d-flex p-2 col-lg-4">
-            <div className="card mx-2 my-4">
-              <div className="card-body d-flex align-items-center justify-content-center">
-                <h1><FontAwesomeIcon id="add-stage" icon={["fa", "plus"]} color="lightgray" /></h1>
-              </div>
-            </div>
-          </div>
+         <AddItemCard redirectTo={`/applications/${applicationID}/addstage`} />
         </div>
       </div>
     </main>
