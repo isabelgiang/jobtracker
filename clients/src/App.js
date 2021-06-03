@@ -7,6 +7,7 @@ import PageTypes from './Constants/PageTypes/PageTypes';
 import LandingPage from './Components/Main/LandingPage';
 import DashboardPage from './Components/Main/DashboardPage';
 import ApplicationPage from './Components/Main/ApplicationPage';
+import StageFormPage from './Components/Main/StageFormPage';
 import './Styles/App.css';
 import api from './Constants/APIEndpoints/APIEndpoints';
 
@@ -132,12 +133,20 @@ class App extends Component {
         />
     }
 
-    renderApplicationForm = () => {
-
+    renderApplicationFormPage = () => {
+        return <StageFormPage
+            {...this.props}
+            user={this.state.user}
+            signOutCallback={this.handleSignOut}
+        />
     }
 
-    renderStageForm = () => {
-
+    renderStageFormPage = () => {
+        return <StageFormPage
+            {...this.props}
+            user={this.state.user}
+            signOutCallback={this.handleSignOut}
+        />
     }
 
     render() {
@@ -156,11 +165,11 @@ class App extends Component {
                 <Route exact path="/applications/:applicationID">
                     { user ? this.renderApplicationPage : <Redirect to="/" /> }
                 </Route>
-                <Route path="/applications/:applicationID/">
-                    { user ? this.renderApplicationPage : <Redirect to="/" /> }
+                <Route path="/applications/:applicationID/edit">
+                    { user ? this.renderApplicationFormPage : <Redirect to="/" /> }
                 </Route>
-                <Route exact path="/stages/:stageID/">
-                    { user ? this.renderApplicationPage : <Redirect to="/" /> }
+                <Route path={["/applications/:applicationID/addstage", "/stages/:stageID/edit"]}>
+                    { user ? this.renderStageFormPage : <Redirect to="/" /> }
                 </Route>
                 <Redirect to="/" />
             </Switch>
