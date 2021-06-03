@@ -1,5 +1,5 @@
 import { NextFunction, Request, Response } from 'express';
-import { Application } from "../models/application.model";
+import { Application, ApplicationInputs, ToApplicationInputs } from "../models/application.model";
 import { User } from "../models/user.model";
 
 import { db } from '../database';
@@ -19,7 +19,7 @@ export const ApplicationsHandler = {
                 return;
             }
             const userID = user.id;
-            const applications = await db.GetUserApplications(userID);
+            const applications : Application[] = await db.GetUserApplications(userID);
 
             logger.info("fetching applications from Postgres");
             res.status(200).json(applications);
@@ -38,11 +38,11 @@ export const ApplicationsHandler = {
                 return;
             }
 
-            // TODO: Validate request
-
-            // TODO: Create a new application in Postgres
-            // logger.info(`user ${JSON.stringify(user)} is creating an application`);
-            res.status(501).send('not implemented');
+            const applicationInputs = ToApplicationInputs(req.body);
+            const userID = user.id;
+            const application : Application = await db.InsertApplication(userID, applicationInputs);
+            logger.info(`user ${JSON.stringify(user)} is creating an application`);
+            res.status(201).send(application);
         } catch (err) {
             next(err);
         }

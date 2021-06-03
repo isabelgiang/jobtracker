@@ -110,19 +110,19 @@ export default class PostgresStore implements Store {
 
     // InsertApplication inserts a new application with the given inputs
     // and returns the newly-inserted application, complete with the DBMS-assigned ID
-    async InsertApplication(inputs : ApplicationInputs) : Promise<Application> {
+    async InsertApplication(id : userID, inputs : ApplicationInputs) : Promise<Application> {
         let result;
         try {
             const query = `
-            INSERT INTO applications ("positionName", "positionURL", "companyName", location, status, "dateApplied", "dateReplied", "createdDate", "updatedDate")
-            VALUES ($1, $2, $3, $4, $5, $6, $7)
+            INSERT INTO applications ("userID", "positionName", "positionURL", "companyName", location, status, "dateApplied", "dateReplied", "createdDate", "updatedDate")
+            VALUES ($1, $2, $3, $4, $5, $6, $7, $8)
             RETURNING *;
             `
             const now = new Date()
             // TODO: Figure out a reasonable default date for "dateReplied"
             result = await this.pool.query(
                 query,
-                [inputs.status, inputs.location, inputs.companyName, now, now,
+                [userID, inputs.status, inputs.location, inputs.companyName, now, now,
                     inputs.positionName, inputs.positionURL, now, now]
             );
         } catch (err) {

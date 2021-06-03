@@ -19,7 +19,7 @@ export interface Store {
 
     // InsertApplication inserts a new application with the given inputs
     // and returns the newly-inserted application, complete with the DBMS-assigned ID
-    InsertApplication(inputs : ApplicationInputs) : Promise<Application>;
+    InsertApplication(userID: number, inputs : ApplicationInputs) : Promise<Application>;
 
     // UpdateApplication updates the application for the given id with the given inputs
     // and returns the newly-updated application
