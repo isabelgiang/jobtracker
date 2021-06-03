@@ -1,12 +1,16 @@
 import React, { Component } from 'react';
 import { Route , Switch, Redirect } from 'react-router-dom';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fas } from '@fortawesome/free-solid-svg-icons';
 import Auth from './Components/Auth/Auth';
 import PageTypes from './Constants/PageTypes/PageTypes';
-import LandingPage from './Components/LandingPage';
-import DashboardPage from './Components/DashboardPage';
-import ApplicationPage from './Components/ApplicationPage';
+import LandingPage from './Components/Main/LandingPage';
+import DashboardPage from './Components/Main/DashboardPage';
+import ApplicationPage from './Components/Main/ApplicationPage';
 import './Styles/App.css';
 import api from './Constants/APIEndpoints/APIEndpoints';
+
+library.add(fas);
 
 class App extends Component {
     constructor() {
@@ -121,25 +125,45 @@ class App extends Component {
     }
 
     renderApplicationPage = () => {
-        return <ApplicationPage {...this.props} />
+        return <ApplicationPage
+            {...this.props}
+            user={this.state.user}
+            signOutCallback={this.handleSignOut}
+        />
+    }
+
+    renderApplicationForm = () => {
+
+    }
+
+    renderStageForm = () => {
+
     }
 
     render() {
         const user = this.state.user;
         return (
             <Switch>
-            <Route exact path="/">
-                { user ? <Redirect to="/dashboard" /> : this.renderLandingPage }
-            </Route>
-            <Route path="/signin">
-                { user ? <Redirect to="/dashboard" /> : this.renderAuthPage}
-            </Route>
-            <Route exact path="/dashboard">
-                { user ? this.renderDashboardPage : <Redirect to="/" /> }
-            </Route>
-            <Route path="/applications/:applicationID" render={this.renderApplicationPage} />
-            <Redirect to="/" />
-          </Switch>
+                <Route exact path="/">
+                    { user ? <Redirect to="/dashboard" /> : this.renderLandingPage }
+                </Route>
+                <Route exact path="/signin">
+                    { user ? <Redirect to="/dashboard" /> : this.renderAuthPage}
+                </Route>
+                <Route exact path="/dashboard">
+                    { user ? this.renderDashboardPage : <Redirect to="/" /> }
+                </Route>
+                <Route exact path="/applications/:applicationID">
+                    { user ? this.renderApplicationPage : <Redirect to="/" /> }
+                </Route>
+                <Route path="/applications/:applicationID/">
+                    { user ? this.renderApplicationPage : <Redirect to="/" /> }
+                </Route>
+                <Route exact path="/stages/:stageID/">
+                    { user ? this.renderApplicationPage : <Redirect to="/" /> }
+                </Route>
+                <Redirect to="/" />
+            </Switch>
         );
     }
 }

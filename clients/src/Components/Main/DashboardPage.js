@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Redirect } from 'react-router-dom';
 import { Button } from 'reactstrap';
+import Header from '../Header';
 
 
 export default function Dashboard(props) {
@@ -12,22 +13,10 @@ export default function Dashboard(props) {
   )
 }
 
-function Header(props) {
-  return (
-    <header className="jumbotron jumbotron-fluid text-white">
-      <div className="container">
-        <h1>JobTracker</h1>
-        <p className="lead">JobTracker - Track Job Applications</p>
-        <button id="logout" className="btn btn-warning" onClick={props.signOutCallback}>{`Log out ${props.user.userName}`}</button>
-      </div>
-    </header>
-  )
-}
-
 function Applications(props) {
   let user = props.user;
 
-  let deck = props.applications.map((application) => {
+  let applicationDeck = props.applications.map((application) => {
     return <ApplicationCard application={application} user={user} key={application.id} />;
   });
 
@@ -36,7 +25,7 @@ function Applications(props) {
       <div className="container">
         <h2>My Applications</h2>
         <div className="card-deck">
-          {deck}
+          {applicationDeck}
         </div>
       </div>
     </main>
