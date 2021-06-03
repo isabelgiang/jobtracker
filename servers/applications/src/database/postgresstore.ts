@@ -110,7 +110,7 @@ export default class PostgresStore implements Store {
 
     // InsertApplication inserts a new application with the given inputs
     // and returns the newly-inserted application, complete with the DBMS-assigned ID
-    async InsertApplication(id : userID, inputs : ApplicationInputs) : Promise<Application> {
+    async InsertApplication(userID : number, inputs : ApplicationInputs) : Promise<Application> {
         let result;
         try {
             const query = `

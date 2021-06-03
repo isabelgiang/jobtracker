@@ -54,11 +54,9 @@ export const SpecificApplicationHandler = {
     // Read an application from the store
     get : async(req : Request, res : Response, next : NextFunction) => {
         try {
-            const applicationID = req.params.applicationID;
-            // TODO: read the application from the store
-
-            // res.status(200).json(application);
-            res.status(501).send('not implemented');
+            const applicationID = parseInt(req.params.applicationID);
+            const application = db.GetApplication(applicationID); 
+            res.status(200).json(application);
         } catch (err) {
             next(err);
         }
@@ -66,14 +64,10 @@ export const SpecificApplicationHandler = {
     // Update an application
     patch : async(req : Request, res : Response, next : NextFunction) => {
         try {
-            const applicationID = req.params.applicationID;
-            // TODO: validate request
-
-            // TODO: update application with requested values
-
-            // TODO: send copy of updated application
-            // res.status(200).json(application);
-            res.status(501).send('not implemented');
+            const applicationID = parseInt(req.params.applicationID);
+            const applicationInputs = ToApplicationInputs(req.body);
+            const application = db.UpdateApplication(applicationID, applicationInputs); 
+            res.status(200).json(application);
         } catch (err) {
             next(err);
         }
@@ -81,11 +75,9 @@ export const SpecificApplicationHandler = {
     // Delete an application
     delete : async(req : Request, res : Response, next : NextFunction) => {
         try {
-            const applicationID = req.params.applicationID;
-            // TODO: delete application and all associated stages within transaction
-
-            // res.status(200).send(`application ${applicationID} deleted successfully`);
-            res.status(501).send('not implemented');
+            const applicationID = parseInt(req.params.applicationID);
+            await db.DeleteStage(applicationID); 
+            res.status(200).send(`application ${applicationID} deleted successfully`);
         } catch (err) {
             next(err);
         }
