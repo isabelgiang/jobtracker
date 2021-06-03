@@ -88,7 +88,6 @@ class SignIn extends Component {
                     values={values}
                     fields={this.fields} />
                 <button onClick={(e) => this.props.setPage(e, PageTypes.signUp)}>Sign up instead</button>
-                <button onClick={(e) => this.props.setPage(e, PageTypes.forgotPassword)}>Forgot password</button>
             </div>
         </>
     }

@@ -11,7 +11,7 @@ export default function ApplicationPage(props) {
   const applicationID = parseInt(urlParams.applicationID);
   let application =  _.find(props.applications, {id: parseInt(urlParams.applicationID)});
 
-  // Retrieve stages from DB
+
   const [stages, setStages] = useState(undefined);
 
   // Retrieve stages once on page start
@@ -68,7 +68,7 @@ function Stages(props) {
         <h2>Stages</h2>
         <div className="card-deck">
           {stageDeck}
-         <AddItemCard redirectTo={`/applications/${applicationID}/addstage`} />
+         <AddItemCard redirectTo={`/applications/${applicationID}/add-stage`} />
         </div>
       </div>
     </main>
