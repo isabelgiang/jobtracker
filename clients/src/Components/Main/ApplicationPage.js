@@ -80,13 +80,17 @@ function StageCard(props) {
 
   const [modal, setModal] = useState(false);
   const toggle = () => setModal(!modal);
+  const stageDateString = new Date(stage.stageDate).toLocaleDateString();
+  const createdDateString = new Date(stage.createdDate).toLocaleString();
+  const updatedDateString = new Date(stage.updatedDate).toLocaleString();
 
   return (
     <div className="d-flex p-2 col-lg-4">
       <div key={stage.id} className="card mx-2 my-4">
         <div className="card-body">
           <h3 className="card-title">{stage.stageType}</h3>
-          <p className="card-text">{stage.stageDate}</p>
+          <p className="card-text"><b>Date:</b> {stageDateString}</p>
+          <p className="card-text"><b>Duration:</b> {stage.durationMins} minutes</p>
           <Button
             onClick = {toggle}
             size="large"
@@ -95,9 +99,11 @@ function StageCard(props) {
           <Modal isOpen={modal} toggle={toggle} className='modal-dialog modal-dialog-centered modal-lg'>
             <ModalHeader toggle={toggle}>{stage.stageType}</ModalHeader>
             <ModalBody>
-              <p><b>Date:</b> {stage.stageDate}</p>
+              <p><b>Date:</b> {stageDateString}</p>
               <p><b>Duration:</b> {stage.durationMins} minutes</p>
               <p><b>Notes:</b> {stage.notes}</p>
+              <p><b>Created Date:</b> {createdDateString}</p>
+              <p><b>Updated Date:</b> {updatedDateString}</p>
             </ModalBody>
             <ModalFooter>
               <Button color="primary" onClick={toggle}>Edit</Button>{' '}
