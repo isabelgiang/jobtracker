@@ -2,7 +2,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
 
 export default function AddItemCard(props) {
-
     let addItemPagePath;
     let addItemPageState;
     if (props.itemType == "application") {

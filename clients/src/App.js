@@ -119,7 +119,6 @@ class App extends Component {
 
     renderDashboardPage = () => {
         return <DashboardPage
-            {...this.props}
             user={this.state.user}
             signOutCallback={this.handleSignOut}
         />
@@ -127,7 +126,6 @@ class App extends Component {
 
     renderApplicationPage = () => {
         return <ApplicationPage
-            {...this.props}
             user={this.state.user}
             signOutCallback={this.handleSignOut}
         />
@@ -135,7 +133,6 @@ class App extends Component {
 
     renderApplicationFormPage = () => {
         return <AddEditStagePage
-            {...this.props}
             user={this.state.user}
             signOutCallback={this.handleSignOut}
         />
@@ -143,7 +140,6 @@ class App extends Component {
 
     renderAddEditStagePage = () => {
         return <AddEditStagePage
-            {...this.props}
             user={this.state.user}
             signOutCallback={this.handleSignOut}
         />
