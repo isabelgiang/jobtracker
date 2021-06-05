@@ -84,12 +84,25 @@ export function ToApplicationInputs(body : any) : ApplicationInputs {
             throw new HttpException(400, 'notes should be a string');
         }
     }
+    
+    if (body.positionURL) {
 
-    const ApplicationInputs : ApplicationInputs = {
+    }
+    const inputs : ApplicationInputs = {
         positionName: body.positionName,
         companyName: body.companyName,
         location: body.location,
         status: body.status
     }
-    return ApplicationInputs;
+
+    if (!isEmpty(body.positionURL)) {
+        inputs.positionURL = body.positionURL;
+    }
+    if (!isEmpty(body.dateReplied)) {
+        inputs.dateReplied = body.dateReplied;
+    }
+    if (!isEmpty(body.dateApplied)) {
+        inputs.dateApplied = body.dateApplied;
+    }
+    return inputs;
 }
