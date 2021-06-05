@@ -68,7 +68,7 @@ function Stages(props) {
         <h2>Stages</h2>
         <div className="card-deck">
           {stageDeck}
-         <AddItemCard addPagePath={`/applications/${applicationID}/add-stage`} />
+         <AddItemCard itemType='stage' parentID={applicationID} />
         </div>
       </div>
     </main>

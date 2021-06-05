@@ -4,13 +4,6 @@ import Errors from '../Errors/Errors';
 import Header from '../Header';
 
 export default function AddEditStagePage(props) {
-    const defaultValues = {
-        'stageType': 'Take Home',
-        'stageDate': undefined,
-        'durationMins': undefined,
-        'notes': undefined
-    };
-
     // Set initial form state and page type based on info passed from referrer
     const location = useLocation();
     const { applicationID, initialValues, requestMethod, endpoint } = location.state;
@@ -43,7 +36,7 @@ export default function AddEditStagePage(props) {
 
         const response = await fetch(endpoint, {
             method: requestMethod,
-            body: JSON.stringify(formValues),
+            body: JSON.stringify(sendData),
             headers: new Headers({
                 "Authorization": localStorage.getItem("Authorization"),
                 "Content-Type": "application/json",
@@ -84,7 +77,7 @@ export default function AddEditStagePage(props) {
                         <select className="form-control"
                             id="stagetype"
                             name="stageType"
-                            value={formValues.stageType}
+                            value={formValues.stageType || StageTypes[0]}
                             onChange={handleChange}
                             >
                                 { stageTypeFormOptions }
@@ -98,7 +91,7 @@ export default function AddEditStagePage(props) {
                             id="stagedate"
                             type="date"
                             name="stageDate"
-                            value={new Date(formValues.stageDate).toISOString().substr(0,10)}
+                            value={formValues.stageDate ? new Date(formValues.stageDate).toISOString().substr(0,10) : formValues.stageDate}
                             onChange={handleChange}
                             />
                     </div>
