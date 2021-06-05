@@ -120,9 +120,22 @@ export default class PostgresStore implements Store {
             `
             const now = new Date()
             // TODO: Figure out a reasonable default date for "dateReplied"
+            logger.log("Inserting new application with query: ", query)
+            logger.log("Input: ", JSON.stringify(inputs))
             result = await this.pool.query(
                 query,
-                [userID, inputs.positionName, inputs.positionURL, inputs.companyName, inputs.status, inputs.location, inputs.dateApplied, inputs.dateReplied, now, now]
+                [
+                    userID,
+                    inputs.positionName,
+                    inputs.positionURL,
+                    inputs.companyName,
+                    inputs.status,
+                    inputs.location,
+                    inputs.dateApplied,
+                    inputs.dateReplied,
+                    now,
+                    now
+                ]
             );
         } catch (err) {
             throw new HttpException(500, `error querying from postgres: ${err}`);
