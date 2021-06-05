@@ -60,7 +60,7 @@ function Applications(props) {
         <h2>My Applications</h2>
         <div className="card-deck">
           {applicationDeck}
-          <AddItemCard redirectTo={`/add-application`} />
+          <AddItemCard itemType="application" />
         </div>
       </div>
     </main>

@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import { useParams, Redirect } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import _ from 'lodash';
@@ -56,7 +56,7 @@ function Stages(props) {
   let stageDeck;
   if (stages) {
     stageDeck = props.stages.map((stage) => {
-      return <StageCard stage={stage} user={user} key={stage.id} />;
+      return <StageCard applicationID={applicationID} stage={stage} user={user} key={stage.id} />;
     });
   } else {
     stageDeck = <></>;
@@ -68,7 +68,7 @@ function Stages(props) {
         <h2>Stages</h2>
         <div className="card-deck">
           {stageDeck}
-         <AddItemCard redirectTo={`/applications/${applicationID}/add-stage`} />
+         <AddItemCard itemType='stage' parentID={applicationID} />
         </div>
       </div>
     </main>
@@ -76,17 +76,27 @@ function Stages(props) {
 }
 
 function StageCard(props) {
+  let applicationID = props.applicationID;
   let stage = props.stage;
 
   const [modal, setModal] = useState(false);
   const toggle = () => setModal(!modal);
+
+  // Manual date formatting to match locale string
+  console.log(`The original stageDate is ${stage.stageDate}`);
+  const stageDate = new Date(stage.stageDate);
+  const stageDateString = `${stageDate.getUTCMonth()+1}/${stageDate.getUTCDate()}/${stageDate.getFullYear()}`;
+  // Convert DB timstamp from UTC
+  const createdDateString = new Date(stage.createdDate).toLocaleString();
+  const updatedDateString = new Date(stage.updatedDate).toLocaleString();
 
   return (
     <div className="d-flex p-2 col-lg-4">
       <div key={stage.id} className="card mx-2 my-4">
         <div className="card-body">
           <h3 className="card-title">{stage.stageType}</h3>
-          <p className="card-text">{stage.stageDate}</p>
+          <p className="card-text"><b>Date:</b> {stageDateString}</p>
+          <p className="card-text"><b>Duration:</b> {stage.durationMins} minutes</p>
           <Button
             onClick = {toggle}
             size="large"
@@ -95,12 +105,25 @@ function StageCard(props) {
           <Modal isOpen={modal} toggle={toggle} className='modal-dialog modal-dialog-centered modal-lg'>
             <ModalHeader toggle={toggle}>{stage.stageType}</ModalHeader>
             <ModalBody>
-              <p><b>Date:</b> {stage.stageDate}</p>
+              <p><b>Date:</b> {stageDateString}</p>
               <p><b>Duration:</b> {stage.durationMins} minutes</p>
               <p><b>Notes:</b> {stage.notes}</p>
+              <p><b>Created Date:</b> {createdDateString}</p>
+              <p><b>Updated Date:</b> {updatedDateString}</p>
             </ModalBody>
             <ModalFooter>
-              <Button color="primary" onClick={toggle}>Edit</Button>{' '}
+              <Link to={{
+                pathname: `/stages/${stage.id}/edit`,
+                state: {
+                  applicationID: applicationID,
+                  initialValues: stage,
+                  requestMethod: 'PATCH',
+                  endpoint: `https://api.jobtracker.fyi/v1/stages/${stage.id}`
+                }
+              }}>
+                <Button color="primary" onClick={toggle}>Edit</Button>
+              </Link>
+              {' '}
               <Button color="secondary" onClick={toggle}>Cancel</Button>
             </ModalFooter>
           </Modal>

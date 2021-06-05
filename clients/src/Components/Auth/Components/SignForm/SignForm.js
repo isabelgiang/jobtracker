@@ -7,10 +7,10 @@ const SignForm = ({ setField, submitForm, values, fields }) => {
             {fields.map(d => {
                 const { key, name } = d;
                 return (
-                    <div class="form-group" key={key}>
+                    <div className="form-group" key={key}>
                         <label>{name}: </label>
                         <input
-                            class="form-control"
+                            className="form-control"
                             value={values[key]}
                             name={key}
                             onChange={setField}

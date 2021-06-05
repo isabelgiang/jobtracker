@@ -113,7 +113,7 @@ class SignUp extends Component {
         const { error } = this.state;
         return <>
             <Errors error={error} setError={this.setError} />
-            <div class="container mt-4">
+            <div className="container mt-4">
                 <SignForm
                     setField={this.setField}
                     submitForm={this.submitForm}
