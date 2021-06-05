@@ -82,7 +82,11 @@ function StageCard(props) {
   const [modal, setModal] = useState(false);
   const toggle = () => setModal(!modal);
 
-  const stageDateString = new Date(stage.stageDate).toLocaleDateString();
+  // Manual date formatting to match locale string
+  console.log(`The original stageDate is ${stage.stageDate}`);
+  const stageDate = new Date(stage.stageDate);
+  const stageDateString = `${stageDate.getUTCMonth()+1}/${stageDate.getUTCDate()}/${stageDate.getFullYear()}`;
+  // Convert DB timstamp from UTC
   const createdDateString = new Date(stage.createdDate).toLocaleString();
   const updatedDateString = new Date(stage.updatedDate).toLocaleString();
 

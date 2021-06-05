@@ -8,11 +8,6 @@ export default function AddEditStagePage(props) {
     const location = useLocation();
     const { applicationID, initialValues, requestMethod, endpoint } = location.state;
 
-    console.log(`The applicationID is ${applicationID}`);
-    console.log(`The initial values are ${JSON.stringify(initialValues)}`);
-    console.log(`The request method is ${requestMethod}`);
-    console.log(`The endpoint is ${endpoint}`);
-
     const [formValues, setFormValues] = useState(initialValues);
     const [redirectBack, setRedirectBack] = useState(false);
 
@@ -29,9 +24,9 @@ export default function AddEditStagePage(props) {
     const handleSubmit = async (event) => {
         event.preventDefault();
 
-        // Convert duration into an integer before submitting
+        // Do some data processing before submitting
         let sendData = {...formValues};
-        sendData.durationMins = parseInt(sendData.durationMins);
+        sendData.durationMins = parseInt(sendData.durationMins); // Convert duration to int
         console.log(`The data to be sent is ${JSON.stringify(sendData)}`);
 
         const response = await fetch(endpoint, {
