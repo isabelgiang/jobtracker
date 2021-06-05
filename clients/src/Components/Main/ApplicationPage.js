@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import { useParams, Redirect } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import _ from 'lodash';
@@ -56,7 +56,7 @@ function Stages(props) {
   let stageDeck;
   if (stages) {
     stageDeck = props.stages.map((stage) => {
-      return <StageCard stage={stage} user={user} key={stage.id} />;
+      return <StageCard applicationID={applicationID} stage={stage} user={user} key={stage.id} />;
     });
   } else {
     stageDeck = <></>;
@@ -68,7 +68,7 @@ function Stages(props) {
         <h2>Stages</h2>
         <div className="card-deck">
           {stageDeck}
-         <AddItemCard redirectTo={`/applications/${applicationID}/add-stage`} />
+         <AddItemCard addPagePath={`/applications/${applicationID}/add-stage`} />
         </div>
       </div>
     </main>
@@ -76,10 +76,12 @@ function Stages(props) {
 }
 
 function StageCard(props) {
+  let applicationID = props.applicationID;
   let stage = props.stage;
 
   const [modal, setModal] = useState(false);
   const toggle = () => setModal(!modal);
+
   const stageDateString = new Date(stage.stageDate).toLocaleDateString();
   const createdDateString = new Date(stage.createdDate).toLocaleString();
   const updatedDateString = new Date(stage.updatedDate).toLocaleString();
@@ -106,7 +108,18 @@ function StageCard(props) {
               <p><b>Updated Date:</b> {updatedDateString}</p>
             </ModalBody>
             <ModalFooter>
-              <Button color="primary" onClick={toggle}>Edit</Button>{' '}
+              <Link to={{
+                pathname: `/stages/${stage.id}/edit`,
+                state: {
+                  applicationID: applicationID,
+                  initialValues: stage,
+                  requestMethod: 'PATCH',
+                  endpoint: `https://api.jobtracker.fyi/v1/stages/${stage.id}`
+                }
+              }}>
+                <Button color="primary" onClick={toggle}>Edit</Button>
+              </Link>
+              {' '}
               <Button color="secondary" onClick={toggle}>Cancel</Button>
             </ModalFooter>
           </Modal>

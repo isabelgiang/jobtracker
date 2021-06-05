@@ -3,7 +3,7 @@ import { useParams, Redirect } from 'react-router-dom';
 import Errors from '../Errors/Errors';
 import Header from '../Header';
 
-export default function applicationFormPage(props) {
+export default function ApplicationFormPage(props) {
     //storing all form values in a single object for "convenience"
     const [formValues, setFormValues] = useState({
       'stageType': 'Take Home',

@@ -1,16 +1,26 @@
 import React, { useState } from 'react';
-import { useParams, Redirect } from 'react-router-dom';
+import { useParams, useLocation, Redirect } from 'react-router-dom';
 import Errors from '../Errors/Errors';
 import Header from '../Header';
 
-export default function StageFormPage(props) {
-    //storing all form values in a single object for "convenience"
-    const [formValues, setFormValues] = useState({
-      'stageType': 'Take Home',
-      'stageDate': undefined,
-      'durationMins': undefined,
-      'notes': undefined
-    });
+export default function AddEditStagePage(props) {
+    const defaultValues = {
+        'stageType': 'Take Home',
+        'stageDate': undefined,
+        'durationMins': undefined,
+        'notes': undefined
+    };
+
+    // Set initial form state and page type based on info passed from referrer
+    const location = useLocation();
+    const { applicationID, initialValues, requestMethod, endpoint } = location.state;
+
+    console.log(`The applicationID is ${applicationID}`);
+    console.log(`The initial values are ${JSON.stringify(initialValues)}`);
+    console.log(`The request method is ${requestMethod}`);
+    console.log(`The endpoint is ${endpoint}`);
+
+    const [formValues, setFormValues] = useState(initialValues);
     const [redirectBack, setRedirectBack] = useState(false);
 
     //update state for specific field
@@ -20,18 +30,19 @@ export default function StageFormPage(props) {
 
       let copy = {...formValues}
       copy[field] = value //change this field
-      // Convert duration into an integer
-      if (field == "durationMins") {
-          copy[field] = parseInt(value);
-      }
       setFormValues(copy)
     }
 
     const handleSubmit = async (event) => {
-        event.preventDefault(); //don't submit
+        event.preventDefault();
 
-        const response = await fetch(`https://api.jobtracker.fyi/v1/applications/${applicationID}/stages`, {
-            method: "POST",
+        // Convert duration into an integer before submitting
+        let sendData = {...formValues};
+        sendData.durationMins = parseInt(sendData.durationMins);
+        console.log(`The data to be sent is ${JSON.stringify(sendData)}`);
+
+        const response = await fetch(endpoint, {
+            method: requestMethod,
             body: JSON.stringify(formValues),
             headers: new Headers({
                 "Authorization": localStorage.getItem("Authorization"),
@@ -59,9 +70,6 @@ export default function StageFormPage(props) {
         return <option key={stageType}>{stageType}</option>
     })
 
-    const urlParams = useParams();
-    const applicationID = parseInt(urlParams.applicationID);
-
     if (redirectBack) {
         return <Redirect to={`/applications/${applicationID}`} />
     } else {
@@ -76,6 +84,7 @@ export default function StageFormPage(props) {
                         <select className="form-control"
                             id="stagetype"
                             name="stageType"
+                            value={formValues.stageType}
                             onChange={handleChange}
                             >
                                 { stageTypeFormOptions }
@@ -89,6 +98,7 @@ export default function StageFormPage(props) {
                             id="stagedate"
                             type="date"
                             name="stageDate"
+                            value={new Date(formValues.stageDate).toISOString().substr(0,10)}
                             onChange={handleChange}
                             />
                     </div>
@@ -100,6 +110,7 @@ export default function StageFormPage(props) {
                         id="duration"
                         type="number"
                         name="durationMins"
+                        value={formValues.durationMins}
                         onChange={handleChange}
                         />
                     </div>
@@ -110,6 +121,7 @@ export default function StageFormPage(props) {
                         <textarea className="form-control"
                             id="notes"
                             name="notes"
+                            value={formValues.notes}
                             onChange={handleChange}
                             />
                     </div>

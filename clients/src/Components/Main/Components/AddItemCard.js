@@ -6,8 +6,11 @@ export default function AddItemCard(props) {
         <div className="d-flex p-2 col-lg-4">
             <div className="card mx-2 my-4">
                 <div className="card-body d-flex align-items-center justify-content-center">
-                    <Link to={props.redirectTo}>
-                        <h1><FontAwesomeIcon id="add-stage" icon={["fa", "plus"]} color="lightgray" /></h1>
+                    <Link to={{
+                        pathname: props.addPagePath,
+                        state: {}
+                    }}>
+                        <h1><FontAwesomeIcon id="add-item-icon" icon={["fa", "plus"]} color="lightgray" /></h1>
                     </Link>
                 </div>
             </div>
