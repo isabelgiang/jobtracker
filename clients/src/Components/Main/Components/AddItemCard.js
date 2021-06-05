@@ -10,7 +10,6 @@ export default function AddItemCard(props) {
 
         addItemPagePath = "/add-application";
         addItemPageState = {
-            userID: userID,
             // Use empty strings instead of undefined to make these controlled components
             // https://reactjs.org/docs/forms.html#controlled-components
             initialValues: {
@@ -24,7 +23,6 @@ export default function AddItemCard(props) {
             },
             requestMethod: "POST",
             endpoint: `https://api.jobtracker.fyi/v1/applications?userid=${userID}`
-
         }
     } else if (props.itemType == "stage") {
         let applicationID = props.parentID;

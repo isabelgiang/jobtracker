@@ -15,15 +15,13 @@ export default function AddEditApplicationPage(props) {
 
     // Set initial form state, request details, page heading based on info passed from referrer
     const location = useLocation();
-    const { applicationID, initialValues, requestMethod, endpoint } = location.state;
+    const { initialValues, requestMethod, endpoint } = location.state;
     initialValues.status = initialValues.status || Statuses[0];
 
     const [formValues, setFormValues] = useState(initialValues);
     const [redirectBack, setRedirectBack] = useState(false);
 
     const pageHeading = location.pathname.includes("edit") ? "Edit Application" : "Add Application";
-
-
 
     //update state for specific field
     const handleChange = (event) => {

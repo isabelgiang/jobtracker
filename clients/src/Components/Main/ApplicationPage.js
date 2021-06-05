@@ -13,8 +13,12 @@ function displayTimestamp(utcDateString) {
 
 // Manual date formatting to match locale string
 function displayDate(dateString) {
-  const date = new Date(dateString);
-  return `${date.getUTCMonth()+1}/${date.getUTCDate()}/${date.getFullYear()}`;
+  if (dateString) {
+    const date = new Date(dateString);
+    return `${date.getUTCMonth()+1}/${date.getUTCDate()}/${date.getFullYear()}`;
+  } else {
+    return dateString
+  }
 }
 
 export default function ApplicationPage(props) {
@@ -80,7 +84,18 @@ export default function ApplicationPage(props) {
       <>
         <Header user={props.user} signOutCallback={props.signOutCallback} />
         <div className="container">
-          <h2>Application Details <FontAwesomeIcon id="edit-application" icon={['fa', 'pencil-alt']} size="xs" color="lightgray" onClick={()=>{console.log('clicked!')}}/></h2>
+          <h2>{"Application Details "}
+            <Link to={{
+              pathname: `/applications/${applicationID}/edit`,
+              state: {
+                initialValues: application,
+                requestMethod: "PATCH",
+                endpoint: `https://api.jobtracker.fyi/v1/applications/${applicationID}`
+              }
+            }}>
+              <FontAwesomeIcon id="edit-application" icon={['fa', 'pencil-alt']} size="xs" color="lightgray"/>
+            </Link>
+          </h2>
           <h3>{application.companyName}</h3>
           <h5 className="mt-4 mb-5"><i>{application.positionName}</i></h5>
           <p><b>PositionURL:</b> {application.positionURL}</p>
@@ -138,7 +153,7 @@ function StageCard(props) {
           <p className="card-text"><b>Date:</b> {displayDate(stage.stageDate)}</p>
           <p className="card-text"><b>Duration:</b> {stage.durationMins} minutes</p>
           <Button
-            onClick = {toggle}
+            onClick={toggle}
             size="large"
             color="primary"
             data-toggle="modal">View Details</Button>
