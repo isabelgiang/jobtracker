@@ -122,7 +122,7 @@ export default class PostgresStore implements Store {
             // TODO: Figure out a reasonable default date for "dateReplied"
             result = await this.pool.query(
                 query,
-                [userID, inputs.positionName, inputs.positionURL, inputs.companyName, inputs.status, inputs.location, now, now, now, now]
+                [userID, inputs.positionName, inputs.positionURL, inputs.companyName, inputs.status, inputs.location, inputs.dateApplied, inputs.dateReplied, now, now]
             );
         } catch (err) {
             throw new HttpException(500, `error querying from postgres: ${err}`);
