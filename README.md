@@ -22,7 +22,7 @@ As university students who are interested in finding full-time jobs after gradua
 
 ## Technical Description
 
-![Architecture Diagram](img/ia-diagram-01.PNG)
+![Architecture Diagram](img/JobTracker Architecture Diagram (1).png)
 
 ### User Stories (MVP)
 
