@@ -115,7 +115,7 @@ export default class PostgresStore implements Store {
         try {
             const query = `
             INSERT INTO applications ("userID", "positionName", "positionURL", "companyName", location, status, "dateApplied", "dateReplied", "createdDate", "updatedDate")
-            VALUES ($1, $2, $3, $4, $5, $6, $7, $8)
+            VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10)
             RETURNING *;
             `
             const now = new Date()
