@@ -146,8 +146,8 @@ export default class PostgresStore implements Store {
                 "companyName" = $3,
                 location = $4,
                 status = $5,
-                "dateApplied" = $6
-                "dateReplied" = $7
+                "dateApplied" = $6,
+                "dateReplied" = $7,
                 "updatedDate" = $8
             WHERE id = $9
             RETURNING *;
