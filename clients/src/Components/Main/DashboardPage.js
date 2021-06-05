@@ -78,12 +78,7 @@ function ApplicationCard(props) {
   }
 
   if(redirectTo !== undefined) {
-    return <Redirect push to={{
-      pathname: `/applications/${redirectTo}`,
-      state: {
-        application: application
-      }
-    }}/>
+    return <Redirect push to={`/applications/${redirectTo}`} />
   }
 
   let statusBadgeClasses = undefined;
