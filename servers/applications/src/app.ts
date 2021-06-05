@@ -52,8 +52,8 @@ class App {
 
     private initializeHandlers() {
         // /v1/users/:userID/applications
-        this.app.get("/v1/users/:userID/applications", ApplicationsHandler.get);
-        this.app.post("/v1/users/:userID/applications", ApplicationsHandler.post);
+        this.app.get("/v1/applications", ApplicationsHandler.get);
+        this.app.post("/v1/applications", ApplicationsHandler.post);
 
         // /v1/applications/:applicationID
         this.app.get("/v1/applications/:applicationID", SpecificApplicationHandler.get);

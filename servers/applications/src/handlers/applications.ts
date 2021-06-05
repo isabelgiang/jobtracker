@@ -13,14 +13,13 @@ export const ApplicationsHandler = {
         try {
             // Immediately error if the user wasn't successfully
             // passed from the GetUser middleware
-            const user : User = res.locals.user;
-            if (!user) {
+            const userID = parseInt(req.query.userid as string)
+            if (!userID) {
                 next(new HttpException(500, 'user was expected but not received'));
                 return;
             }
-            const userID = user.id;
-            const applications : Application[] = await db.GetUserApplications(userID);
 
+            const applications : Application[] = await db.GetUserApplications(userID);
             logger.info("fetching applications from Postgres");
             res.status(200).json(applications);
         } catch (err) {
@@ -30,18 +29,15 @@ export const ApplicationsHandler = {
     // Put an application into the store
     post : async (req : Request, res : Response, next : NextFunction) => {
         try {
-            // Immediately error if the user wasn't successfully
-            // passed from the GetUser middleware
-            const user : User = res.locals.user;
-            if (!user) {
+            const userID = parseInt(req.query.userid as string)
+            if (!userID) {
                 next(new HttpException(500, 'user was expected but not received'));
                 return;
             }
 
             const applicationInputs = ToApplicationInputs(req.body);
-            const userID = user.id;
             const application : Application = await db.InsertApplication(userID, applicationInputs);
-            logger.info(`user ${JSON.stringify(user)} is creating an application`);
+            logger.info(`user ${userID} is creating an application`);
             res.status(201).send(application);
         } catch (err) {
             next(err);
