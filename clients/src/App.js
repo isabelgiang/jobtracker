@@ -7,6 +7,7 @@ import PageTypes from './Constants/PageTypes/PageTypes';
 import LandingPage from './Components/Main/LandingPage';
 import DashboardPage from './Components/Main/DashboardPage';
 import ApplicationPage from './Components/Main/ApplicationPage';
+import AddEditApplicationPage from './Components/Main/AddEditApplicationPage';
 import AddEditStagePage from './Components/Main/AddEditStagePage';
 import './Styles/App.css';
 import api from './Constants/APIEndpoints/APIEndpoints';
@@ -132,7 +133,7 @@ class App extends Component {
     }
 
     renderApplicationFormPage = () => {
-        return <AddEditStagePage
+        return <AddEditApplicationPage
             user={this.state.user}
             signOutCallback={this.handleSignOut}
         />

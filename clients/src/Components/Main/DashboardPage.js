@@ -59,7 +59,7 @@ function Applications(props) {
         <h2>My Applications</h2>
         <div className="card-deck">
           {applicationDeck}
-          <AddItemCard itemType="application" />
+          <AddItemCard itemType="application" parentID={user.id} />
         </div>
       </div>
     </main>

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useParams, useLocation, Redirect } from 'react-router-dom';
+import { useLocation, Redirect } from 'react-router-dom';
 import Errors from '../Errors/Errors';
 import Header from '../Header';
 
@@ -15,12 +15,10 @@ export default function AddEditStagePage(props) {
     // Set initial form state, request details, page heading based on info passed from referrer
     const location = useLocation();
     const { applicationID, initialValues, requestMethod, endpoint } = location.state;
-    initialValues.stageType = initialValues.stageType || "Take Home";
-    console.log(`The initial values are ${JSON.stringify(initialValues)}`);
+    initialValues.stageType = initialValues.stageType || StageTypes[0];
 
     const [formValues, setFormValues] = useState(initialValues);
     const [redirectBack, setRedirectBack] = useState(false);
-    console.log(`The form values are: ${JSON.stringify(formValues)}`);
 
     const pageHeading = location.pathname.includes("edit") ? "Edit Stage" : "Add Stage";
 
@@ -43,7 +41,7 @@ export default function AddEditStagePage(props) {
         let sendData = {...formValues};
         sendData.durationMins = parseInt(sendData.durationMins); // Convert duration to int
         console.log(`The data to be sent is ${JSON.stringify(sendData)}`);
-/*
+
         const response = await fetch(endpoint, {
             method: requestMethod,
             body: JSON.stringify(sendData),
@@ -59,7 +57,7 @@ export default function AddEditStagePage(props) {
         }
         //this.setError("");
         const newStage = await response.json();
-        setRedirectBack(true); // redirect back to application page*/
+        setRedirectBack(true); // redirect back to application page
     }
 
     const stageTypeFormOptions = StageTypes.map((stageType) => {
