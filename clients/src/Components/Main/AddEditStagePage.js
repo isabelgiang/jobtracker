@@ -4,12 +4,27 @@ import Errors from '../Errors/Errors';
 import Header from '../Header';
 
 export default function AddEditStagePage(props) {
-    // Set initial form state and page type based on info passed from referrer
+    const StageTypes = [
+        'Take Home',
+        'Online Assessment',
+        'Phone Screen',
+        'Onsite',
+        'Team Matching'
+    ]
+
+    // Set initial form state, request details, page heading based on info passed from referrer
     const location = useLocation();
     const { applicationID, initialValues, requestMethod, endpoint } = location.state;
+    initialValues.stageType = initialValues.stageType || "Take Home";
+    console.log(`The initial values are ${JSON.stringify(initialValues)}`);
 
     const [formValues, setFormValues] = useState(initialValues);
     const [redirectBack, setRedirectBack] = useState(false);
+    console.log(`The form values are: ${JSON.stringify(formValues)}`);
+
+    const pageHeading = location.pathname.includes("edit") ? "Edit Stage" : "Add Stage";
+
+
 
     //update state for specific field
     const handleChange = (event) => {
@@ -28,7 +43,7 @@ export default function AddEditStagePage(props) {
         let sendData = {...formValues};
         sendData.durationMins = parseInt(sendData.durationMins); // Convert duration to int
         console.log(`The data to be sent is ${JSON.stringify(sendData)}`);
-
+/*
         const response = await fetch(endpoint, {
             method: requestMethod,
             body: JSON.stringify(sendData),
@@ -44,16 +59,9 @@ export default function AddEditStagePage(props) {
         }
         //this.setError("");
         const newStage = await response.json();
-        setRedirectBack(true); // redirect back to application page
+        setRedirectBack(true); // redirect back to application page*/
     }
 
-    const StageTypes = [
-        'Take Home',
-        'Online Assessment',
-        'Phone Screen',
-        'Onsite',
-        'Team Matching'
-    ]
     const stageTypeFormOptions = StageTypes.map((stageType) => {
         return <option key={stageType}>{stageType}</option>
     })
@@ -64,7 +72,7 @@ export default function AddEditStagePage(props) {
         return <>
             <Header {...props} />
             <div className="container px-5">
-                <h2>Add Stage</h2>
+                <h2>{pageHeading}</h2>
                 <form>
                     {/* stageType */}
                     <div className="form-group">
@@ -72,7 +80,7 @@ export default function AddEditStagePage(props) {
                         <select className="form-control"
                             id="stagetype"
                             name="stageType"
-                            value={formValues.stageType || StageTypes[0]}
+                            value={formValues.stageType}
                             onChange={handleChange}
                             >
                                 { stageTypeFormOptions }
@@ -86,7 +94,7 @@ export default function AddEditStagePage(props) {
                             id="stagedate"
                             type="date"
                             name="stageDate"
-                            value={formValues.stageDate ? new Date(formValues.stageDate).toISOString().substr(0,10) : formValues.stageDate}
+                            value={formValues.stageDate ? new Date(formValues.stageDate).toISOString().substr(0, 10) : formValues.stageDate}
                             onChange={handleChange}
                             />
                     </div>
