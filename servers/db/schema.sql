@@ -30,7 +30,7 @@ create table if not exists applications (
     id              serial primary key,
     "userID"        int not null,
     "positionName"  varchar(128) not null,
-    "positionURL"   varchar(255), not null,
+    "positionURL"   varchar(255) not null,
     "companyName"   varchar(128) not null,
     location        varchar(128),
     status          varchar(32) not null,
