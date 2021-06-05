@@ -115,15 +115,14 @@ export default class PostgresStore implements Store {
         try {
             const query = `
             INSERT INTO applications ("userID", "positionName", "positionURL", "companyName", location, status, "dateApplied", "dateReplied", "createdDate", "updatedDate")
-            VALUES ($1, $2, $3, $4, $5, $6, $7, $8)
+            VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10)
             RETURNING *;
             `
             const now = new Date()
             // TODO: Figure out a reasonable default date for "dateReplied"
             result = await this.pool.query(
                 query,
-                [userID, inputs.status, inputs.location, inputs.companyName, now, now,
-                    inputs.positionName, inputs.positionURL, now, now]
+                [userID, inputs.positionName, inputs.positionURL, inputs.companyName, inputs.status, inputs.location, inputs.dateApplied, inputs.dateReplied, now, now]
             );
         } catch (err) {
             throw new HttpException(500, `error querying from postgres: ${err}`);
@@ -147,8 +146,8 @@ export default class PostgresStore implements Store {
                 "companyName" = $3,
                 location = $4,
                 status = $5,
-                "dateApplied" = $6
-                "dateReplied" = $7
+                "dateApplied" = $6,
+                "dateReplied" = $7,
                 "updatedDate" = $8
             WHERE id = $9
             RETURNING *;
