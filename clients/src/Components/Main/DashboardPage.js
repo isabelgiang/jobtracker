@@ -12,7 +12,7 @@ export default function Dashboard(props) {
   // Retrieve applications once on page start
   useEffect(() => {
     async function getApplicationsForUser() {
-      const response = await fetch(`https://api.jobtracker.fyi/v1/users/${user.id}/applications`, {
+      const response = await fetch(`https://api.jobtracker.fyi/v1/applications?userid=${user.id}`, {
           method: "GET",
           headers: new Headers({
               "Authorization": localStorage.getItem("Authorization"),
@@ -25,7 +25,6 @@ export default function Dashboard(props) {
           return;
       }
       const applications = await response.json();
-      console.log(`Retrieved the following applications: ${JSON.stringify(applications)}`);
       setApplications(applications);
     }
 
@@ -35,7 +34,7 @@ export default function Dashboard(props) {
   return (
     <React.Fragment>
       <Header user={props.user} signOutCallback={props.signOutCallback} />
-      <Applications applications={props.applications} user={props.user} />
+      <Applications applications={applications} user={props.user} />
     </React.Fragment>
   )
 }
@@ -60,7 +59,7 @@ function Applications(props) {
         <h2>My Applications</h2>
         <div className="card-deck">
           {applicationDeck}
-          <AddItemCard itemType="application" />
+          <AddItemCard itemType="application" parentID={user.id} />
         </div>
       </div>
     </main>
@@ -79,7 +78,7 @@ function ApplicationCard(props) {
   }
 
   if(redirectTo !== undefined) {
-    return <Redirect push to={"/applications/" + redirectTo }/>
+    return <Redirect push to={`/applications/${redirectTo}`} />
   }
 
   let statusBadgeClasses = undefined;

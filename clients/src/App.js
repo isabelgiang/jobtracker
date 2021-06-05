@@ -7,6 +7,7 @@ import PageTypes from './Constants/PageTypes/PageTypes';
 import LandingPage from './Components/Main/LandingPage';
 import DashboardPage from './Components/Main/DashboardPage';
 import ApplicationPage from './Components/Main/ApplicationPage';
+import AddEditApplicationPage from './Components/Main/AddEditApplicationPage';
 import AddEditStagePage from './Components/Main/AddEditStagePage';
 import './Styles/App.css';
 import api from './Constants/APIEndpoints/APIEndpoints';
@@ -119,7 +120,6 @@ class App extends Component {
 
     renderDashboardPage = () => {
         return <DashboardPage
-            {...this.props}
             user={this.state.user}
             signOutCallback={this.handleSignOut}
         />
@@ -127,15 +127,13 @@ class App extends Component {
 
     renderApplicationPage = () => {
         return <ApplicationPage
-            {...this.props}
             user={this.state.user}
             signOutCallback={this.handleSignOut}
         />
     }
 
     renderApplicationFormPage = () => {
-        return <AddEditStagePage
-            {...this.props}
+        return <AddEditApplicationPage
             user={this.state.user}
             signOutCallback={this.handleSignOut}
         />
@@ -143,7 +141,6 @@ class App extends Component {
 
     renderAddEditStagePage = () => {
         return <AddEditStagePage
-            {...this.props}
             user={this.state.user}
             signOutCallback={this.handleSignOut}
         />

@@ -1,15 +1,28 @@
 import React, { useState } from 'react';
-import { useParams, useLocation, Redirect } from 'react-router-dom';
+import { useLocation, Redirect } from 'react-router-dom';
 import Errors from '../Errors/Errors';
 import Header from '../Header';
 
 export default function AddEditStagePage(props) {
-    // Set initial form state and page type based on info passed from referrer
+    const StageTypes = [
+        'Take Home',
+        'Online Assessment',
+        'Phone Screen',
+        'Onsite',
+        'Team Matching'
+    ]
+
+    // Set initial form state, request details, page heading based on info passed from referrer
     const location = useLocation();
     const { applicationID, initialValues, requestMethod, endpoint } = location.state;
+    initialValues.stageType = initialValues.stageType || StageTypes[0];
 
     const [formValues, setFormValues] = useState(initialValues);
     const [redirectBack, setRedirectBack] = useState(false);
+
+    const pageHeading = location.pathname.includes("edit") ? "Edit Stage" : "Add Stage";
+
+
 
     //update state for specific field
     const handleChange = (event) => {
@@ -47,13 +60,6 @@ export default function AddEditStagePage(props) {
         setRedirectBack(true); // redirect back to application page
     }
 
-    const StageTypes = [
-        'Take Home',
-        'Online Assessment',
-        'Phone Screen',
-        'Onsite',
-        'Team Matching'
-    ]
     const stageTypeFormOptions = StageTypes.map((stageType) => {
         return <option key={stageType}>{stageType}</option>
     })
@@ -64,7 +70,7 @@ export default function AddEditStagePage(props) {
         return <>
             <Header {...props} />
             <div className="container px-5">
-                <h2>Add Stage</h2>
+                <h2>{pageHeading}</h2>
                 <form>
                     {/* stageType */}
                     <div className="form-group">
@@ -72,7 +78,7 @@ export default function AddEditStagePage(props) {
                         <select className="form-control"
                             id="stagetype"
                             name="stageType"
-                            value={formValues.stageType || StageTypes[0]}
+                            value={formValues.stageType}
                             onChange={handleChange}
                             >
                                 { stageTypeFormOptions }
@@ -86,7 +92,7 @@ export default function AddEditStagePage(props) {
                             id="stagedate"
                             type="date"
                             name="stageDate"
-                            value={formValues.stageDate ? new Date(formValues.stageDate).toISOString().substr(0,10) : formValues.stageDate}
+                            value={formValues.stageDate ? new Date(formValues.stageDate).toISOString().substr(0, 10) : formValues.stageDate}
                             onChange={handleChange}
                             />
                     </div>
