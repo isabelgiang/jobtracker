@@ -13,11 +13,13 @@ export default function AddItemCard(props) {
         addItemPagePath = `/applications/${applicationID}/add-stage`;
         addItemPageState = {
             applicationID: applicationID,
+            // Use empty strings instead of undefined to make these controlled components
+            // https://reactjs.org/docs/forms.html#controlled-components
             initialValues: {
-                "stageType": undefined,
-                "stageDate": undefined,
-                "durationMins": undefined,
-                "notes": undefined
+                "stageType": "",
+                "stageDate": "",
+                "durationMins": "",
+                "notes": ""
             },
             requestMethod: "POST",
             endpoint: `https://api.jobtracker.fyi/v1/applications/${applicationID}/stages`
